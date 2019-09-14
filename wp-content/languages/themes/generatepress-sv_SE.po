@@ -1,0 +1,938 @@
+# Translation of Themes - GeneratePress in Swedish
+# This file is distributed under the same license as the Themes - GeneratePress package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-28 18:23:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - GeneratePress\n"
+
+#. Description of the theme
+msgid "GeneratePress is a lightweight WordPress theme built with a focus on speed and usability. Performance is important to us, which is why a fresh GeneratePress install adds less than 15kb (gzipped) to your page size. We take full advantage of the new block editor (Gutenberg), which gives you more control over creating your content. If you use page builders, GeneratePress is the right theme for you. It is completely compatible with all major page builders, including Beaver Builder and Elementor. Thanks to our emphasis on WordPress coding standards, we can boast full compatibility with all well-coded plugins, including WooCommerce. GeneratePress is fully responsive, uses valid HTML/CSS and is translated into over 25 languages by our amazing community of users. A few of our many features include microdata integration, 9 widget areas, 5 navigation locations, 5 sidebar layouts, dropdown menus (click or hover) and navigation color presets. Learn more and check out our powerful premium version at https://generatepress.com"
+msgstr "GeneratePress är ett lätt WordPress-tema som är konstruerat med fokus på hastighet och användsbarhet. För oss är det viktigt med prestanda. Därför lägger innebär en ny installation av GeneratePress att er webbsida endast växer med mindre än 15 kb (komprimerat med gzip). Vi drar full nytta av den nya blockredigeraren (Gutenberg), vilket ger dig bättre kontroll när du skapar ditt innehåll. Om du använderr någon sidbyggare är GeneratePress rätt tema för dig. Temat har full kompatibilitet med alla de större sidbyggarna, inklusive Beaver Builder och Elementor. Tack vare att håller på kodstandarden för WordPress kan vi skryta med full kompatibilitet med alla välprogrammerade tillägg, inklusive WooCommerce. GeneratePress är helt responsivt, använder giltig HTML/CSS-kod och har översatts till fler än 25 språk av våra fantastiska användare. Bland alla våra funktioner ingår bland annat integration med mikrodata, 9 widget-områden, 5 menyplatser, 5 olika layouter för sidopaneler, utfallande menyer (vid klick eller när pekaren förs över – hover) och förvalda färger för menyer. Ta reda på mer och kolla in vår kraftfulla premiumversion på https://generatepress.com"
+
+#. Theme Name of the theme
+#: inc/structure/footer.php:83
+msgid "GeneratePress"
+msgstr "GeneratePress"
+
+#: inc/customizer.php:1421
+msgid "Reduce the number of CSS file requests and use a lite version of our grid system."
+msgstr "Minska antalet hämtningar av CSS-filer och använd en lättare version av vårt rutnätssystem."
+
+#: inc/customizer.php:1420
+msgid "Combine CSS"
+msgstr "Kombinera CSS"
+
+#: inc/customizer.php:1401
+msgid "Font"
+msgstr "Typsnitt"
+
+#: inc/customizer.php:1400
+msgid "SVG"
+msgstr "SVG"
+
+#: inc/customizer.php:1397
+msgid "Icon Type"
+msgstr "Ikontyp"
+
+#: inc/customizer.php:1065
+msgid "Text"
+msgstr "Text"
+
+#: inc/customizer.php:1064
+msgid "Boxes"
+msgstr "Rutor"
+
+#: inc/customizer.php:1061
+msgid "Container Alignment"
+msgstr "Justering av containrar"
+
+#: inc/customizer.php:214
+msgid "Place logo next to title"
+msgstr "Placera logga bredvid rubrik"
+
+#: inc/typography.php:664
+msgid "Heading 3 (H3)"
+msgstr "Rubrik 3 (H3)"
+
+#: inc/typography.php:517
+msgid "Heading 2 (H2)"
+msgstr "Rubrik 2 (H2)"
+
+#: inc/typography.php:370
+msgid "Heading 1 (H1)"
+msgstr "Rubrik 1 (H1)"
+
+#: inc/dashboard.php:257
+msgid "Reset Settings"
+msgstr "Återställ inställningar"
+
+#: inc/dashboard.php:243
+msgid "Visit documentation &rarr;"
+msgstr "Besök dokumentation &rarr;"
+
+#: inc/dashboard.php:242
+msgid "Want to learn more about the theme? Check out our extensive documentation."
+msgstr "Vill du lära dig mer om temat? Kolla in vår omfattande dokumentation."
+
+#: inc/dashboard.php:227
+msgid "Start Customizing"
+msgstr "Börja anpassa"
+
+#: inc/dashboard.php:217
+msgid "All Options"
+msgstr "Alla alternativ"
+
+#: inc/dashboard.php:212
+msgid "Layout Options"
+msgstr "Layoutalternativ"
+
+#: inc/dashboard.php:207
+msgid "Customize Colors"
+msgstr "Anpassa färger"
+
+#: inc/dashboard.php:202
+msgid "Customize Fonts"
+msgstr "Anpassa typsnitt"
+
+#: inc/dashboard.php:197
+msgid "Upload Logo"
+msgstr "Ladda upp logga"
+
+#: inc/customizer.php:988
+msgid "Dropdown Direction"
+msgstr "Expansionsriktning för undermeny"
+
+#: inc/customizer.php:931
+msgid "The width when the navigation ceases to float and drops below your logo."
+msgstr "Fönsterbredden där navigeringen slutar att flyta och i stället läggs under loggan."
+
+#: inc/customizer.php:930
+msgid "Navigation Drop Point"
+msgstr "Brytpunkt för navigering"
+
+#: inc/customizer.php:718
+msgid "Navigation Left"
+msgstr "Navigering vänster"
+
+#: inc/customizer.php:717
+msgid "Navigation Right"
+msgstr "Navigering höger"
+
+#: inc/customizer.php:716
+msgid "Navigation After - Centered"
+msgstr "Navigering efter – centrerat"
+
+#: inc/customizer.php:715
+msgid "Navigation Before - Centered"
+msgstr "Navigering före – centrerat"
+
+#: inc/customizer.php:710
+msgid "Header Presets"
+msgstr "Förinställningar sidhuvud"
+
+#: inc/customizer.php:405
+msgid "Blue"
+msgstr "Blå"
+
+#: inc/customizer.php:404
+msgid "Green"
+msgstr "Grön"
+
+#: inc/customizer.php:403
+msgid "Red"
+msgstr "Röd"
+
+#: inc/customizer.php:402
+msgid "Grey"
+msgstr "Grå"
+
+#: inc/customizer.php:401
+msgid "White"
+msgstr "Vit"
+
+#: inc/customizer.php:399 inc/customizer.php:713
+msgid "Current"
+msgstr "Nuvarande"
+
+#: inc/customizer.php:395
+msgid "Navigation Color Presets"
+msgstr "Förinställningar navigeringsfärg"
+
+#: inc/customizer.php:373
+msgid "Blog Post Title Hover"
+msgstr "Blogginläggsrubrik vid hover"
+
+#: inc/customizer.php:352
+msgid "Blog Post Title"
+msgstr "Blogginläggets rubrik"
+
+#: inc/customizer.php:182
+msgid "Logo Width"
+msgstr "Loggans bredd"
+
+#: inc/structure/footer.php:82
+msgctxt "GeneratePress"
+msgid "Powered by"
+msgstr "Drivs med"
+
+#: inc/structure/navigation.php:368
+msgid "Mobile Menu"
+msgstr "Mobilmeny"
+
+#: inc/meta-box.php:239
+msgid "Premium module available"
+msgstr "Premium-modul tillgänglig"
+
+#: inc/dashboard.php:259
+msgid "Deleting your settings can not be undone."
+msgstr "Radering av dina inställningar går inte ångra."
+
+#: inc/dashboard.php:155
+msgid "Premium Modules"
+msgstr "Premium-moduler"
+
+#: inc/customizer.php:1440
+msgid "Cache CSS generated by your options to boost performance."
+msgstr "Cache-lagra CSS genererad från dina alternativ för att öka prestanda."
+
+#: inc/customizer.php:1439
+msgid "Cache dynamic CSS"
+msgstr "Cache-lagra dynamisk CSS."
+
+#: inc/customizer.php:1377
+msgid "Load essential Font Awesome icons instead of the full library."
+msgstr "Ladda grundläggande Font Awesome-ikoner istället för det fullständiga biblioteket."
+
+#: inc/customizer.php:1376
+msgid "Load essential icons only"
+msgstr "Ladda endast grundläggande ikoner"
+
+#: inc/customizer.php:1357
+msgid "General"
+msgstr "Allmänt"
+
+#: inc/customizer.php:1329
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: inc/customizer.php:1325
+msgid "Content Type"
+msgstr "Innehållstyp"
+
+#: inc/typography.php:752 inc/customizer.php:537 inc/customizer.php:1345
+msgid "More options are available for this section in our premium version."
+msgstr "Fler alternativ finns tillgängliga för denna sektion i vår premiumversion."
+
+#: inc/customizer.php:536
+msgid "Learn More"
+msgstr "Lär dig mer"
+
+#: inc/customizer.php:159
+msgid "Retina Logo"
+msgstr "Retina-logga"
+
+#: inc/customizer.php:74
+msgid "Premium Modules Available"
+msgstr "Premium-moduler tillgängliga"
+
+#: inc/customizer/controls/class-typography-control.php:41
+msgid "Variants"
+msgstr "Varianter"
+
+#: inc/customizer/controls/class-typography-control.php:33
+msgid "System fonts"
+msgstr "System typsnitt"
+
+#: inc/structure/comments.php:93
+msgid "Comment"
+msgstr "Kommentar"
+
+#: inc/customizer/controls/class-range-control.php:58
+msgid "Mobile"
+msgstr "Mobil"
+
+#: inc/customizer/controls/class-range-control.php:57
+msgid "Tablet"
+msgstr "Läsplatta"
+
+#: inc/customizer/controls/class-range-control.php:56
+msgid "Desktop"
+msgstr "Stationär dator"
+
+#: inc/meta-box.php:220
+msgid "Full Width"
+msgstr "Full bredd"
+
+#: inc/meta-box.php:209
+msgid "Choose your page builder content container type. Both options remove the content padding for you."
+msgstr "Välj containertyp för innehållet i din sidkonstruktör. Båda alternativen sätter marginalavståndet till noll."
+
+#: inc/meta-box.php:95
+msgid "Page Builder Container"
+msgstr "Container för sidkonstruktör"
+
+#: inc/meta-box.php:140 inc/meta-box.php:145 inc/meta-box.php:155
+#: inc/meta-box.php:160 inc/meta-box.php:165
+msgctxt "Short name for meta box"
+msgid "Sidebar"
+msgstr "Sidopanel"
+
+#: inc/customizer.php:674
+msgid "Top Bar Alignment"
+msgstr "Justering av toppband"
+
+#: inc/customizer.php:648
+msgid "Top Bar Inner Width"
+msgstr "Toppbandets inre bredd"
+
+#: inc/customizer.php:622
+msgid "Top Bar Width"
+msgstr "Toppbandets bredd"
+
+#: inc/general.php:84 inc/customizer.php:602
+msgid "Top Bar"
+msgstr "Toppband"
+
+#: inc/dashboard.php:164 inc/typography.php:751 inc/customizer.php:1344
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: inc/dashboard.php:56
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/dashboard.php:53
+msgid "Premium"
+msgstr "Premium"
+
+#: inc/customizer.php:1266
+msgid "Footer Bar Alignment"
+msgstr "Justering nedre sidfot"
+
+#: inc/general.php:83
+msgid "Footer Bar"
+msgstr "Nedre sidfot"
+
+#: inc/customizer.php:1213
+msgid "Inner Footer Width"
+msgstr "Inre sidfotsbredd"
+
+#: inc/customizer.php:849
+msgid "Inner Navigation Width"
+msgstr "Inre navigeringsbredd"
+
+#: inc/customizer.php:764
+msgid "Inner Header Width"
+msgstr "Inre sidhuvudsbredd"
+
+#: inc/typography.php:302
+msgid "Paragraph margin"
+msgstr "Paragrafmarginaler"
+
+#: inc/typography.php:268 inc/typography.php:449 inc/typography.php:596
+#: inc/typography.php:725
+msgid "Line height"
+msgstr "Linjehöjd"
+
+#: inc/dashboard.php:266 inc/customizer/controls/class-range-control.php:59
+msgid "Reset"
+msgstr "Återställ"
+
+#: inc/customizer.php:1168
+msgid "Footer"
+msgstr "Sidfot"
+
+#: inc/meta-box.php:80 inc/customizer.php:1075
+msgid "Sidebars"
+msgstr "Sidopaneler"
+
+#: inc/customizer.php:804
+msgid "Primary Navigation"
+msgstr "Primär navigation"
+
+#: inc/customizer.php:558
+msgid "Container"
+msgstr "Behållare"
+
+#: inc/structure/footer.php:216 inc/structure/footer.php:220
+msgid "Scroll back to top"
+msgstr "Rulla till toppen"
+
+#: inc/customizer.php:1292
+msgid "Back to Top Button"
+msgstr "Knapp åter till början"
+
+#: inc/customizer.php:1188
+msgid "Footer Width"
+msgstr "Sidfotsbredd"
+
+#: inc/customizer.php:968
+msgid "Click - Arrow"
+msgstr "Klicka – Pil"
+
+#: inc/customizer.php:967
+msgid "Click - Menu Item"
+msgstr "Klicka – Menyval"
+
+#: inc/customizer.php:966
+msgid "Hover"
+msgstr "Hovra"
+
+#: inc/customizer.php:963
+msgid "Navigation Dropdown"
+msgstr "Rullgardinsmeny"
+
+#: inc/customizer.php:824
+msgid "Navigation Width"
+msgstr "Navigationsbredd"
+
+#: inc/customizer.php:625 inc/customizer.php:651 inc/customizer.php:742
+#: inc/customizer.php:768 inc/customizer.php:827 inc/customizer.php:853
+#: inc/customizer.php:1191 inc/customizer.php:1217 inc/customizer.php:1328
+msgid "Full"
+msgstr "Full"
+
+#: inc/customizer.php:739
+msgid "Header Width"
+msgstr "Sidhuvudsbredd"
+
+#. translators: %s: Heart icon
+#: inc/dashboard.php:293
+msgctxt "made with love"
+msgid "Made with %s by Tom Usborne"
+msgstr "Gjord med %s av Tom Usborne"
+
+#: inc/customizer.php:906
+msgid "Float Left"
+msgstr "Flytande till vänster"
+
+#: inc/dashboard.php:55
+msgid "Support"
+msgstr "Support"
+
+#: inc/meta-box.php:232 inc/meta-box.php:234
+msgid "Content Title"
+msgstr "Innehållsrubrik"
+
+#: 404.php:55
+msgid "It looks like nothing was found at this location. Maybe try searching?"
+msgstr "Det verkar som om inget hittades på denna plats. Testa en sökning?"
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Sök &hellip;"
+
+#: searchform.php:14 searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#. translators: 1: Search query name
+#: search.php:31
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: no-results.php:62
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det verkar som vi inte kan hitta vad du letar efter. Kanske kan en sökning hjälpa."
+
+#: no-results.php:57
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Inget matchade dina söktermer. Försök igen med några andra nyckelord."
+
+#. translators: 1: Admin URL
+#: no-results.php:49
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Redo att publicera ditt första inlägg? <a href=\"%1$s\">Kom igång här</a>."
+
+#: no-results.php:27
+msgid "Nothing Found"
+msgstr "Inget hittat"
+
+#: inc/structure/post-meta.php:206
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: inc/structure/post-meta.php:206
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: inc/structure/post-meta.php:206
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#: inc/structure/post-meta.php:193
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Etiketter"
+
+#: inc/structure/post-meta.php:180
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorier"
+
+#: inc/structure/post-meta.php:177 inc/structure/post-meta.php:190
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/structure/navigation.php:276
+msgctxt "label"
+msgid "Search"
+msgstr "Sök"
+
+#: inc/structure/post-meta.php:299 inc/structure/post-meta.php:319
+msgid "Read more"
+msgstr "Läs mer"
+
+#. translators: 1: Author name
+#: inc/structure/post-meta.php:166
+msgid "View all posts by %s"
+msgstr "Visa alla inlägg av %s"
+
+#: inc/structure/post-meta.php:163
+msgid "by"
+msgstr "av"
+
+#: inc/structure/comments.php:68
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#. translators: 1: date, 2: time
+#: inc/structure/comments.php:48
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: inc/structure/comments.php:25
+msgid "Pingback:"
+msgstr "Pingback: "
+
+#: inc/structure/post-meta.php:74
+msgid "Newer posts"
+msgstr "Nyare inlägg"
+
+#: inc/structure/post-meta.php:67
+msgid "Older posts"
+msgstr "Äldre inlägg"
+
+#: inc/structure/post-meta.php:57 inc/structure/post-meta.php:74
+msgid "Next"
+msgstr "Nästa"
+
+#: inc/structure/post-meta.php:51 inc/structure/post-meta.php:67
+msgid "Previous"
+msgstr "Föregående"
+
+#: inc/structure/post-meta.php:46
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: inc/structure/post-meta.php:82 inc/deprecated.php:28
+msgid "Next &rarr;"
+msgstr "Nästa &rarr;"
+
+#: inc/structure/post-meta.php:81 inc/deprecated.php:27
+msgid "&larr; Previous"
+msgstr "&larr; Föregående"
+
+#: inc/dashboard.php:362
+msgid "Settings removed."
+msgstr "Inställningar borttagna."
+
+#: inc/dashboard.php:358
+msgid "Import successful."
+msgstr "Import lyckades."
+
+#: inc/dashboard.php:354
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#: inc/meta-box.php:90
+msgid "Disable Elements"
+msgstr "Inaktivera element"
+
+#: inc/dashboard.php:264
+msgid "Warning: This will delete your settings."
+msgstr "Varning: Detta kommer ta bort dina inställningar."
+
+#: inc/dashboard.php:92
+msgid "Customize"
+msgstr "Anpassa"
+
+#: searchform.php:17 inc/structure/navigation.php:100
+#: inc/structure/navigation.php:306 inc/structure/navigation.php:336
+#: inc/structure/navigation.php:339
+msgctxt "submit button"
+msgid "Search"
+msgstr "Sök"
+
+#: inc/structure/header.php:307 inc/structure/header.php:308
+msgid "Skip to content"
+msgstr "Hoppa till innehåll"
+
+#: inc/structure/navigation.php:44
+msgid "Menu"
+msgstr "Meny"
+
+#: inc/meta-box.php:201 inc/meta-box.php:203
+msgid "5 Widgets"
+msgstr "5 widgetar"
+
+#: inc/meta-box.php:196 inc/meta-box.php:198
+msgid "4 Widgets"
+msgstr "4 widgetar"
+
+#: inc/meta-box.php:191 inc/meta-box.php:193
+msgid "3 Widgets"
+msgstr "3 widgetar"
+
+#: inc/meta-box.php:186 inc/meta-box.php:188
+msgid "2 Widgets"
+msgstr "2 widgetar"
+
+#: inc/meta-box.php:181 inc/meta-box.php:183
+msgid "1 Widget"
+msgstr "1 widget"
+
+#: inc/meta-box.php:176 inc/meta-box.php:178
+msgid "0 Widgets"
+msgstr "0 widgetar"
+
+#: inc/meta-box.php:163
+msgid "Both Sidebars on Right"
+msgstr "Båda sidopanelerna till höger"
+
+#: inc/meta-box.php:158
+msgid "Both Sidebars on Left"
+msgstr "Båda sidopanelerna till vänster"
+
+#: inc/meta-box.php:153
+msgid "Both Sidebars"
+msgstr "Båda sidopanelerna"
+
+#: inc/meta-box.php:148
+msgid "No Sidebars"
+msgstr "Inga sidopaneler"
+
+#: inc/meta-box.php:140 inc/meta-box.php:145 inc/meta-box.php:155
+#: inc/meta-box.php:160 inc/meta-box.php:165
+msgid "Content"
+msgstr "Innehåll"
+
+#: inc/meta-box.php:135 inc/meta-box.php:173 inc/meta-box.php:215
+#: inc/customizer.php:400 inc/customizer.php:714
+msgid "Default"
+msgstr "Standard"
+
+#: inc/customizer.php:1306
+msgid "Blog"
+msgstr "Blogg"
+
+#: inc/meta-box.php:85 inc/customizer.php:1237
+msgid "Footer Widgets"
+msgstr "Sidfotswidgetar"
+
+#: inc/customizer.php:1150
+msgid "Single Post Sidebar Layout"
+msgstr "Layout på sidopanel för enskilt inlägg"
+
+#: inc/customizer.php:1122
+msgid "Blog Sidebar Layout"
+msgstr "Layout på sidopanel för blogg"
+
+#: inc/customizer.php:1102 inc/customizer.php:1130 inc/customizer.php:1158
+msgid "Content / Sidebar / Sidebar"
+msgstr "Innehåll/sidopanel/sidopanel"
+
+#: inc/customizer.php:1101 inc/customizer.php:1129 inc/customizer.php:1157
+msgid "Sidebar / Sidebar / Content"
+msgstr "Sidopanel/sidopanel/innehåll"
+
+#: inc/customizer.php:1100 inc/customizer.php:1128 inc/customizer.php:1156
+msgid "Sidebar / Content / Sidebar"
+msgstr "Sidopanel/innehåll/sidopanel"
+
+#: inc/meta-box.php:150 inc/customizer.php:1099 inc/customizer.php:1127
+#: inc/customizer.php:1155
+msgid "Content (no sidebars)"
+msgstr "Innehåll (inga sidopaneler)"
+
+#: inc/customizer.php:1098 inc/customizer.php:1126 inc/customizer.php:1154
+msgid "Content / Sidebar"
+msgstr "Innehåll/sidopanel"
+
+#: inc/customizer.php:1097 inc/customizer.php:1125 inc/customizer.php:1153
+msgid "Sidebar / Content"
+msgstr "Sidopanel/innehåll"
+
+#: inc/customizer.php:1094
+msgid "Sidebar Layout"
+msgstr "Layout sidopanel"
+
+#: inc/customizer.php:1041
+msgid "One Container"
+msgstr "En behållare"
+
+#: inc/customizer.php:1040
+msgid "Separate Containers"
+msgstr "Separata behållare"
+
+#: inc/customizer.php:1037
+msgid "Content Layout"
+msgstr "Innehållslayout"
+
+#: inc/customizer.php:1016 inc/customizer.php:1296
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: inc/customizer.php:1015 inc/customizer.php:1295
+msgid "Enable"
+msgstr "Aktivera"
+
+#: inc/customizer.php:1012
+msgid "Navigation Search"
+msgstr "Navigationssökning"
+
+#: inc/customizer.php:874
+msgid "Navigation Alignment"
+msgstr "Navigationsjustering"
+
+#: inc/customizer.php:909
+msgid "No Navigation"
+msgstr "Ingen navigering"
+
+#: inc/customizer.php:905
+msgid "Float Right"
+msgstr "Flytande höger"
+
+#: inc/customizer.php:904
+msgid "Above Header"
+msgstr "Över sidhuvud"
+
+#: inc/customizer.php:903
+msgid "Below Header"
+msgstr "Under sidhuvud"
+
+#: inc/customizer.php:900
+msgid "Navigation Location"
+msgstr "Navigationsplats"
+
+#: inc/customizer.php:679 inc/customizer.php:794 inc/customizer.php:879
+#: inc/customizer.php:991 inc/customizer.php:1271
+msgid "Right"
+msgstr "Höger"
+
+#: inc/customizer.php:678 inc/customizer.php:793 inc/customizer.php:878
+#: inc/customizer.php:1270
+msgid "Center"
+msgstr "Centrerat"
+
+#: inc/customizer.php:677 inc/customizer.php:792 inc/customizer.php:877
+#: inc/customizer.php:992 inc/customizer.php:1269
+msgid "Left"
+msgstr "Vänster"
+
+#: inc/customizer.php:789
+msgid "Header Alignment"
+msgstr "Justering sidhuvud"
+
+#: inc/meta-box.php:225 inc/customizer.php:626 inc/customizer.php:652
+#: inc/customizer.php:743 inc/customizer.php:767 inc/customizer.php:828
+#: inc/customizer.php:852 inc/customizer.php:1192 inc/customizer.php:1216
+msgid "Contained"
+msgstr "Innesluten"
+
+#: inc/customizer.php:580
+msgid "Container Width"
+msgstr "Behållarens bredd"
+
+#: inc/meta-box.php:53 inc/customizer.php:550
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer.php:328
+msgid "Link Color Visited"
+msgstr "Länkfärg besökt"
+
+#: inc/customizer.php:307
+msgid "Link Color Hover"
+msgstr "Länkfärg Hovra"
+
+#: inc/customizer.php:286
+msgid "Link Color"
+msgstr "Länkfärg"
+
+#: inc/customizer.php:265
+msgid "Text Color"
+msgstr "Textfärg"
+
+#: inc/customizer.php:244
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#: inc/customizer.php:223
+msgid "Colors"
+msgstr "Färger"
+
+#: inc/customizer.php:137
+msgid "Logo"
+msgstr "Logga"
+
+#: inc/customizer.php:116
+msgid "Hide site tagline"
+msgstr "Dölj webbplatsens slogan"
+
+#: inc/customizer.php:97
+msgid "Hide site title"
+msgstr "Dölj webbplatsens rubrik"
+
+#: inc/typography.php:234 inc/typography.php:408 inc/typography.php:555
+#: inc/typography.php:692
+msgid "Font size"
+msgstr "Typsnittsstorlek"
+
+#: inc/customizer/controls/class-typography-control.php:39
+msgid "Text transform"
+msgstr "Textomvandling"
+
+#: inc/customizer/controls/class-typography-control.php:38
+msgid "Font weight"
+msgstr "Typsnittsvikt"
+
+#: inc/typography.php:204 inc/customizer.php:223
+msgid "Body"
+msgstr "Brödtext"
+
+#: inc/typography.php:147
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/customizer/controls/class-deprecated.php:53
+#: inc/customizer/controls/class-typography-control.php:37
+msgid "Font family"
+msgstr "Typsnittsfamilj"
+
+#: inc/customizer/controls/class-deprecated.php:52
+#: inc/customizer/controls/class-typography-control.php:34
+msgid "Google fonts"
+msgstr "Googletypsnitt"
+
+#: inc/customizer/controls/class-deprecated.php:51
+msgid "Default fonts"
+msgstr "Standardtypsnitt"
+
+#: inc/general.php:77 inc/customizer.php:690
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: inc/general.php:76 inc/meta-box.php:143 inc/customizer.php:907
+msgid "Left Sidebar"
+msgstr "Vänster sidopanel"
+
+#: inc/general.php:75 inc/meta-box.php:138 inc/customizer.php:908
+msgid "Right Sidebar"
+msgstr "Höger sidopanel"
+
+#: functions.php:49
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: inc/general.php:82
+msgid "Footer Widget 5"
+msgstr "Sidfotswidget 5"
+
+#: inc/general.php:81
+msgid "Footer Widget 4"
+msgstr "Sidfotswidget 4"
+
+#: inc/general.php:80
+msgid "Footer Widget 3"
+msgstr "Sidfotswidget 3"
+
+#: inc/general.php:79
+msgid "Footer Widget 2"
+msgstr "Sidfotswidget 2"
+
+#: inc/general.php:78
+msgid "Footer Widget 1"
+msgstr "Sidfotswidget 1"
+
+#: inc/structure/comments.php:25 inc/structure/comments.php:54
+msgid "Edit"
+msgstr "Redigera"
+
+#: content-link.php:71 content.php:70 content-single.php:66 content-page.php:48
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: inc/structure/comments.php:101
+msgid "Post Comment"
+msgstr "Publicera kommentar"
+
+#: inc/structure/comments.php:100
+msgid "Leave a Comment"
+msgstr "Lämna en kommentar"
+
+#: inc/structure/comments.php:131
+msgid "Website"
+msgstr "Webbplats"
+
+#: inc/structure/comments.php:125
+msgid "Email"
+msgstr "E-post"
+
+#: inc/structure/comments.php:119
+msgid "Name"
+msgstr "Namn"
+
+#: comments.php:107
+msgid "Comments are closed."
+msgstr "Kommentarer är stängda."
+
+#: comments.php:76 comments.php:99
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:75 comments.php:98
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: comments.php:74 comments.php:97
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:49
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s tanke på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tankar på &ldquo;%2$s&rdquo;"
+
+#: inc/structure/sidebars.php:77
+msgid "Archives"
+msgstr "Arkiv"
+
+#: 404.php:39
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Den sidan kan inte hittas."
+
+#. Author of the theme
+msgid "Tom Usborne"
+msgstr "Tom Usborne"
+
+#. Author URI of the theme
+msgid "https://tomusborne.com"
+msgstr "https://tomusborne.com"
+
+#. Theme URI of the theme
+msgid "https://generatepress.com"
+msgstr "https://generatepress.com"
