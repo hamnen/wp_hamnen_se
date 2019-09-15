@@ -1,0 +1,232 @@
+=== START empty 2019-02-01 12:21:02 ===
+Users deleted
+WordPress content removed
+=== END empty 2019-02-01 12:21:03 ===
+
+=== START save 2019-02-01 12:22:19 ===
+Settings saved
+=== END save 2019-02-01 12:22:19 ===
+
+=== START stop_import 2019-02-01 12:23:46 ===
+=== END stop_import 2019-02-01 12:23:46 ===
+
+=== START import 2019-02-01 12:23:50 ===
+Connected with success to the Joomla database
+Joomla data found:
+162 categories
+5802 articles
+0 web links
+20 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+162 categories imported
+Importing posts...
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image001.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image001.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image002.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image003.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image003.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image004.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image005.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image005.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image006.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image007.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image007.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image008.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/file:///C:/Users/Ekonomi/AppData/Local/Temp/msohtmlclip1/01/clip_image009.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/10/clip_image009.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/rimgvinterljus%20(custom).jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2006/11/rimgvinterljus-custom.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/massa/batmassaGbg/02_moving_sideways.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/02/02_moving_sideways.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/massa/batmassaGbg/gbg_massan_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/02/gbg_massan_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/img/search.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/02/search.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyttigt/tipstillbehor/vatdrakt.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/02/vatdrakt.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyttigt/tipstillbehor/vatjacka.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/02/vatjacka.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/kai_extrior_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/03/kai_extrior_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/alinghiplansidan%20(custom).jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/03/alinghiplansidan-custom.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/ombord/bocker/westin_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/03/westin_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/img_1270w_race%20(custom)%20(2).jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/05/img_1270w_race-custom-2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2007/bavnew_aktsof.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/08/bavnew_aktsof.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2007/bavnewbad2.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/08/bavnewbad2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2007/bavnew_sid.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/08/bavnew_sid.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/havskappsegling/barcmichÃ¨leparet.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/10/barcmichÃ¨leparet.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/ARC2007/arcdanska%20vikingar%20paÌŠ%20dingy%20race.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/11/arcdanska-vikingar-paÌŠ-dingy-race.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/ARC2007/5dec/grillkungen%20med%20maggans%20hejarop%20-%20vi%20Ã„r%20hungriga!!-.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/12/grillkungen-med-maggans-hejarop-vi-Ã„r-hungriga-.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/motorsport/gummibÃ¥tgotlandpuff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2007/12/gummibÃ¥tgotlandpuff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyttigt/batvard/bÃ¥ttvÃ¤ttpuff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/01/bÃ¥ttvÃ¤ttpuff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/havskappsegling/mangeportrÃ¤tt.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/06/mangeportrÃ¤tt.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/havskappsegling/audi_starten.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/07/audi_starten.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Gasthamnar/gillfiskebat.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/07/gillfiskebat.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Gasthamnar/gill_masar.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/07/gill_masar.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Gasthamnar/gillmas500.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/07/gillmas500.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/segelbatar/2008/dehler38r%20psail%20ii.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/08/dehler38r-psail-ii.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2008/nimbus385forar.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/08/nimbus385forar.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2008/antares11_skiss_dack.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/10/antares11_skiss_dack.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/langsegling/kitebat_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/11/kitebat_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/ARC2007/5dec/arc08_kalle_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/12/arc08_kalle_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/langsegling/kite_tjej.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2008/12/kite_tjej.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/mm2007/ramblerwoxÃ©n%20057-72.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2009/01/ramblerwoxÃ©n-057-72.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/tavling/afs09/oregon200.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2009/02/oregon200.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/tillbehor/Klader/hlblue_eco_jacket.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2009/11/hlblue_eco_jacket.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/havskappsegling/2010_ny/EGR%202009.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/07/EGR202009.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/langsegling/cantare_2.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/07/cantare_2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/motorsport/SweGP_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/07/SweGP_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/motorsport/SweGP_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/08/SweGP_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/motorsport/SweGP_RAF7122-puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/08/SweGP_RAF7122-puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/2010_juni/GER1071%2c%20winners%20race%201.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/08/GER10712c20winners20race201.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/2010_juni/Dragon%20Gold%20Cup.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/08/Dragon20Gold20Cup.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/motorsport/SweGP_RAF9735.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2010/08/SweGP_RAF9735.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/havskappsegling/2010_ny/tjorn_runt_spinnakers.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2011/08/tjorn_runt_spinnakers.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/bloggare/Batfeber/Lidingo_IMG_1515.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2012/05/Lidingo_IMG_1515.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/bloggare/Batfeber/Lidingo_IMG_1607.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2012/05/Lidingo_IMG_1607.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/segelbatar/2013/Hallberg-Rassy_55/Bildspel/_HR55saloon4922PSzamer.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/01/HR55saloon4922PSzamer.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2013/Yrvinds_Bris_till_salu/Yrvind_2.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/04/Yrvind_2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/segelbatar/2013/Far_East_26/Far_East_26_15.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/04/Far_East_26_15.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2013/Upptacksresan/Upptacksresan_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/04/Upptacksresan_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2013/Upptacksresan/Upptäcktsresan-2.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/05/Upptäcktsresan-2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2013/Upptacksresan/Bildspel_Barracuda/Upptäcktsresan-4-2.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/05/Upptäcktsresan-4-2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2013/Upptacksresan/Vindsurf.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/05/Vindsurf.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2013/aeroboat/aeroboat_bildspel/aeroboat_2.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/05/aeroboat_2.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/segelbatar/2013/Far_East_26/far_east_GM_490x260_playknapp.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/06/far_east_GM_490x260_playknapp.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/bloggare/adrenalin/Gustav%20blogg%20vor%20puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/06/Gustav-blogg-vor-puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/2013/Match_Cup_Sweden/Hansen_Marstrand_Match_Cup.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/07/Hansen_Marstrand_Match_Cup.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/hhttp://i1.ytimg.com/vi/1uXH75cXCp4/mqdefault.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/08/mqdefault.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2013/alliance9/alliance9_bildspel/leisure3.gif to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/09/leisure3.gif : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Erlings_kronika/7_hav/norra_atlanten/norra_atlanten_foto_Carina_Lernhagen_Matz.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/10/norra_atlanten_foto_Carina_Lernhagen_Matz.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/havskappsegling/2013/Sydney_Hobart/Dag_3/Bildspel/Wild_Oats_XI_vinner_Rolex_Sydney_Hobart_2013.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2013/12/Wild_Oats_XI_vinner_Rolex_Sydney_Hobart_2013.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/nyheter/2014/ExplorerLots/ExplorerIngang/Explorer_ingang_fb.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/04/Explorer_ingang_fb.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/Lyxyachter/2014/Riva/Ingang/Ingang.JPG to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/05/Ingang.JPG : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Reportage/2014/Seapilot2star_2014/Pac/Seapilot_2star_Pac-Man.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/05/Seapilot_2star_Pac-Man.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2014/Yamarin64Cross/Ingang/Cross_64BR_ingangFix.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/10/Cross_64BR_ingangFix.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/cruising/langsegling/2014/Bourgnon/BorgnonIngangFix.png to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/10/BorgnonIngangFix.png : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Spektakulart/2014/Batkrasch/BatkraschIngang/BatkraschIngang.png to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/11/BatkraschIngang.png : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Spektakulart/2014/F1Bailey/F1_Bailey_Ingang/IngangBailey.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/11/IngangBailey.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/Lyxyachter/2014/Antagonist/Antagonist-6_FIX_puff.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/11/Antagonist-6_FIX_puff.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/motorsport/2014/Florida/Ingang/RaceIIngang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2014/11/RaceIIngang.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/bloggare/Elias_analys/2016/FoilingIngang/BarplanIngang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2016/04/BarplanIngang.jpg : Moved Permanently
+=== START stop_import 2019-02-01 15:38:19 ===
+=== END stop_import 2019-02-01 15:38:19 ===
+
+=== START import 2019-02-01 15:38:25 ===
+Connected with success to the Joomla database
+Joomla data found:
+162 categories
+5802 articles
+0 web links
+20 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Spektakulart/2017/SoloNordsjon/Ingang/NordsjonIngang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2017/02/NordsjonIngang.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2017/ThunderChildStorm/Ingang/ThunderChildTestIngang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2017/02/ThunderChildTestIngang.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/2017/MastarnasMastare/Ingang/Mastarnas2017Ingang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2017/10/Mastarnas2017Ingang.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/racing/bankappsegling/2017/MastarnasMastare/Ingang/Mastarnas2017Ingang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2017/10/Mastarnas2017Ingang.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2018/YamarinCross62BR/Ingang/YamarinCross62BRIngang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2018/09/YamarinCross62BRIngang.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2018/Yamarin88DC/Ingang/Yamarin88DCIngang.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2018/09/Yamarin88DCIngang.jpg : Moved Permanently
+1316 posts imported
+2727 medias imported
+5942 tags imported
+1 links category imported
+Importing web links...
+0 web links imported
+Importing users...
+5 users imported
+1 tag imported
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-02-01 17:03:37 ===
+
+=== START modify_links 2019-02-03 13:41:32 ===
+=== START modify_links 2019-02-03 15:43:41 ===
+4086 internal links modified
+=== END modify_links 2019-02-03 15:50:14 ===
+
+=== START test_ftp 2019-05-08 06:01:44 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 06:01:44 ===
+
+=== START test_ftp 2019-05-08 06:01:59 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 06:01:59 ===
+
+=== START test_ftp 2019-05-08 06:02:02 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 06:02:02 ===
+
+=== START test_ftp 2019-05-08 06:02:17 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 06:02:17 ===
+
+=== START test_database 2019-05-08 06:02:28 ===
+Connected with success to the Joomla database
+Joomla data found:
+162 categories
+5806 articles
+0 web links
+20 users
+
+[WARNING] Your Joomla database contains several users. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Joomla database contains some tags. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/" target="_blank">Premium version</a> to import them.
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some Simple Image Gallery Pro galleries. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/simple-image-gallery/" target="_blank">Simple Image Gallery add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+=== END test_database 2019-05-08 06:02:29 ===
+
+=== START test_ftp 2019-05-08 17:23:32 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 17:23:32 ===
+
+=== START test_ftp 2019-05-08 17:23:42 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades olle.dyndns-ip.com:10001
+
+=== END test_ftp 2019-05-08 17:23:45 ===
+
+=== START test_ftp 2019-05-08 17:34:29 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 17:34:29 ===
+
+=== START test_ftp 2019-05-08 17:34:35 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades olle.dyndns-ip.com:10001
+
+=== END test_ftp 2019-05-08 17:34:37 ===
+
+=== START test_ftp 2019-05-08 17:34:42 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades olle.dyndns-ip.com:10001
+
+=== END test_ftp 2019-05-08 17:34:44 ===
+
+=== START test_ftp 2019-05-08 17:34:56 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades localhost:10001
+
+=== END test_ftp 2019-05-08 17:34:56 ===
+
+=== START test_ftp 2019-05-08 17:35:01 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades localhost:21
+
+=== END test_ftp 2019-05-08 17:35:01 ===
+
+=== START test_ftp 2019-05-08 17:35:05 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades localhost:21
+
+=== END test_ftp 2019-05-08 17:35:05 ===
+
+=== START test_ftp 2019-05-08 17:35:16 ===
+[ERROR] FTP connection failed: connect => Anslutningen till FTP-servern misslyckades 127.0.0.1:21
+
+=== END test_ftp 2019-05-08 17:35:16 ===
+
+=== START test_ftp 2019-05-08 17:35:44 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 17:35:45 ===
+
+=== START save 2019-05-08 17:36:09 ===
+Settings saved
+=== END save 2019-05-08 17:36:09 ===
+
+=== START test_ftp 2019-05-08 17:36:14 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-05-08 17:36:14 ===
+
+=== START test_ftp 2019-05-08 17:37:08 ===
+FTP connection successful
+=== END test_ftp 2019-05-08 17:37:09 ===
+
