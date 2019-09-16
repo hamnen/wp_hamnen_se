@@ -90,7 +90,13 @@
 		float: left;
 	}
 }
-.fl-node-5d0caab68fa93 .fl-photo {
+img.mfp-img {
+    padding-bottom: 40px !important;
+}
+@media (max-width: 480px) { /* Mobile Photo */
+.fl-photo-content {
+	width: 100%;
+} }.fl-node-5d0caab68fa93 .fl-photo {
 	text-align: left;
 }
 .fl-node-5d0caab68fa93 .fl-photo-img, .fl-node-5d0caab68fa93 .fl-photo-content {

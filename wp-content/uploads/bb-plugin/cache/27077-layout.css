@@ -1057,7 +1057,7 @@ img.mfp-img {
 	padding-left: 0;
 	padding-right: 0;
 }
- }
+ }.page .fl-post-header, .single-fl-builder-template .fl-post-header { display:none; }
 
 
 

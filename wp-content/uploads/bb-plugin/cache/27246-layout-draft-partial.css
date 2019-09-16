@@ -784,7 +784,10 @@ body h6.fl-callout-title {
 	margin-bottom:0px;
 	margin-left:0px;
 }
-.fl-node-5d2c37c837aa4.fl-module-heading .fl-heading {
+.fl-module-heading .fl-heading {
+	padding: 0 !important;
+	margin: 0 !important;
+}.fl-node-5d2c37c837aa4.fl-module-heading .fl-heading {
 	text-align: left;
 }
 @media(max-width: 768px) {

@@ -230,3 +230,49 @@ Settings saved
 FTP connection successful
 === END test_ftp 2019-05-08 17:37:09 ===
 
+=== START save 2019-09-16 13:58:46 ===
+Settings saved
+=== END save 2019-09-16 13:58:46 ===
+
+=== START import 2019-09-16 13:59:09 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some Simple Image Gallery Pro galleries. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/simple-image-gallery/" target="_blank">Simple Image Gallery add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+=== START save 2019-09-16 13:59:29 ===
+Settings saved
+=== END save 2019-09-16 13:59:30 ===
+
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/Reportage/2019/Life_on_a_canalboat.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2019/03/Life_on_a_canalboat.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2019/Brandskar_290_Open/Brandskar-4.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2019/09/Brandskar-4.jpg : Moved Permanently
+[ERROR] Can't copy http://olle.dyndns-ip.com/hamnen_joomla/images/stories/batar/motorbatar/2019/Brandskar_290_Open/Brandskar-4.jpg to /Users/olle/Sites/hamnen_wordpress/wp-content/uploads/2019/09/Brandskar-4.jpg : Moved Permanently
+213 posts imported
+548 medias imported
+733 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+1 user imported
+0 tags imported
+Memory used: 154,582,024 bytes<br />
+
+Duration: 240 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-16 14:03:10 ===
+
+=== START modify_links 2019-09-16 14:06:47 ===
+375 internal links modified
+=== END modify_links 2019-09-16 14:07:38 ===
+
