@@ -206,7 +206,7 @@ abstract class Toolset_Field_Group_Factory {
 
 	/**
 	 * @param string $field_group_name Name of the field group.
-	 * 
+	 *
      * @return null|Toolset_Field_Group Field group instance or null if it's not cached.
 	 */
 	private function get_from_cache( $field_group_name ) {
@@ -216,7 +216,7 @@ abstract class Toolset_Field_Group_Factory {
 
 	/**
 	 * Save a field group instance to cache.
-	 * 
+	 *
 	 * @param Toolset_Field_Group $field_group
 	 */
 	private function save_to_cache( $field_group ) {
@@ -243,11 +243,10 @@ abstract class Toolset_Field_Group_Factory {
 	 * @return null|Toolset_Field_Group Field group or null if it can't be loaded.
 	 */
 	final public function load_field_group( $field_group_source, $force_query_by_name = false ) {
-
 		$post = null;
 
 		// If we didn't get a field group name, we first need to get the post so we can look into the cache.
-		if( !is_string( $field_group_source ) ) {
+		if ( ! is_string( $field_group_source ) ) {
 			$post = $this->get_post( $field_group_source );
 			if( null == $post ) {
 				// There is no such post (or has wrong type).
@@ -369,7 +368,7 @@ abstract class Toolset_Field_Group_Factory {
 	 *     - 'purpose' string: See Toolset_Field_Group::get_purpose(). Default is Toolset_Field_Group::PURPOSE_GENERIC.
 	 *        Special value '*' will return groups of all purposes.
 	 *     - 'assigned_to_post_type' string: For post field groups only, filter results by being assinged to a particular post type.
-	 * 
+	 *
 	 * @return Toolset_Field_Group[]
 	 * @since 1.9
 	 * @since m2m Added the 'purpose' argument.
@@ -465,7 +464,7 @@ abstract class Toolset_Field_Group_Factory {
 
 	/**
 	 * Get a map of all field group slugs to their display names.
-	 * 
+	 *
 	 * @return string[]
 	 * @since 2.0
 	 */

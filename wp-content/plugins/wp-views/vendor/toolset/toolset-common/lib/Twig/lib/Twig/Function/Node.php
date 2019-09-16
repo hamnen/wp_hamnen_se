@@ -36,13 +36,3 @@ class Twig_Function_Node extends \OTGS\Toolset\Twig_Function
     {
     }
 }
-/**
- * Represents a template function as a node.
- *
- * Use \Twig\TwigFunction instead.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

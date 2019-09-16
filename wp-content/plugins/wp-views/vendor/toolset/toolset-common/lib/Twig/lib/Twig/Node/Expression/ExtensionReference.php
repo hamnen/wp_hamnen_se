@@ -31,11 +31,3 @@ class Twig_Node_Expression_ExtensionReference extends \OTGS\Toolset\Twig\Node\Ex
         $compiler->raw(\sprintf("\$this->env->getExtension('%s')", $this->getAttribute('name')));
     }
 }
-/**
- * Represents an extension call node.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.23 and will be removed in 2.0.
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

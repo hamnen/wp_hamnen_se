@@ -67,13 +67,3 @@ abstract class Twig_Filter implements \OTGS\Toolset\Twig_FilterInterface, \OTGS\
         return $this->options['callable'];
     }
 }
-/**
- * Represents a template filter.
- *
- * Use \Twig\TwigFilter instead.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

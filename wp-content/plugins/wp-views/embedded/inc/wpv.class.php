@@ -192,8 +192,12 @@ class WP_Views {
 		add_action( 'wpv_action_wpv_save_item', array( $this, 'after_save_item' ) );
 		add_action( 'wpv_action_wpv_import_item', array( $this, 'after_import_item' ) );
 
+		// Set priority lower than 5, so we know whether we need jQuery or not as early as possible
+		add_action( 'wp_footer', array( $this, 'wpv_meta_html_extra_dependencies' ), 1 );
 		// Set priority lower than 20, so we load the CSS before the footer scripts and avoid the bottleneck
 		add_action( 'wp_footer', array( $this, 'wpv_meta_html_extra_css' ), 5 );
+		// Move the CSS to the header a 21, right after jQuery is loaded
+		add_action( 'wp_footer', array( $this, 'wpv_meta_html_extra_css_move_to_header' ), 21 );
 		// Set priority higher than 20, when all the footer scripts are loaded
 		add_action( 'wp_footer', array( $this, 'wpv_meta_html_extra_js' ), 25 );
 		// Set priority higher than 20, when all footer scripts are loaded, but before 25, when custom javascript is added
@@ -3474,9 +3478,22 @@ class WP_Views {
 		return $cssout;
 	}
 
-	public function wpv_meta_html_extra_css() {
-		$cssout = $this->get_meta_html_extra_css();
+	public function wpv_meta_html_extra_dependencies() {
+		$view_ids = array_unique( $this->view_used_ids );
+		if ( empty( $view_ids ) ) {
+			return;
+		}
 
+		wp_enqueue_script( 'jquery' );
+	}
+
+	public function wpv_meta_html_extra_css() {
+		$view_ids = array_unique( $this->view_used_ids );
+		if ( empty( $view_ids ) ) {
+			return;
+		}
+
+		$cssout = $this->get_meta_html_extra_css();
 		if ( '' != $cssout ) {
             echo "\n<div id=\"views-extra-css\" style=\"display:none;\" aria-hidden=\"true\">\n" . $cssout . "</div>\n";
 		}
@@ -3486,16 +3503,25 @@ class WP_Views {
 				. "</style><![endif]-->\n";
 
         echo "\n<div id=\"views-extra-css-ie7\" style=\"display:none;\" aria-hidden=\"true\">\n" . $cssout_compat . "</div>\n";
+	}
 
-        $js_for_css_out = "jQuery( document ).ready( function( $ ) {\n"
+	public function wpv_meta_html_extra_css_move_to_header() {
+		$view_ids = array_unique( $this->view_used_ids );
+		if ( empty( $view_ids ) ) {
+			return;
+		}
+
+		$js_for_css_out = "jQuery( document ).ready( function( $ ) {\n"
             . "\tvar extra_css = $( \"#views-extra-css\" ) ? $( \"#views-extra-css\" ).text() : null;"
             . "\tif( extra_css ) {"
             . "\t\t$( 'head' ).append( '<style>' + extra_css + '</style>' );\n"
             . "\t\t$( \"#views-extra-css\" ).remove();"
             . "\t}"
             . "\n"
+			. "\tif( $( \"#views-extra-css-ie7\" ).length > 0 ) {"
             . "\t$( 'head' ).append( $( \"#views-extra-css-ie7\" ).html() );\n"
             . "\t$( \"#views-extra-css-ie7\" ).remove();"
+			. "\t}"
             . "});\n";
 
         echo "\n<script type=\"text/javascript\">\n" . $js_for_css_out . "</script>\n";
@@ -3503,6 +3529,10 @@ class WP_Views {
 
 	function wpv_meta_html_extra_js() {
 		$view_ids = array_unique( $this->view_used_ids );
+		if ( empty( $view_ids ) ) {
+			return;
+		}
+
 		$jsout = '';
 		foreach ( $view_ids as $view_id ) {
 			$meta = $this->get_view_settings( $view_id );
@@ -4124,14 +4154,14 @@ function wpv_views_plugin_plugin_row_meta( $plugin_meta, $plugin_file, $plugin_d
 	    if( wpv_is_views_lite() ){
 		    $plugin_meta[] = sprintf(
 			    '<a href="%s" target="_blank">%s</a>',
-			    'https://wpml.org/version/views-lite-2-9-1/',
-			    __( 'Views Lite 2.9.1 release notes', 'wpv-views' )
+			    'https://wpml.org/version/views-lite-2-9-2/',
+			    __( 'Views Lite 2.9.2 release notes', 'wpv-views' )
 		    );
         } else {
 		    $plugin_meta[] = sprintf(
 			    '<a href="%s" target="_blank">%s</a>',
-			    'https://toolset.com/version/views-2-9-1/?utm_source=viewsplugin&utm_campaign=views&utm_medium=release-notes-plugin-row&utm_term=Views 2.9.1 release notes',
-			    __( 'Views 2.9.1 release notes', 'wpv-views' )
+			    'https://toolset.com/version/views-2-9-2/?utm_source=viewsplugin&utm_campaign=views&utm_medium=release-notes-plugin-row&utm_term=Views 2.9.1 release notes',
+			    __( 'Views 2.9.2 release notes', 'wpv-views' )
 		    );
         }
 

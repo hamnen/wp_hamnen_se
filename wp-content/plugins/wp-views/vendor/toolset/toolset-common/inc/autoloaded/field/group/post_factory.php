@@ -124,6 +124,34 @@ class Toolset_Field_Group_Post_Factory extends Toolset_Field_Group_Factory {
 
 
 	/**
+	 * @param $post_type_slug
+	 *
+	 * @return Toolset_Field_Group_Post[]
+	 */
+	public function get_groups_for_new_post( $post_type_slug ) {
+		$groups_for_post_type = $this->get_groups_by_post_type( $post_type_slug );
+
+		$results = array_filter( $groups_for_post_type, function( Toolset_Field_Group_Post $group ) use( $post_type_slug ) {
+			$template_filters = $group->get_assigned_to_templates();
+			if( empty( $template_filters ) ) {
+				// The group is assigned based only on the post type. The template filter cannot disqualify it.
+				return true;
+			}
+
+			foreach( $template_filters as $template_filter ) {
+				if( $template_filter->is_default_for_post_type( $post_type_slug ) ) {
+					return true;
+				}
+			}
+
+			return false;
+		} );
+
+		return $results;
+	}
+
+
+	/**
 	 * Get array of groups that are associated with given post type.
 	 *
 	 * @param string $post_type_slug Slug of the post type.
@@ -163,7 +191,7 @@ class Toolset_Field_Group_Post_Factory extends Toolset_Field_Group_Factory {
 	 * @refactoring
 	 * The code below is related to determining field groups that should be displayed for a particular post.
 	 * It contains some pretty complex logic and deserves to be extracted into a separate class(es) and covered
-	 * by thorough unit tests. We skip this for now for the sake of easier patching.
+	 * by thorough unit tests.
 	 */
 
 	/**

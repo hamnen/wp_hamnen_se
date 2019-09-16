@@ -1,3 +1,8 @@
+Toolset Views 2.9.2
+	- Fixed an issue with jQuery not available on frontend when trying to print some extra elements from a View.
+	- Removed some very old legacy and dead code.
+
+-------------------------------------------------------------------------------------------------------------------
 Toolset Views 2.9.1
     - Added a missing BS4 class to a radio custom field input in the View search controls.
 	- Fixed the generation of checkbox frontend filters to avoid double labels.
@@ -7,7 +12,6 @@ Toolset Views 2.9.1
 	- Fixed the search in the Fields and Views dialog when using the browser-provided reset button.
 
 -------------------------------------------------------------------------------------------------------------------
-
 Toolset Views 2.9 AKA Valkyrie
 	- Added Bootstrap 4 support to the Loop Wizard.
 	- Improved the performance of some queries needed for the filter by post relationship.

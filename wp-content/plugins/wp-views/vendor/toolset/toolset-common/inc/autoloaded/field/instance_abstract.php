@@ -23,12 +23,16 @@ abstract class Toolset_Field_Instance_Abstract {
 	}
 
 
+	/**
+	 * @return Toolset_Field_Definition
+	 * @since unknown
+	 */
 	public function get_definition() { return $this->definition; }
 
 
 	public function get_field_type() {
 		$definition = $this->get_definition();
-		return $definition->get_type(); 
+		return $definition->get_type();
 	}
 
 

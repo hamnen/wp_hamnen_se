@@ -749,7 +749,7 @@ class Environment
             if (!$extension instanceof \OTGS\Toolset\Twig\Extension\InitRuntimeInterface) {
                 $m = new \ReflectionMethod($extension, 'initRuntime');
                 $parentClass = $m->getDeclaringClass()->getName();
-                if ('Twig_Extension' !== $parentClass && 'Twig\\Extension\\AbstractExtension' !== $parentClass) {
+                if ('Twig_Extension' !== $parentClass && 'OTGS\\Toolset\\Twig\\Extension\\AbstractExtension' !== $parentClass) {
                     @\trigger_error(\sprintf('Defining the initRuntime() method in the "%s" extension is deprecated since version 1.23. Use the `needs_environment` option to get the \\Twig_Environment instance in filters, functions, or tests; or explicitly implement Twig\\Extension\\InitRuntimeInterface if needed (not recommended).', $name), \E_USER_DEPRECATED);
                 }
             }
@@ -1297,7 +1297,7 @@ class Environment
             if (!$extension instanceof \OTGS\Toolset\Twig\Extension\GlobalsInterface) {
                 $m = new \ReflectionMethod($extension, 'getGlobals');
                 $parentClass = $m->getDeclaringClass()->getName();
-                if ('Twig_Extension' !== $parentClass && 'Twig\\Extension\\AbstractExtension' !== $parentClass) {
+                if ('Twig_Extension' !== $parentClass && 'OTGS\\Toolset\\Twig\\Extension\\AbstractExtension' !== $parentClass) {
                     @\trigger_error(\sprintf('Defining the getGlobals() method in the "%s" extension without explicitly implementing Twig\\Extension\\GlobalsInterface is deprecated since version 1.23.', $name), \E_USER_DEPRECATED);
                 }
             }

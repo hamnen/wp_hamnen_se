@@ -37,13 +37,3 @@ class Twig_Filter_Method extends \OTGS\Toolset\Twig_Filter
         return \sprintf('$this->env->getExtension(\'%s\')->%s', \get_class($this->extension), $this->method);
     }
 }
-/**
- * Represents a method template filter.
- *
- * Use \Twig\TwigFilter instead.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

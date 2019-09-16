@@ -34,11 +34,3 @@ class Twig_Test_Node extends \OTGS\Toolset\Twig_Test
     {
     }
 }
-/**
- * Represents a template test as a Node.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

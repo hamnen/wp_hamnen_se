@@ -5,7 +5,7 @@
  *
  * @since 1.9
  */
-abstract class Toolset_Field_Instance extends Toolset_Field_Instance_Unsaved {
+abstract class Toolset_Field_Instance extends Toolset_Field_Instance_Unsaved implements \OTGS\Toolset\Common\PublicAPI\CustomFieldInstance {
 
 	private $object_id;
 
@@ -32,7 +32,8 @@ abstract class Toolset_Field_Instance extends Toolset_Field_Instance_Unsaved {
 	 * @return Toolset_Field_Accessor_Abstract
 	 */
 	protected function get_accessor() {
-		if( null == $this->accessor ) {
+		if( null === $this->accessor ) {
+			/** @noinspection PhpUndefinedMethodInspection */
 			$this->accessor = $this->get_definition()->get_accessor( $this );
 		}
 		return $this->accessor;
@@ -118,6 +119,7 @@ abstract class Toolset_Field_Instance extends Toolset_Field_Instance_Unsaved {
 	 * @return mixed Value of the field in the "intermediate" format.
 	 */
 	public function get_value() {
+		/** @var Toolset_Field_Definition $definition */
 		$definition = $this->get_definition();
 		$data_mapper = $definition->get_data_mapper();
 		$accessor = $this->get_accessor();
@@ -141,6 +143,27 @@ abstract class Toolset_Field_Instance extends Toolset_Field_Instance_Unsaved {
 	public function get_renderer( $purpose, $environment, $renderer_args ) {
 		$type = $this->get_field_type();
 		return $type->get_renderer( $purpose, $environment, $this, $renderer_args );
+	}
+
+
+	/**
+	 * A shortcut to $this->get_renderer()->render() as required by the CustomFieldInstance interface.
+	 *
+	 * @param string $purpose
+	 * @param null|string $environment
+	 *
+	 * @return array|mixed|string
+	 * @throws RuntimeException When the field instance cannot be rendered.
+	 * @since Types 3.3.5
+	 */
+	public function render( $purpose, $environment = null ) {
+		if( null === $environment ) {
+			$request_mode = new \OTGS\Toolset\Common\Utils\RequestMode();
+			$environment = $request_mode->get();
+		}
+		$renderer = $this->get_renderer( $purpose, $environment, [] );
+
+		return $renderer->render();
 	}
 
 }

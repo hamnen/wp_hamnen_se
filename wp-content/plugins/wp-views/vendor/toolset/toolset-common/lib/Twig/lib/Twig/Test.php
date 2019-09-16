@@ -31,11 +31,3 @@ abstract class Twig_Test implements \OTGS\Toolset\Twig_TestInterface, \OTGS\Tool
         return $this->options['callable'];
     }
 }
-/**
- * Represents a template test.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

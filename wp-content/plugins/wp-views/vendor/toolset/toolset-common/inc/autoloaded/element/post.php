@@ -14,7 +14,7 @@ use OTGS\Toolset\Common\PostType\EditorMode;
 class Toolset_Post extends Toolset_Element implements IToolset_Post {
 
 
-	// FIXME document this
+	/** @var string Meta key for storing the manual sort order of items within a RFG */
 	const SORTORDER_META_KEY = 'toolset-post-sortorder';
 
 	const NATIVE_PAGE_TEMPLATE_META_KEY = '_wp_page_template';
@@ -141,7 +141,6 @@ class Toolset_Post extends Toolset_Element implements IToolset_Post {
 	 * @since m2m
 	 */
 	protected function get_relevant_field_groups() {
-
 		$selected_groups = $this->group_post_factory->get_groups_by_post_type( $this->get_type() );
 
 		return $selected_groups;

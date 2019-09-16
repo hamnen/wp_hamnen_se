@@ -1,11 +1,11 @@
 <?php
 
 if( !defined('TOOLSET_VERSION') ){
-	define('TOOLSET_VERSION', '3.4.4' );
+	define('TOOLSET_VERSION', '3.4.7' );
 }
 
 if ( ! defined('TOOLSET_COMMON_VERSION' ) ) {
-    define( 'TOOLSET_COMMON_VERSION', '3.4.4' );
+    define( 'TOOLSET_COMMON_VERSION', TOOLSET_VERSION );
 }
 
 if ( ! defined('TOOLSET_COMMON_PATH' ) ) {

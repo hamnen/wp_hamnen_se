@@ -8,11 +8,9 @@ use OTGS\Toolset\Common\Utils\TypesGuidIdGateway;
  * This represents a single field type like "email", "audio", "checkbox" and so on. This class must be instantiated
  * exclusively through Toolset_Field_Type_Definition_Factory.
  *
- * TODO consider using register_meta() to protect fields' values.
- *
  * @since 2.0
  */
-class Toolset_Field_Type_Definition {
+class Toolset_Field_Type_Definition implements \OTGS\Toolset\Common\PublicAPI\CustomFieldTypeDefinition {
 
 
 	/**
@@ -86,6 +84,7 @@ class Toolset_Field_Type_Definition {
 	 *
 	 * @return bool
 	 * @since 2.0
+	 * @deprecated Use can_be_repeating() instead.
 	 */
 	public function can_be_repetitive() {
 		return true;
@@ -344,8 +343,10 @@ class Toolset_Field_Type_Definition {
 				break;
 
 			case Toolset_Field_Renderer_Purpose::DISPLAY:
-			case Toolset_Field_Renderer_Purpose::RAW:
 				throw new RuntimeException( 'Not implemented.' );
+
+			case Toolset_Field_Renderer_Purpose::RAW:
+				return new \OTGS\Toolset\Common\Field\Renderer\Raw( $field );
 
 			case Toolset_Field_Renderer_Purpose::TOOLSET_FORMS:
 			case Toolset_Field_Renderer_Purpose::INPUT:
@@ -396,4 +397,13 @@ class Toolset_Field_Type_Definition {
 		}
 	}
 
+
+	/**
+	 * @inheritDoc
+	 * @return bool
+	 * @since Types 3.3.5
+	 */
+	public function can_be_repeating() {
+		return $this->can_be_repetitive();
+	}
 }

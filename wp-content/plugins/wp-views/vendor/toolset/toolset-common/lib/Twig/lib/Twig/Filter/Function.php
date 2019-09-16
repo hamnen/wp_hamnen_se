@@ -34,13 +34,3 @@ class Twig_Filter_Function extends \OTGS\Toolset\Twig_Filter
         return $this->function;
     }
 }
-/**
- * Represents a function template filter.
- *
- * Use \Twig\TwigFilter instead.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

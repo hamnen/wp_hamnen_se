@@ -35,11 +35,3 @@ class Twig_Test_Method extends \OTGS\Toolset\Twig_Test
         return \sprintf('$this->env->getExtension(\'%s\')->%s', \get_class($this->extension), $this->method);
     }
 }
-/**
- * Represents a method template test.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

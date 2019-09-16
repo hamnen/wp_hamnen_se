@@ -60,13 +60,3 @@ abstract class Twig_Function implements \OTGS\Toolset\Twig_FunctionInterface, \O
         return $this->options['callable'];
     }
 }
-/**
- * Represents a template function.
- *
- * Use \Twig\TwigFunction instead.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

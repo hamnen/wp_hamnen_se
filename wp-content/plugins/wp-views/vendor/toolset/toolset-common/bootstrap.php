@@ -348,18 +348,13 @@ class Toolset_Common_Bootstrap {
 				new Toolset_Controller_Admin_Notices();
             }
 
-			// Load Toolset Singleton Factory based on PHP_Version
 			if( ! class_exists( 'Toolset_Singleton_Factory', false ) ) {
-				if( version_compare( PHP_VERSION, '5.6.0', '>=' ) ) {
-					require_once( TOOLSET_COMMON_PATH . '/utility/singleton_factory.php' );
-				} else {
-					require_once( TOOLSET_COMMON_PATH . '/utility/singleton_factory_pre_php_5_6.php' );
-				}
+				require_once TOOLSET_COMMON_PATH . '/utility/singleton_factory.php';
 			}
 
-			require_once( TOOLSET_COMMON_PATH . '/inc/toolset.compatibility.php' );
-			require_once( TOOLSET_COMMON_PATH . '/inc/toolset.function.helpers.php' );
-			require_once( TOOLSET_COMMON_PATH . '/deprecated.php' );
+			require_once TOOLSET_COMMON_PATH . '/inc/toolset.compatibility.php';
+			require_once TOOLSET_COMMON_PATH . '/inc/toolset.function.helpers.php';
+			require_once TOOLSET_COMMON_PATH . '/deprecated.php';
 
 			/** @var RequestMode $request_mode */
 			$request_mode = toolset_dic_make( '\OTGS\Toolset\Common\Utils\RequestMode' );
@@ -400,12 +395,12 @@ class Toolset_Common_Bootstrap {
 			require_once( TOOLSET_COMMON_PATH . '/inc/toolset.shortcode.transformer.class.php' );
 			$shortcode_transformer = new Toolset_Shortcode_Transformer();
 			$shortcode_transformer->init_hooks();
-			
+
 			// Passing Toolset_Shortcode_Transformer as a dependency.
 			$basic_formatting = new \OTGS\Toolset\Common\BasicFormatting( $shortcode_transformer );
 			$basic_formatting->initialize();
-			
-			/** 
+
+			/**
 			 * Avoid the initialization of this class.
 			 *
 			 * @since m2m

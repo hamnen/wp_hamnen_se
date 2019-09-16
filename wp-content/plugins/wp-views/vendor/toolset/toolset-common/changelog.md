@@ -1,5 +1,20 @@
 # Toolset Common Library
 
+## 3.4.7
+* Fixed some compatibility issues with PHP 7.4
+* [views-2654] Moved react-select to another repository.
+* [toolsetcommon-490] Improved the isolation of our Twig instance.
+* [access-242] Added a helper class for dependency injection.
+* Fixed a styling issue with our Toolset SHortcodes GUI.
+
+## 3.4.6
+* [toolsetcommon-490] Apply the latest twig-scoper update on the embedded Twig library to prevent a notice.
+* [access-242] Compatibility with multiple roles per user - evaluate
+
+## 3.4.5
+* [types-2142] Allow toolset_get_related_posts() to return RFG items sorted by the manually set order from the GUI.
+* [types-2104] Improvements to determine which field groups should be displayed for a new post with respect to template conditions.
+
 ## 3.4.4
 * [views-2348] Make sure that the shortcodes dialogs get their search reset when clicking the HTML5 clear button on search inputs.
 * [types-2146] Update the embedded Twig library after a recent twig-scoper fix.

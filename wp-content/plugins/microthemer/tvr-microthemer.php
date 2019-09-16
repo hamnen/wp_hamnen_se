@@ -5,7 +5,7 @@ Plugin URI: https://themeover.com/microthemer
 Text Domain: microthemer
 Domain Path: /languages
 Description: Microthemer is a feature-rich visual design plugin for customizing the appearance of ANY WordPress Theme or Plugin Content (e.g. posts, pages, contact forms, headers, footers, sidebars) down to the smallest detail. For CSS coders, Microthemer is a proficiency tool that allows them to rapidly restyle a WordPress theme or plugin. For non-coders, Microthemer's intuitive interface and "Double-click to Edit" feature opens the door to advanced theme and plugin customization.
-Version: 5.8.2.0
+Version: 5.8.2.3
 Author: Themeover
 Author URI: https://themeover.com
 */
@@ -160,7 +160,7 @@ if ( is_admin() ) {
 		// define
 		class tvr_microthemer_admin {
 
-			var $version = '5.8.2.0';
+			var $version = '5.8.2.3';
 			var $db_chg_in_ver = '5.5.0.0';
 			var $locale = '';
 			var $time = 0;
@@ -9975,13 +9975,13 @@ if ( is_admin() ) {
 				$error = false;
 				// loop through files if they exist
 				if (is_array($this->file_structure[$dir_name])) {
-					foreach ($this->file_structure[$dir_name] as $dir => $file) {
+					foreach ($this->file_structure[$dir_name] as $file => $junk) {
 						if (!unlink($this->micro_root_dir . $dir_name.'/'.$file)) {
 							$this->log(
 								esc_html__('File delete error', 'microthemer'),
 								'<p>' . esc_html__('Unable to delete: ', 'microthemer') .
 								$this->root_rel($this->micro_root_dir .
-								                $dir_name.'/'.$file) . '</p>'
+								                $dir_name.'/'.$file) . print_r($this->file_structure[$dir_name], true). '</p>'
 							);
 							$error = true;
 						}
@@ -10557,7 +10557,7 @@ if (!is_admin()) {
 			var $preferencesName = 'preferences_themer_loader';
 			// @var array $preferences Stores the ui options for this plugin
 			var $preferences = array();
-			var $version = '5.8.2.0';
+			var $version = '5.8.2.3';
 			var $microthemeruipage = 'tvr-microthemer.php';
 			var $mt_front_nonce = 'mt-temp-nonce';
 			var $file_stub = '';

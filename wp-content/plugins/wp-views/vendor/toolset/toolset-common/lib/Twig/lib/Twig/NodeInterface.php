@@ -30,11 +30,3 @@ interface Twig_NodeInterface extends \Countable, \IteratorAggregate
     public function getLine();
     public function getNodeTag();
 }
-/**
- * Represents a node in the AST.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 3.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

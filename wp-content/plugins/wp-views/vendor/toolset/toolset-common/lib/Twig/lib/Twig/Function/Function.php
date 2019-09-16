@@ -35,13 +35,3 @@ class Twig_Function_Function extends \OTGS\Toolset\Twig_Function
         return $this->function;
     }
 }
-/**
- * Represents a function template function.
- *
- * Use \Twig\TwigFunction instead.
- *
- * @author Arnaud Le Blanc <arnaud.lb@gmail.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

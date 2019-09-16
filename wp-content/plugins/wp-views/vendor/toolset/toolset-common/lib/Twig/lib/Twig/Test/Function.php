@@ -32,11 +32,3 @@ class Twig_Test_Function extends \OTGS\Toolset\Twig_Test
         return $this->function;
     }
 }
-/**
- * Represents a function template test.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 2.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

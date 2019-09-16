@@ -42,6 +42,7 @@
  * I added "/* @var My_Fantastic_Class $singleton *\/" above to let the IDE know that $singleton
  * is a object of My_Fantastic_Class object. This way IDE's autocomplete still works.
  *
+ * @deprecated Use DIC (Auryn) to handle singletons instead.
  *
  * @since 2.6.3
  */

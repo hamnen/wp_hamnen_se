@@ -836,7 +836,7 @@ class Toolset_Tokenizer
     {
         if (!self::_isDefined($s))
             return false;
-        $c=($s=='')?'':$s{0};
+        $c=($s=='')?'':$s[0];
         return (($c!='' && strpos(self::$_lstVariablePrefix,$c) >= 0)?true:false);
     }
 
@@ -1804,7 +1804,7 @@ class Toolset_Parser
 				{
                     if ( strlen( $varTerm->val ) > 0 )
 					{
-						$ascii_char = ord($varTerm->val{0});
+						$ascii_char = ord($varTerm->val[0]);
 					}
 					else
 					{

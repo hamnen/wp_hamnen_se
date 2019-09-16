@@ -23,6 +23,8 @@ class RelatedPosts {
 	const ROLE_OTHER = 'other';
 	const ROLE_ALL = 'all';
 
+	const ORDERBY_RFG_ORDER = 'rfg_order';
+
 
 	/**
 	 * Query by elements, indexed by role names.
@@ -136,8 +138,11 @@ class RelatedPosts {
 	 *      $query_by_role_name. If $query_by_role_name is 'parent' or 'child' (and not ignored), it is also possible
 	 *      to pass 'other' here.
 	 *    - 'orderby' : null|string - Determine how the results will be ordered. Accepted values: null, 'title',
-	 *      'meta_value', 'meta_value_num'. If the latter two are used, there also needs to be a 'meta_key' argument in $args.
-	 *      Passing null means no ordering.
+	 *      'meta_value', 'meta_value_num', 'rfg_order'.
+	 *       - If the 'meta_value' or 'meta_value_num' is used, there also needs to be a 'meta_key' argument in 'args'.
+	 *       - 'rfg_order' is applicable only for repeatable field groups and it means the order which has been
+	 *          set manually by the user. Using it overrides the 'meta_key' value in 'args'.
+	 *       - Passing null means no ordering.
 	 *    - 'order' : string - Accepted values: 'ASC' or 'DESC'.
 	 *    - 'need_found_rows' : bool - Signal if the query should also determine the total number of results
 	 *      (disregarding pagination).
@@ -284,7 +289,9 @@ class RelatedPosts {
 	 * @param array $args Extra arguments
 	 */
 	public function set_extra_arguments( $args ) {
-		$this->extra_arguments = $args;
+		// In case some args have been already set manually, keep them and override whatever the caller has
+		// provided.
+		$this->extra_arguments = array_merge( $args, $this->extra_arguments );
 	}
 
 
@@ -335,6 +342,12 @@ class RelatedPosts {
 	 * @param array $orderby Order by
 	 */
 	public function set_order_by( $orderby ) {
+		if( self::ORDERBY_RFG_ORDER === $orderby ) {
+			$this->orderby = 'meta_value_num';
+			$this->extra_arguments['meta_key'] = \Toolset_Post::SORTORDER_META_KEY;
+			return;
+		}
+
 		$this->orderby = $orderby;
 	}
 

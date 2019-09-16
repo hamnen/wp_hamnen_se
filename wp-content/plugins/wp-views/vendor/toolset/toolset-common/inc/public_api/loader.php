@@ -29,7 +29,9 @@ class Toolset_Public_API_Loader {
 			require_once TOOLSET_COMMON_PATH . '/inc/public_api/legacy_relationships.php';
 		}
 
+		require_once TOOLSET_COMMON_PATH . '/inc/public_api/constants.php';
 		require_once TOOLSET_COMMON_PATH . '/inc/public_api/custom_fields.php';
+
 	}
 
 }

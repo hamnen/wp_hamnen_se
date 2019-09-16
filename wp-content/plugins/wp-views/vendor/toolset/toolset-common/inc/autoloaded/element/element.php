@@ -75,7 +75,6 @@ abstract class Toolset_Element implements IToolset_Element {
 	 * @since m2m
 	 */
 	public function initialize_fields() {
-
 		if( $this->are_fields_initialized ) {
 			return;
 		}
@@ -92,21 +91,34 @@ abstract class Toolset_Element implements IToolset_Element {
 	 * @since m2m
 	 */
 	protected function load_fields() {
-
-		$selected_groups = $this->get_relevant_field_groups();
-
+		$selected_groups = $this->get_field_groups();
 		$this->aggregated_field_definitions = $this->get_aggregated_field_definitions( $selected_groups );
-
 		$this->fields = $this->get_field_instances( $this->aggregated_field_definitions );
-
 	}
 
 
 	/**
-	 * @return Toolset_Field_Group[] Field groups that are assigned to this element.
+	 * Get field groups that are relevant to this element (assigned or potentially assigned).
+	 *
+	 * For retrieving field groups as precisely for the current element as possible, use get_field_groups() instead.
+	 *
+	 * @return Toolset_Field_Group[]
 	 * @since m2m
 	 */
 	protected abstract function get_relevant_field_groups();
+
+
+	/**
+	 * Get field groups assigned directly to this element (as precisely as possible).
+	 *
+	 * To be overridden by subclasses.
+	 *
+	 * @return Toolset_Field_Group[]
+	 * @since Types 3.3.5
+	 */
+	public function get_field_groups() {
+		return $this->get_relevant_field_groups();
+	}
 
 
 	/**
@@ -220,10 +232,8 @@ abstract class Toolset_Element implements IToolset_Element {
 	 * @since m2m
 	 */
 	public function get_fields() {
-
 		$this->initialize_fields();
 		return $this->fields;
-
 	}
 
 

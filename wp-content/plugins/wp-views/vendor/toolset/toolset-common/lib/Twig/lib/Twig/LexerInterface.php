@@ -34,11 +34,3 @@ interface Twig_LexerInterface
      */
     public function tokenize($code, $name = null);
 }
-/**
- * Interface implemented by lexer classes.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 3.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

@@ -769,10 +769,10 @@ h1 .fl-heading-text {
 	border-radius: 16px !important;
 }
 
-/** Inläggen >> Paragraph:(1) strong **/
-.fl-node-content > p:nth-of-type(1) > strong, 
-.fl-node-content > strong:nth-of-type(1), 
-.fl-node-content > p:nth-of-type(2) > strong {
+/** Inläggen >> Ingress strong **/
+.fl-node-content > p:nth-of-type(1) > strong:first-of-type, 
+.fl-node-content > strong:first-of-type, 
+.fl-node-content > p:nth-of-type(2) > strong:first-of-type {
 	font-family: StagSans-Book !important;
 	color: rgb(48, 49, 48) !important;
 	font-size: 26px !important;
@@ -843,6 +843,7 @@ h1 .fl-heading-text {
 .fl-node-content .fact_title:nth-of-type(2) {
 	border-top-color: rgb(48, 49, 48) !important;
 	border-top-width: 4px !important;
+	display: table-cell !important;
 }
 
 /** Inläggen >> Sponsorlogo **/
@@ -869,12 +870,23 @@ h1 .fl-heading-text {
 
 /** Inläggen >> Bildtext **/
 img + strong, 
-div.tiled-gallery + p {
+div.tiled-gallery + p, 
+div.tiled-gallery + strong {
 	/* MT [ google_font: 1 ] */
 	font-family: 'Assistant' !important;
 	color: rgb(116, 116, 116) !important;
 	font-size: 16px !important;
 	line-height: 20px !important;
+	margin-top: 10px !important;
+}
+
+/** Inläggen >> Bildtext Copy 1 **/
+div.tiled-gallery + strong:first-of-type {
+	/* MT [ google_font: 1 ] */
+	font-family: 'Assistant' !important;
+	color: rgb(116, 116, 116) !important;
+	font-size: 16px !important;
+	line-height: 16px !important;
 	margin-top: 10px !important;
 }
 
@@ -950,7 +962,6 @@ img.solid_ratio {
 
 /** Borttaget från Joomla >> Entry content image **/
 .entry-content img.size-full {
-	margin-bottom: 10px !important;
 	display: block !important;
 }
 
@@ -2108,13 +2119,14 @@ div.tag-tester .tester {
 	line-height: 6px !important;
 }
 
-	/** Inläggen >> Paragraph:(1) strong **/
-	.fl-node-content > p:nth-of-type(1) > strong, 
-.fl-node-content > strong:nth-of-type(1), 
-.fl-node-content > p:nth-of-type(2) > strong {
+	/** Inläggen >> Ingress strong **/
+	.fl-node-content > p:nth-of-type(1) > strong:first-of-type, 
+.fl-node-content > strong:first-of-type, 
+.fl-node-content > p:nth-of-type(2) > strong:first-of-type {
 	font-family: StagSans-Medium !important;
 	font-size: 18px !important;
 	line-height: 24px !important;
+	word-spacing: 1.5px !important;
 }
 
 	/** Inläggen >> Fl module fl post content **/
@@ -2165,6 +2177,7 @@ div.tag-tester .tester {
 
 	/** Inläggen >> Relaterade artiklar Pp content body **/
 	.single.single-post .pp-content-body {
+	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
 

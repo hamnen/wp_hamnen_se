@@ -52,9 +52,12 @@ use OTGS\Toolset\Common\Interop\Commands as commands;
  *    - 'role_to_return' string|array - Which posts from the relationship should be returned. Accepted values
  *        are 'parent'|'child'|'intermediary'|'other'|'all' or an array of them, but the value must be different from $query_by_role_name.
  *        If the query_by_role argument is 'parent' or 'child', it is also possible to pass 'other' here.
- *    - 'orderby': null|string - Determine how the results will be ordered. Accepted values: null, 'title', 'meta_value',
- *        'meta_value_num'. If the latter two are used, there also needs to be a 'meta_key' argument in $args.
- *        Passing null means no ordering.
+ *    - 'orderby' : null|string - Determine how the results will be ordered. Accepted values: null, 'title',
+ *      'meta_value', 'meta_value_num', 'rfg_order'.
+ *       - If the 'meta_value' or 'meta_value_num' is used, there also needs to be a 'meta_key' argument in 'args'.
+ *       - 'rfg_order' is applicable only for repeatable field groups and it means the order which has been
+ *          set manually by the user. Using it overrides the 'meta_key' value in 'args'.
+ *       - Passing null means no ordering.
  *    - 'order': string - Accepted values: 'ASC' or 'DESC'.
  *    - 'need_found_rows': bool - Signal if the query should also determine the total number of results (disregarding pagination).
  *
@@ -511,6 +514,8 @@ function toolset_import_associations_of_child( $child_id ) {
  *     The array variant can be used only to identify relationships that have been migrated from the legacy implementation.
  * @param int|WP_Post $parent Parent post to connect.
  * @param int|WP_Post $child Child post to connect.
+ * @param null|int|WP_Post $intermediary Intermediary post to use for a many-to-many post relationship. If none is
+ *     provided and it is needed, a new post will be created.
  *
  * @return array
  *		- (bool) 'success': Always present.
@@ -519,8 +524,9 @@ function toolset_import_associations_of_child( $child_id ) {
  *          or zero if there is none.
  *
  * @since 2.7
+ * @since Types 3.3.4 added the fourth parameter $intermediary.
  */
-function toolset_connect_posts( $relationship, $parent, $child ) {
+function toolset_connect_posts( $relationship, $parent, $child, $intermediary = null ) {
 
 	do_action( 'toolset_do_m2m_full_init' );
 
@@ -536,10 +542,35 @@ function toolset_connect_posts( $relationship, $parent, $child ) {
 		throw new InvalidArgumentException( 'The child must be a post ID or a WP_Post instance.' );
 	}
 
+	if( null !== $intermediary && ! Toolset_Utils::is_natural_numeric( $intermediary ) && ! $intermediary instanceof WP_Post ) {
+		throw new InvalidArgumentException( 'The intermediary post must be null, a post ID or a WP_Post instance.' );
+	}
+
 	if( is_array( $relationship ) && count( $relationship ) === 2 ) {
 		$relationship_definition = Toolset_Relationship_Definition_Repository::get_instance()->get_legacy_definition( $relationship[0], $relationship[1] );
 	} else {
 		$relationship_definition = Toolset_Relationship_Definition_Repository::get_instance()->get_definition( $relationship );
+	}
+
+	// Make sure that a provided intermediary post's type matches what is required by the relationship.
+	if( null !== $intermediary ) {
+		$element_factory = new Toolset_Element_Factory();
+		try {
+			$intermediary_element = $element_factory->get_post( $intermediary );
+			if( $intermediary_element->get_type() !== $relationship_definition->get_intermediary_post_type() ) {
+				throw new \InvalidArgumentException( sprintf(
+					'The provided intermediary post has a wrong type. The relationship expects "%s" but the type is "%s".',
+					sanitize_title( $relationship_definition->get_intermediary_post_type() ),
+					sanitize_title( $intermediary_element->get_type() )
+				) );
+			}
+		} catch ( Toolset_Element_Exception_Element_Doesnt_Exist $e ) {
+			throw new \InvalidArgumentException( 'The provided intermediary post doesn\'t exist.' );
+		}
+
+		$intermediary_id = $intermediary_element->get_default_language_id();
+	} else {
+		$intermediary_id = null;
 	}
 
 	if( null === $relationship_definition ) {
@@ -550,7 +581,7 @@ function toolset_connect_posts( $relationship, $parent, $child ) {
 	}
 
 	try {
-		$result = $relationship_definition->create_association( $parent, $child );
+		$result = $relationship_definition->create_association( $parent, $child, $intermediary_id );
 	} catch( Toolset_Element_Exception_Element_Doesnt_Exist $e ) {
 		return array(
 			'success' => false,

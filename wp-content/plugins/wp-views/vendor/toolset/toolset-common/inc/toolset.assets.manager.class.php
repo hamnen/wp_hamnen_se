@@ -541,7 +541,7 @@ class Toolset_Assets_Manager {
 		$this->register_style(
 			self::STYLE_TOOLSET_SHORTCODE,
 			$this->assets_url . '/res/css/toolset-shortcode.css',
-			array(),
+			array( 'wp-jquery-ui-dialog' ),
 			TOOLSET_COMMON_VERSION
 		);
 

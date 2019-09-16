@@ -2,14 +2,14 @@
 <ruleset name="Toolset">
 	<description>Toolset Coding Standards</description>
 
-    <rule ref="WordPress-Core">
-        <exclude name="WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned" />
-        <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
-    </rule>
-    <rule ref="WordPress-Docs"/>
-	<rule ref="WordPress-Extra"/>
+    <rule ref="Toolset"/>
 
-	<exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/autoload_classmap.php</exclude-pattern>
+
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>.make/*</exclude-pattern>
+	<exclude-pattern>lib/*</exclude-pattern>
+	<exclude-pattern>res/lib/*</exclude-pattern>
 	<exclude-pattern>*.js</exclude-pattern>
 	<exclude-pattern>*.mo</exclude-pattern>
 	<exclude-pattern>*.po</exclude-pattern>

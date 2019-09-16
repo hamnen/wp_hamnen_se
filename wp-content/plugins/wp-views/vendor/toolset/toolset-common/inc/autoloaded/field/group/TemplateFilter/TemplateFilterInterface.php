@@ -21,4 +21,17 @@ interface TemplateFilterInterface {
 	 */
 	public function is_match_for_post( \IToolset_Post $post );
 
+
+	/**
+	 * Determine if the template is default for a given post type.
+	 *
+	 * This can be difficult to determine, so false negatives are allowed.
+	 * But if a positive result is returned, it must be certain.
+	 *
+	 * @param string $post_type_slug
+	 * @return bool
+	 * @since Types 3.3.4
+	 */
+	public function is_default_for_post_type( $post_type_slug );
+
 }

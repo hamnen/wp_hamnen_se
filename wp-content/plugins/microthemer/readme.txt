@@ -98,6 +98,17 @@ Microthemer has built-in documentation! Just click the help icon (top right of t
 
 == Changelog ==
 
+= 5.8.2.3 (Sept 14th, 2019) =
+
+# Bugs fixed
+* MT wasn't picking up Elementor custom classes.
+* Issue deleting design packs.
+
+= 5.8.2.1 (Sept 14th, 2019) =
+
+# Bugs fixed
+* I forgot to actually include the fix in the previous 5.8.2.0 update!
+
 = 5.8.2.0 (Sept 13th, 2019) =
 
 # Bugs fixed

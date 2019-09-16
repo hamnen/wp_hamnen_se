@@ -31,11 +31,3 @@ interface Twig_ParserInterface
      */
     public function parse(\OTGS\Toolset\Twig\TokenStream $stream);
 }
-/**
- * Interface implemented by parser classes.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 3.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

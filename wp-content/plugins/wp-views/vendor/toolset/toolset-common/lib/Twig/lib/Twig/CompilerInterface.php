@@ -32,19 +32,3 @@ interface Twig_CompilerInterface
      */
     public function getSource();
 }
-/*
- * This file is part of Twig.
- *
- * (c) Fabien Potencier
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-/**
- * Interface implemented by compiler classes.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.12 (to be removed in 3.0)
- */
-/* class_alias removed from here because it becomes redundant with namespacing */

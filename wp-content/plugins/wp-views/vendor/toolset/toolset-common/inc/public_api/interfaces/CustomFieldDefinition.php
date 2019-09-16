@@ -38,6 +38,14 @@ interface CustomFieldDefinition {
 
 
 	/**
+	 * Get a model representing a field type.
+	 *
+	 * @return CustomFieldTypeDefinition
+	 */
+	public function get_type();
+
+
+	/**
 	 * Is the field repeatable - can it have multiple values?
 	 *
 	 * Do not confuse with repeatable field groups.
@@ -45,5 +53,16 @@ interface CustomFieldDefinition {
 	 * @return bool
 	 */
 	public function is_repeatable();
+
+
+	/**
+	 * Provide an instance of a field for a given element.
+	 *
+	 * @param int $element_id ID of an existing element (of a matching domain).
+	 *
+	 * @return CustomFieldInstance
+	 * @throws \InvalidArgumentException If obviously invalid arguments are provided.
+	 */
+	public function instantiate( $element_id );
 
 }

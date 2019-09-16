@@ -26,7 +26,7 @@ class Toolset_Condition_Theme_Layouts_Support_Native_Available implements Toolse
 		// theme path (and child theme path if active)
 		$theme_paths = array_unique( array( get_template_directory(), get_stylesheet_directory() ) );
 		$files_starting_with = array( 'index', 'single', 'archive' );
-		$search_pattern = '{' . implode( $theme_paths, ',' ) . '}/{' . implode( $files_starting_with, ',' ) . '}*.php';
+		$search_pattern = '{' . implode( ',', $theme_paths ) . '}/{' . implode( ',', $files_starting_with ) . '}*.php';
 
 		if( defined( 'GLOB_BRACE' ) ) {
 			$template_files = glob( $search_pattern, GLOB_BRACE );

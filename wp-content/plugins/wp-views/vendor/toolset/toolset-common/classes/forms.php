@@ -8,8 +8,8 @@
  *
  * @version 1.0
  */
-if (!class_exists('Enlimbo_Forms_Wpcf')) {   
-    
+if (!class_exists('Enlimbo_Forms_Wpcf')) {
+
     class Enlimbo_Forms_Wpcf
     {
 
@@ -111,9 +111,9 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Checks if form is submitted.
-         * 
+         *
          * @param type $id
-         * @return type 
+         * @return type
          */
         public function isSubmitted($id = '')
         {
@@ -126,8 +126,8 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Loops over elements and validates them.
-         * 
-         * @param type $elements 
+         *
+         * @param type $elements
          */
         public function validate(&$elements)
         {
@@ -168,8 +168,8 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Validates element.
-         * 
-         * @param type $element 
+         *
+         * @param type $element
          */
         public function validateElement(&$element)
         {
@@ -183,8 +183,8 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Checks if there are errors.
-         * 
-         * @return type 
+         *
+         * @return type
          */
         public function isError()
         {
@@ -201,7 +201,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Renders form.
-         * 
+         *
          * @return string
          */
         public function renderForm()
@@ -212,9 +212,9 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Counts element types.
-         * 
+         *
          * @param type $type
-         * @return type 
+         * @return type
          */
         private function _count($type) {
             if (!isset($this->_count[$type])) {
@@ -240,7 +240,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Renders elements.
-         * 
+         *
          * @param type $elements
          * @return string
          */
@@ -328,7 +328,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
                     // Append class values
                     if ($attribute == 'class') {
                         $value = $value . ' ' . $class . $error_class;
-						
+
                     }
                     // Set return string
                     $attributes .= ' ' . $attribute . '="' . $value . '"';
@@ -336,7 +336,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
             }
             if (!isset($element['#attributes']['class'])) {
 				$is_default_element = isset( $element['#default_value'] ) && $element['#default_value'] ? ' wpcf-default-value-input' : '';
-				
+
                 $attributes .= ' class="' . $class . $error_class . $is_default_element . '"';
             }
             return $attributes;
@@ -568,7 +568,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
          */
         public function checkbox($element)
         {
-			
+
             $element['#type'] = 'checkbox';
             $element = $this->_setRender($element);
             $element['_render']['element'] = '<input type="checkbox" id="'
@@ -589,7 +589,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
             if (!empty($element['#attributes']['#disabled'])) {
                 $element['_render']['element'] .= ' disabled="disabled"';
             }
-			
+
             $element['_render']['element'] .= ' />';
             $pattern = isset($element['#pattern']) ? $element['#pattern'] : '<BEFORE><PREFIX><ELEMENT>&nbsp;<LABEL><ERROR><SUFFIX><DESCRIPTION><AFTER>';
             $output = $this->_pattern($pattern, $element);
@@ -704,7 +704,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
             $element['#type'] = 'select';
             $element = $this->_setRender($element);
 			$multiple = isset( $element['#multiple'] ) ? $element['#multiple'] : '';
-			
+
             $element['_render']['element'] = '<select '.$multiple.' id="' . $element['#id']
                     . '" name="' . $element['#name'] . '"'
                     . $element['_attributes_string'] . ">\r\n";
@@ -717,7 +717,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
                     $value['#value'] = $this->_count['select'] . '-' . $count;
                     $count += 1;
                 }
-				
+
                 $value['#type'] = 'option';
                 $element['_render']['element'] .= '<option value="'
                         . htmlspecialchars($value['#value']) . '"';
@@ -734,7 +734,7 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 				if ( isset( $value['#disable'] ) ) {
 					$element['_render']['element'] .= ' disabled="disabled"';
 				}
-                
+
                 $element['_render']['element'] .= $this->_setElementAttributes($value);
                 $element['_render']['element'] .= '>';
                 $element['_render']['element'] .= isset($value['#title']) ? $value['#title'] : $value['#value'];
@@ -920,19 +920,22 @@ if (!class_exists('Enlimbo_Forms_Wpcf')) {
 
         /**
          * Searches and returns submitted data for element.
-         * 
-         * @param type $element
-         * @return type mixed
+         *
+         * @param array $element
+         * @return mixed
          */
         public function getSubmittedData($element)
         {
             $name = $element['#name'];
             if (strpos($name, '[') === false) {
-                if ($element['#type'] == 'file') {
+				if ( $element['#type'] === 'file') {
                     return $_FILES[$name]['tmp_name'];
                 }
-                return isset($_REQUEST[$name]) ? sanitize_text_field( $_REQUEST[$name] ) : in_array($element['#type'],
-                                array('textfield', 'textarea')) ? '' : 0;
+
+				/** @noinspection NestedTernaryOperatorInspection */
+				return isset( $_REQUEST[ $name ] )
+					? sanitize_text_field( $_REQUEST[ $name ] )
+					: ( in_array( $element['#type'], array( 'textfield', 'textarea' ) ) ? '' : 0 );
             }
 
             $parts = explode('[', $name);

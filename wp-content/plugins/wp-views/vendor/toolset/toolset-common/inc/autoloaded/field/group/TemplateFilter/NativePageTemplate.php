@@ -37,4 +37,15 @@ class NativePageTemplate implements TemplateFilterInterface {
 	public function is_match_for_post( \IToolset_Post $post ) {
 		return ( $this->template_name === $post->get_assigned_native_page_template() );
 	}
+
+
+	/**
+	 * @inheritDoc
+	 * @param string $post_type_slug
+	 * @return bool
+	 * @since Types 3.3.4
+	 */
+	public function is_default_for_post_type( $post_type_slug ) { // phpcs:disable VariableAnalysis.CodeAnalysis.VariableAnalysis.UnusedVariable
+		return false;
+	}
 }

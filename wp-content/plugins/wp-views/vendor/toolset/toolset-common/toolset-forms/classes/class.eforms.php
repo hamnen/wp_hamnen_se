@@ -1354,23 +1354,21 @@ class Enlimbo_Forms {
 	/**
 	 * Searches and returns submitted data for element.
 	 *
-	 * @param type $element
+	 * @param array $element
 	 *
-	 * @return type mixed
+	 * @return mixed
 	 */
 	public function getSubmittedData( $element ) {
 		$name = $element['#name'];
 		if ( strpos( $name, '[' ) === false ) {
-			if ( $element['#type'] == 'file' ) {
+			if ( $element['#type'] === 'file' ) {
 				return $_FILES[ $name ]['tmp_name'];
 			}
 
+			/** @noinspection NestedTernaryOperatorInspection */
 			return isset( $_REQUEST[ $name ] )
 				? sanitize_text_field( $_REQUEST[ $name ] )
-				: in_array( $element['#type'], array(
-					'textfield',
-					'textarea',
-				) ) ? '' : 0;
+				: ( in_array( $element['#type'], array( 'textfield', 'textarea' ) ) ? '' : 0 );
 		}
 
 		$parts = explode( '[', $name );

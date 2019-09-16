@@ -47,11 +47,3 @@ class Twig_Autoloader
         }
     }
 }
-/**
- * Autoloads Twig classes.
- *
- * @author Fabien Potencier <fabien@symfony.com>
- *
- * @deprecated since 1.21 and will be removed in 2.0. Use Composer instead. 2.0.
- */
-/* class_alias removed from here because it becomes redundant with namespacing */
