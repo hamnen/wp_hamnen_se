@@ -211,6 +211,7 @@
 		// Start displaying the logs
 		that.start_logger();
 		$('#test_ftp').attr('disabled', 'disabled'); // Disable the button
+		$('#ftp_test_message').html('');
 		
 		var data = $('#form_import').serialize() + '&action=' + that.plugin_id + '_import&plugin_action=test_ftp';
 		$.ajax({

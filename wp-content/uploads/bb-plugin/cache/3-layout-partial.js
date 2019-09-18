@@ -629,7 +629,7 @@ jQuery(document).ready(function( $ ) {
 
 /* End Layout Custom JS */
 
-; if(typeof FLBuilder !== 'undefined' && typeof FLBuilder._renderLayoutComplete !== 'undefined') FLBuilder._renderLayoutComplete();	;(function($) {
+	;(function($) {
 				var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
 				window.particle_js_loaded = 0;
 
@@ -655,7 +655,7 @@ jQuery(document).ready(function( $ ) {
 				}
 			function init_particles_row_background_script() {
 
-									row_id = '5d7fee1ea8eb9';
+									row_id = '5d08037560737';
 
 					nodeclass = '.fl-node-' + row_id;
 
@@ -1016,7 +1016,217 @@ jQuery(document).ready(function( $ ) {
 
 			function init_particles_col_background_script() {
 
-									row_id = '5d7fee1eaa3f3';
+									row_id = '5d0803863332a';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d080375615f4';
 
 					nodeclass = '.fl-node-' + row_id;
 

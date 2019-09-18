@@ -2160,7 +2160,7 @@ SQL;
 					// Remove the links from the content
 					$this->post_link_count = 0;
 					$this->post_link = array();
-					$content = preg_replace_callback('#<(a) (.*?)(href)=(.*?)</a>#i', array($this, 'remove_links'), $content);
+					$content = preg_replace_callback('#<(a) (.*?)(href)?=(.*?)</a>#i', array($this, 'remove_links'), $content);
 					$content = preg_replace_callback('#<(img) (.*?)(src)=(.*?)>#i', array($this, 'remove_links'), $content);
 
 					// Process the stored medias links
@@ -2749,6 +2749,38 @@ SQL;
 			return $term_id;
 		}
 
+		/**
+		 * Get the WordPress menu item from the Joomla Itemid
+		 * 
+		 * @since 3.52.0
+		 * 
+		 * @param int $item_id Joomla item ID
+		 * @return array Menu item
+		 */
+		public function get_menu_item_from_item_id($item_id) {
+			$menu_item_meta = array();
+			$args = array(
+				'post_type'		=> 'nav_menu_item',
+				'meta_query'	=> array(
+					array(
+					   'key'       => '_fgj2wp_old_menu_item_id',
+					   'value'     => $item_id,
+					   'compare'   => '='
+					)
+				)
+			);
+			$posts = get_posts($args);
+			if ( count($posts) > 0 ) {
+				$menu_item_meta = get_metadata('post', $posts[0]->ID);
+				foreach ( $menu_item_meta as &$value ) {
+					if ( is_array($value) ) {
+						$value = $value[0];
+					}
+				}
+			}
+			return $menu_item_meta;
+		}
+		
 		/**
 		 * Returns the imported users mapped with their Joomla ID
 		 *

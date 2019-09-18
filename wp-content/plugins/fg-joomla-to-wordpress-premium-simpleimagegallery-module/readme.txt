@@ -4,7 +4,7 @@ Plugin Uri: https://www.fredericgilles.net/fg-joomla-to-wordpress/
 Tags: joomla, wordpress, migrator, converter, import, simple image gallery, very simple image gallery
 Requires at least: 4.5
 Tested up to: 5.0.3
-Stable tag: 2.7.0
+Stable tag: 2.8.0
 Requires PHP: 5.3
 License: GPLv2
 
@@ -19,6 +19,7 @@ It has been tested with **Wordpress 5.0**. It is compatible with multisite insta
 Major features include:
 
 * migrates Simple Image Gallery galleries as WordPress galleries
+* migrates Simple Image Gallery Pro galleries as WordPress galleries
 * migrates Very Simple Image Gallery galleries as WordPress galleries
 * migrates SigPlus galleries as WordPress galleries
 * migrates Art sexy lightbox galleries as WordPress galleries
@@ -36,6 +37,9 @@ Major features include:
 * other can be translated
 
 == Changelog ==
+
+= 2.8.0 =
+New: Compatible with Simple Images Gallery Pro
 
 = 2.7.0 =
 New: Compatible with Art sexy lightbox

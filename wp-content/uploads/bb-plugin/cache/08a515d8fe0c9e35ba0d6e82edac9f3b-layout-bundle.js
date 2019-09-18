@@ -2937,7 +2937,7 @@ var ppcg_5d788b1f7b636 = '';
 		perPage: '10',
 		fields: {"layout":"carousel","post_grid_style_select":"default","custom_layout":{"html":"[wpbb-if post:featured_image]\n<div class=\"pp-content-grid-post-image\">\n\t[wpbb post:featured_image size=\"large\" display=\"tag\" linked=\"yes\"]\n<\/div>\n[\/wpbb-if]\n\n<div class=\"pp-content-grid-post-text\">\n\n    <h3 class=\"pp-content-grid-post-title\">[wpbb post:link text=\"title\"]<\/h3>\n\n    <div class=\"pp-content-grid-post-meta\">\n    \t[wpbb post:date format=\"F j, Y\"]\n\t\t<span class=\"pp-content-grid-post-meta-sep\"> | <\/span>\n\t\t[wpbb post:terms_list taxonomy=\"category\" separator=\", \"]\n    <\/div>\n\n\t<div class=\"pp-content-grid-separator\"><\/div>\n\n    <div class=\"pp-content-grid-post-excerpt\">\n    \t[wpbb post:excerpt length=\"17\" more=\"...\"]\n    <\/div>\n\n    <div class=\"pp-content-grid-post-more-link\">\n    \t<a href=\"[wpbb post:url]\"><span class=\"fa fa-angle-right\"><\/span> Read More<\/a>\n    <\/div>\n\n<\/div>\n","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n"},"match_height":"yes","custom_height":"199","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"20","posts_per_page":"10","exclude_current_post":"yes","post_grid_count":{"desktop":"2","tablet":"2","mobile":"2"},"post_spacing":"6","auto_play":"no","stop_on_hover":"no","lazy_load":"no","slides_center_align":"no","transition_speed":"5","slides_speed":"","slide_loop":"yes","slider_pagination":"no","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","post_slider_dot_width":"0","post_slider_dot_border_radius":"100","post_bg_color":"ffffff","post_bg_color_hover":"ffffff","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"none","color":"","width":{"top":"0","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"4","top_right":"4","bottom_left":"4","bottom_right":"4"},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"0","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"0","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Ledsen, vi hittade inga inl\u00e4gg. F\u00f6rs\u00f6k igen","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"0","pagination_spacing":"0","pagination_bg_color":"ffffff","pagination_bg_color_hover":"ffffff","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"6b6b6b","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":"px"},"text_align":"left","letter_spacing":{"length":"0"},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"303130","title_margin":{"top":"7","bottom":"0"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"mobile","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"puff3-mobil arkivsida slider2","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"0","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"3","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"0","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"7","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"0","filter_padding_right":"0","filter_padding_bottom":"0","filter_padding_left":"0","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"post","order_by":"meta_value_num","order_by_meta_key":"wpb_post_views_count","order":"DESC","offset":"0","posts_post_matching":"1","posts_post":"","tax_post_category_matching":"related","tax_post_category":"","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","users_matching":"1","users":"","show_title":"yes","show_content":"no","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"title_thumb","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"static","post_grid_filters":"category","all_filter_label":"All","show_image":"yes","image_thumb_size":"large","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"no","show_date":"no","show_categories":"no","post_taxonomies":"category","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_users":"","fallback_image_custom_src":"","posts_hamnenplay_matching":"1","posts_hamnenplay":"","as_values_posts_hamnenplay":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -3073,7 +3073,7 @@ var ppcg_5d78a92192ff7 = '';
 		perPage: '10',
 		fields: {"layout":"carousel","post_grid_style_select":"default","custom_layout":{"html":"[wpbb-if post:featured_image]\n<div class=\"pp-content-grid-post-image\">\n\t[wpbb post:featured_image size=\"large\" display=\"tag\" linked=\"yes\"]\n<\/div>\n[\/wpbb-if]\n\n<div class=\"pp-content-grid-post-text\">\n\n    <h3 class=\"pp-content-grid-post-title\">[wpbb post:link text=\"title\"]<\/h3>\n\n    <div class=\"pp-content-grid-post-meta\">\n    \t[wpbb post:date format=\"F j, Y\"]\n\t\t<span class=\"pp-content-grid-post-meta-sep\"> | <\/span>\n\t\t[wpbb post:terms_list taxonomy=\"category\" separator=\", \"]\n    <\/div>\n\n\t<div class=\"pp-content-grid-separator\"><\/div>\n\n    <div class=\"pp-content-grid-post-excerpt\">\n    \t[wpbb post:excerpt length=\"17\" more=\"...\"]\n    <\/div>\n\n    <div class=\"pp-content-grid-post-more-link\">\n    \t<a href=\"[wpbb post:url]\"><span class=\"fa fa-angle-right\"><\/span> Read More<\/a>\n    <\/div>\n\n<\/div>\n","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n"},"match_height":"yes","custom_height":"199","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"20","posts_per_page":"10","exclude_current_post":"yes","post_grid_count":{"desktop":"2","tablet":"2","mobile":"2"},"post_spacing":"6","auto_play":"no","stop_on_hover":"no","lazy_load":"no","slides_center_align":"no","transition_speed":"5","slides_speed":"","slide_loop":"yes","slider_pagination":"no","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","post_slider_dot_width":"0","post_slider_dot_border_radius":"100","post_bg_color":"ffffff","post_bg_color_hover":"ffffff","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"none","color":"","width":{"top":"0","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"4","top_right":"4","bottom_left":"4","bottom_right":"4"},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"0","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"0","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Ledsen, vi hittade inga inl\u00e4gg. F\u00f6rs\u00f6k igen","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"0","pagination_spacing":"0","pagination_bg_color":"ffffff","pagination_bg_color_hover":"ffffff","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"6b6b6b","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":"px"},"text_align":"left","letter_spacing":{"length":"0"},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"303130","title_margin":{"top":"7","bottom":"0"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"mobile","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"puff3-mobil arkivsida slider3","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"0","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"3","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"0","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"7","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"0","filter_padding_right":"0","filter_padding_bottom":"0","filter_padding_left":"0","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"post","order_by":"date","order_by_meta_key":"wpb_post_views_count","order":"DESC","offset":"0","posts_post_matching":"1","posts_post":"","tax_post_category_matching":"related","tax_post_category":"","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","users_matching":"1","users":"","show_title":"yes","show_content":"no","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"title_thumb","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"static","post_grid_filters":"category","all_filter_label":"All","show_image":"yes","image_thumb_size":"large","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"no","show_date":"no","show_categories":"no","post_taxonomies":"category","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_users":"","fallback_image_custom_src":"","posts_hamnenplay_matching":"1","posts_hamnenplay":"","as_values_posts_hamnenplay":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -3505,7 +3505,7 @@ var ppcg_5d794cbbdb4fe = '';
 		perPage: '9',
 		fields: {"layout":"carousel","post_grid_style_select":"custom","custom_layout":{"html":"<div class=\"pp-custom-grid-post-text\">\n<a href=\"[wpbb post:url]\">\n<div class=\"hamnenplay-mobil-image\"><img src=\"[wpbb post:custom_field key='thumbnailimage']\"\/><\/div>\n<div class=\"pp-custom-grid-post-langd\"><div class=\"pp-custom-grid-post-play\"><\/div><span class=\"time\">[wpbb post:excerpt length='1' more=' ']<\/span><\/div>\n<div><h3 class=\"pp-post-title\">[wpbb post:title]<\/h3><\/div><\/a>\n<\/div>","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n","connections":{"html":""}},"match_height":"yes","custom_height":"275","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"10","posts_per_page":"9","exclude_current_post":"yes","post_grid_count":{"desktop":"2","tablet":"2","mobile":"2"},"post_spacing":"6","auto_play":"no","stop_on_hover":"no","lazy_load":"no","slides_center_align":"no","transition_speed":"5","slides_speed":"","slide_loop":"yes","slider_pagination":"no","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"666666","post_slider_dot_bg_hover":"000000","post_slider_dot_width":"10","post_slider_dot_border_radius":"100","post_bg_color":"121212","post_bg_color_hover":"","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"0","top_right":"0","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"10","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Sorry, we couldn't find any posts. Please try a different search.","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"15","pagination_spacing":"5","pagination_bg_color":"272727","pagination_bg_color_hover":"","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"ffffff","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"0","top_right":"0","bottom_left":"4","bottom_right":"4"},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"","title_margin":{"top":"5","bottom":"5"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"mobile","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"puff3-mobil arkivsida","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"10","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"10","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"10","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"10","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"8","filter_padding_right":"8","filter_padding_bottom":"8","filter_padding_left":"8","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"hamnenplay","order_by":"date","order_by_meta_key":"","order":"ASC","offset":"0","posts_post_matching":"1","posts_post":"","tax_post_category_matching":"1","tax_post_category":"","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","posts_hamnenplay_matching":"0","posts_hamnenplay":"27267","users_matching":"1","users":"","show_title":"yes","show_content":"yes","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"box","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"dynamic","all_filter_label":"All","show_image":"yes","image_thumb_size":"large","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"yes","show_date":"yes","show_categories":"no","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_posts_hamnenplay":"","as_values_users":"","post_grid_filters":"","fallback_image_custom_src":"","post_taxonomies":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -3691,7 +3691,7 @@ var ppcg_5d5aa335bea4b = '';
 		perPage: '5',
 		fields: {"layout":"grid","post_grid_style_select":"style-8","custom_layout":{"html":"[wpbb-if post:featured_image]\n<div class=\"pp-content-grid-post-image\">\n\t[wpbb post:featured_image size=\"large\" display=\"tag\" linked=\"yes\"]\n<\/div>\n[\/wpbb-if]\n\n<div class=\"pp-content-grid-post-text\">\n\n    <h3 class=\"pp-content-grid-post-title\">[wpbb post:link text=\"title\"]<\/h3>\n\n    <div class=\"pp-content-grid-post-meta\">\n    \t[wpbb post:date format=\"F j, Y\"]\n\t\t<span class=\"pp-content-grid-post-meta-sep\"> | <\/span>\n\t\t[wpbb post:terms_list taxonomy=\"category\" separator=\", \"]\n    <\/div>\n\n\t<div class=\"pp-content-grid-separator\"><\/div>\n\n    <div class=\"pp-content-grid-post-excerpt\">\n    \t[wpbb post:excerpt length=\"17\" more=\"...\"]\n    <\/div>\n\n    <div class=\"pp-content-grid-post-more-link\">\n    \t<a href=\"[wpbb post:url]\"><span class=\"fa fa-angle-right\"><\/span> Read More<\/a>\n    <\/div>\n\n<\/div>\n","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n"},"match_height":"yes","custom_height":"199","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"10","posts_per_page":"5","exclude_current_post":"yes","post_grid_count":{"desktop":"1","tablet":"1","mobile":"1"},"post_spacing":"0","auto_play":"yes","stop_on_hover":"no","lazy_load":"no","slides_center_align":"yes","transition_speed":"2","slides_speed":"","slide_loop":"yes","slider_pagination":"yes","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"666666","post_slider_dot_bg_hover":"000000","post_slider_dot_width":"10","post_slider_dot_border_radius":"100","post_bg_color":"ffffff","post_bg_color_hover":"ffffff","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"solid","color":"d9d9d9","width":{"top":"0","right":"0","bottom":"1","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"0","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Ledsen, vi hittade inga inl\u00e4gg. F\u00f6rs\u00f6k igen","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"0","pagination_spacing":"0","pagination_bg_color":"ffffff","pagination_bg_color_hover":"ffffff","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"6b6b6b","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":"px"},"text_align":"left","letter_spacing":{"length":"0"},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"303130","title_margin":{"top":"10","bottom":"0"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"0","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"5","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"0","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"12","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"0","filter_padding_right":"0","filter_padding_bottom":"0","filter_padding_left":"0","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"post","order_by":"date","order_by_meta_key":"","order":"DESC","offset":"0","posts_post_matching":"1","posts_post":"","tax_post_category_matching":"1","tax_post_category":"250","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","users_matching":"1","users":"","show_title":"yes","show_content":"no","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"title_thumb","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"static","post_grid_filters":"category","all_filter_label":"All","show_image":"yes","image_thumb_size":"medium","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"no","show_date":"no","show_categories":"no","post_taxonomies":"category","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_users":"","fallback_image_custom_src":"","posts_hamnenplay_matching":"1","posts_hamnenplay":"","as_values_posts_hamnenplay":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -3753,7 +3753,7 @@ var ppcg_5d5aa335bea65 = '';
 		perPage: '3',
 		fields: {"layout":"grid","post_grid_style_select":"custom","custom_layout":{"html":"<div class=\"pp-custom-grid-post-text\">\n<a href=\"[wpbb post:url]\">\n<img src=\"[wpbb post:custom_field key='thumbnailimage']\"\/>\n<div class=\"pp-custom-grid-post-langd\"><div class=\"pp-custom-grid-post-play\"><\/div><span class=\"time\">[wpbb post:excerpt length='1' more=' ']<\/span><\/div>\n<div><h3 class=\"pp-post-title\">[wpbb post:title]<\/h3><\/div><\/a>\n<\/div>","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n","connections":{"html":""}},"match_height":"no","custom_height":"275","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"9","posts_per_page":"3","exclude_current_post":"no","post_grid_count":{"desktop":"1","tablet":"1","mobile":"1"},"post_spacing":"0","auto_play":"yes","stop_on_hover":"no","lazy_load":"no","slides_center_align":"yes","transition_speed":"2","slides_speed":"","slide_loop":"yes","slider_pagination":"yes","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"666666","post_slider_dot_bg_hover":"000000","post_slider_dot_width":"10","post_slider_dot_border_radius":"100","post_bg_color":"121212","post_bg_color_hover":"","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"0","top_right":"0","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"10","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Sorry, we couldn't find any posts. Please try a different search.","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"15","pagination_spacing":"5","pagination_bg_color":"272727","pagination_bg_color_hover":"","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"ffffff","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"0","top_right":"0","bottom_left":"4","bottom_right":"4"},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"","title_margin":{"top":"5","bottom":"5"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"10","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"10","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"10","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"10","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"8","filter_padding_right":"8","filter_padding_bottom":"8","filter_padding_left":"8","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"hamnenplay","order_by":"date","order_by_meta_key":"","order":"DESC","offset":"0","posts_post_matching":"1","posts_post":"","tax_post_category_matching":"1","tax_post_category":"","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","posts_hamnenplay_matching":"0","posts_hamnenplay":"27267","users_matching":"1","users":"","show_title":"yes","show_content":"yes","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"box","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"dynamic","all_filter_label":"All","show_image":"yes","image_thumb_size":"large","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"yes","show_date":"yes","show_categories":"no","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_posts_hamnenplay":"","as_values_users":"","post_grid_filters":"","fallback_image_custom_src":"","post_taxonomies":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -3816,7 +3816,7 @@ var ppcg_5d5aa335bea4c = '';
 		perPage: '5',
 		fields: {"layout":"grid","post_grid_style_select":"style-8","custom_layout":{"html":"[wpbb-if post:featured_image]\n<div class=\"pp-content-grid-post-image\">\n\t[wpbb post:featured_image size=\"large\" display=\"tag\" linked=\"yes\"]\n<\/div>\n[\/wpbb-if]\n\n<div class=\"pp-content-grid-post-text\">\n\n    <h3 class=\"pp-content-grid-post-title\">[wpbb post:link text=\"title\"]<\/h3>\n\n    <div class=\"pp-content-grid-post-meta\">\n    \t[wpbb post:date format=\"F j, Y\"]\n\t\t<span class=\"pp-content-grid-post-meta-sep\"> | <\/span>\n\t\t[wpbb post:terms_list taxonomy=\"category\" separator=\", \"]\n    <\/div>\n\n\t<div class=\"pp-content-grid-separator\"><\/div>\n\n    <div class=\"pp-content-grid-post-excerpt\">\n    \t[wpbb post:excerpt length=\"17\" more=\"...\"]\n    <\/div>\n\n    <div class=\"pp-content-grid-post-more-link\">\n    \t<a href=\"[wpbb post:url]\"><span class=\"fa fa-angle-right\"><\/span> Read More<\/a>\n    <\/div>\n\n<\/div>\n","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n"},"match_height":"yes","custom_height":"199","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"10","posts_per_page":"5","exclude_current_post":"yes","post_grid_count":{"desktop":"1","tablet":"1","mobile":"1"},"post_spacing":"0","auto_play":"yes","stop_on_hover":"no","lazy_load":"no","slides_center_align":"yes","transition_speed":"2","slides_speed":"","slide_loop":"yes","slider_pagination":"yes","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"666666","post_slider_dot_bg_hover":"000000","post_slider_dot_width":"10","post_slider_dot_border_radius":"100","post_bg_color":"ffffff","post_bg_color_hover":"ffffff","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"solid","color":"d9d9d9","width":{"top":"0","right":"0","bottom":"1","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"0","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Ledsen, vi hittade inga inl\u00e4gg. F\u00f6rs\u00f6k igen","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"0","pagination_spacing":"0","pagination_bg_color":"ffffff","pagination_bg_color_hover":"ffffff","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"6b6b6b","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":"px"},"text_align":"left","letter_spacing":{"length":"0"},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"303130","title_margin":{"top":"10","bottom":"0"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"0","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"5","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"0","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"12","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"0","filter_padding_right":"0","filter_padding_bottom":"0","filter_padding_left":"0","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"post","order_by":"meta_value_num","order_by_meta_key":"wpb_post_views_count","order":"DESC","offset":"0","posts_post_matching":"0","posts_post":"26799,27060","tax_post_category_matching":"1","tax_post_category":"","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","users_matching":"1","users":"","show_title":"yes","show_content":"no","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"title_thumb","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"static","post_grid_filters":"category","all_filter_label":"All","show_image":"yes","image_thumb_size":"medium","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"no","show_date":"no","show_categories":"no","post_taxonomies":"category","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_users":"","fallback_image_custom_src":"","posts_hamnenplay_matching":"1","posts_hamnenplay":"","as_values_posts_hamnenplay":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -3890,7 +3890,7 @@ var ppcg_5d5bbe9626efb = '';
 		perPage: '5',
 		fields: {"layout":"grid","post_grid_style_select":"style-8","custom_layout":{"html":"[wpbb-if post:featured_image]\n<div class=\"pp-content-grid-post-image\">\n\t[wpbb post:featured_image size=\"large\" display=\"tag\" linked=\"yes\"]\n<\/div>\n[\/wpbb-if]\n\n<div class=\"pp-content-grid-post-text\">\n\n    <h3 class=\"pp-content-grid-post-title\">[wpbb post:link text=\"title\"]<\/h3>\n\n    <div class=\"pp-content-grid-post-meta\">\n    \t[wpbb post:date format=\"F j, Y\"]\n\t\t<span class=\"pp-content-grid-post-meta-sep\"> | <\/span>\n\t\t[wpbb post:terms_list taxonomy=\"category\" separator=\", \"]\n    <\/div>\n\n\t<div class=\"pp-content-grid-separator\"><\/div>\n\n    <div class=\"pp-content-grid-post-excerpt\">\n    \t[wpbb post:excerpt length=\"17\" more=\"...\"]\n    <\/div>\n\n    <div class=\"pp-content-grid-post-more-link\">\n    \t<a href=\"[wpbb post:url]\"><span class=\"fa fa-angle-right\"><\/span> Read More<\/a>\n    <\/div>\n\n<\/div>\n","css":".pp-content-grid-post {\n    font-size: 14px;\n}\n.pp-content-grid-post-image {\n    padding: 20px;\n    padding-bottom: 0;\n}\n.pp-content-grid-post-text {\n    padding: 20px;\n}\n.pp-content-grid-post-title {\n    font-size: 20px;\n\tline-height: 26px;\n\tmargin: 0;\n\tpadding: 0;\n}\n.pp-content-grid-post-meta {\n    padding: 0;\n}\n.pp-content-grid-post-meta a {\n    text-decoration: none;\n}\n.pp-content-grid-post-meta,\n.pp-content-grid-post-meta a {\n    color: #888;\n    font-size: 12px;\n}\n.pp-content-grid-post-meta a:hover {\n    color: #000;\n}\n.pp-content-grid-separator {\n    min-height: 2px;\n    width: 60px;\n    background: #000;\n    margin-top: 10px;\n    margin-bottom: 20px;\n}\n"},"match_height":"yes","custom_height":"199","custom_height_medium":"","custom_height_responsive":"","total_post":"custom","total_posts_count":"10","posts_per_page":"5","exclude_current_post":"yes","post_grid_count":{"desktop":"1","tablet":"1","mobile":"1"},"post_spacing":"0","auto_play":"yes","stop_on_hover":"no","lazy_load":"no","slides_center_align":"yes","transition_speed":"2","slides_speed":"","slide_loop":"yes","slider_pagination":"yes","slider_navigation":"no","post_slider_arrow_font_size":"30","arrow_color":"000000","arrow_hover_color":"eeeeee","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"arrow_border_hover_color":"","post_slider_dot_bg_color":"666666","post_slider_dot_bg_hover":"000000","post_slider_dot_width":"10","post_slider_dot_border_radius":"100","post_bg_color":"ffffff","post_bg_color_hover":"ffffff","post_content_alignment":"left","field_separator_1":"","post_border_group":{"style":"solid","color":"d9d9d9","width":{"top":"0","right":"0","bottom":"1","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"post_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"show_image_effect":"no","image_effect_opacity":"","image_effect_brightness":"","image_effect_contrast":"","image_effect_saturate":"","image_effect_hue_rotate":"","image_effect_grayscale":"","image_effect_blur":"","image_effect_sepia":"","image_effect_invert":"","image_effect_opacity_hover":"","image_effect_brightness_hover":"","image_effect_contrast_hover":"","image_effect_saturate_hover":"","image_effect_hue_rotate_hover":"","image_effect_grayscale_hover":"","image_effect_blur_hover":"","image_effect_sepia_hover":"","image_effect_invert_hover":"","post_title_divider_color":"333333","post_category_bg_color":"000000","post_category_text_color":"ffffff","post_category_position":"left","post_title_overlay_color":"000000","post_title_overlay_opacity":"50","post_date_day_bg_color":"f9f9f9","post_date_day_text_color":"888888","post_date_month_bg_color":"000000","post_date_month_text_color":"ffffff","post_date_bg_color":"000000","post_date_text_color":"ffffff","post_date_border_radius":"2","product_rating_color":"000000","product_price_color":"000000","button_width":"default","button_bg_color":"666666","button_bg_hover_color":"000000","button_text_color":"ffffff","button_text_hover_color":"","button_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"button_border_hover_color":"eeeeee","button_margin":{"top":"10","bottom":"5"},"responsive_filter":"no","filter_alignment":"left","filter_margin":"0","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"333333","filter_text_color_active":"000000","filter_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"filter_border_hover_color":"","filter_toggle_bg":"ffffff","filter_toggle_color":"444444","filter_toggle_border_group":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination":"load_more","load_more_text":"Visa fler","no_results_message":"Ledsen, vi hittade inga inl\u00e4gg. F\u00f6rs\u00f6k igen","show_search":"no","pagination_nofollow":"no","pagination_align":"center","pagination_spacing_v":"0","pagination_spacing":"0","pagination_bg_color":"ffffff","pagination_bg_color_hover":"ffffff","pagination_color":"f05123","pagination_color_hover":"","pagination_border_group":{"style":"solid","color":"6b6b6b","width":{"top":"1","right":"0","bottom":"0","left":"0"},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_medium":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"pagination_border_group_responsive":{"style":"","color":"","width":{"top":"","right":"","bottom":"","left":""},"radius":{"top_left":"","top_right":"","bottom_left":"","bottom_right":""},"shadow":{"color":"","horizontal":"","vertical":"","blur":"","spread":""}},"title_tag":"h3","title_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":"px"},"text_align":"left","letter_spacing":{"length":"0"},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"title_font_color":"303130","title_margin":{"top":"10","bottom":"0"},"content_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"content_font_color":"","description_margin":{"top":"5","bottom":"5"},"meta_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"meta_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"post_meta_font_color":"606060","post_meta_bg_color":"333","event_date_color":"","event_date_case":"default","field_separator_e1":"","event_venue_color":"","field_separator_e2":"","event_cost_color":"","button_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"button_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography":{"font_family":"Default","font_weight":"default","font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_medium":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"filter_typography_responsive":{"font_size":{"length":"","unit":"px"},"line_height":{"length":"","unit":""},"text_align":"","letter_spacing":{"length":""},"text_transform":"","text_decoration":"","font_style":"","font_variant":"","text_shadow":{"color":"","horizontal":"","vertical":"","blur":""}},"pagination_font_size":"14","pagination_font_size_medium":"","pagination_font_size_responsive":"","responsive_display":"","visibility_display":"","visibility_user_capability":"","visibility_logic":"[]","animation":{"style":"","delay":"0","duration":"1"},"container_element":"div","id":"","class":"","arrow_padding_top":"10","arrow_padding_right":"10","arrow_padding_bottom":"10","arrow_padding_left":"10","post_grid_padding_top":"0","post_grid_padding_top_medium":"","post_grid_padding_top_responsive":"","post_grid_padding_right":"0","post_grid_padding_right_medium":"","post_grid_padding_right_responsive":"","post_grid_padding_bottom":"0","post_grid_padding_bottom_medium":"","post_grid_padding_bottom_responsive":"","post_grid_padding_left":"0","post_grid_padding_left_medium":"","post_grid_padding_left_responsive":"","post_content_padding_top":"0","post_content_padding_top_medium":"","post_content_padding_top_responsive":"","post_content_padding_right":"5","post_content_padding_right_medium":"","post_content_padding_right_responsive":"","post_content_padding_bottom":"0","post_content_padding_bottom_medium":"","post_content_padding_bottom_responsive":"","post_content_padding_left":"12","post_content_padding_left_medium":"","post_content_padding_left_responsive":"","button_padding_top":"10","button_padding_top_medium":"","button_padding_top_responsive":"","button_padding_right":"10","button_padding_right_medium":"","button_padding_right_responsive":"","button_padding_bottom":"10","button_padding_bottom_medium":"","button_padding_bottom_responsive":"","button_padding_left":"10","button_padding_left_medium":"","button_padding_left_responsive":"","filter_padding_top":"0","filter_padding_right":"0","filter_padding_bottom":"0","filter_padding_left":"0","pagination_padding_top":"10","pagination_padding_right":"10","pagination_padding_bottom":"10","pagination_padding_left":"10","margin_top":"0","margin_unit":"px","margin_top_medium":"","margin_medium_unit":"px","margin_top_responsive":"","margin_responsive_unit":"px","margin_right":"0","margin_right_medium":"","margin_right_responsive":"","margin_bottom":"0","margin_bottom_medium":"","margin_bottom_responsive":"","margin_left":"0","margin_left_medium":"","margin_left_responsive":"","type":"pp-content-grid","connections":{"arrow_color":"","arrow_hover_color":"","arrow_bg_color":"","arrow_bg_hover_color":"","arrow_border_hover_color":"","post_slider_dot_bg_color":"","post_slider_dot_bg_hover":"","custom_content":"","more_link_text":"","all_filter_label":"","post_bg_color":"","post_bg_color_hover":"","post_title_divider_color":"","post_category_bg_color":"","post_category_text_color":"","post_title_overlay_color":"","post_date_day_bg_color":"","post_date_day_text_color":"","post_date_month_bg_color":"","post_date_month_text_color":"","post_date_bg_color":"","post_date_text_color":"","product_rating_color":"","product_price_color":"","button_bg_color":"","button_bg_hover_color":"","button_text_color":"","button_text_hover_color":"","button_border_hover_color":"","filter_bg_color":"","filter_bg_color_active":"","filter_text_color":"","filter_text_color_active":"","filter_border_hover_color":"","filter_toggle_bg":"","filter_toggle_color":"","pagination_bg_color":"","pagination_bg_color_hover":"","pagination_color":"","pagination_color_hover":"","title_font_color":"","content_font_color":"","post_meta_font_color":"","post_meta_bg_color":"","event_date_color":"","event_venue_color":"","event_cost_color":""},"data_source":"custom_query","data_source_acf_relational_type":"relationship","data_source_acf_relational_key":"","post_type":"post","order_by":"date","order_by_meta_key":"","order":"DESC","offset":"0","posts_post_matching":"1","posts_post":"","tax_post_category_matching":"1","tax_post_category":"269","tax_post_post_tag_matching":"1","tax_post_post_tag":"","posts_page_matching":"1","posts_page":"","users_matching":"1","users":"","show_title":"yes","show_content":"no","content_type":"excerpt","custom_content":"","content_length":"300","more_link_type":"title_thumb","more_link_text":"Read More","post_grid_filters_display":"no","post_grid_filters_type":"static","post_grid_filters":"category","all_filter_label":"All","show_image":"yes","image_thumb_size":"medium","image_thumb_crop":"","fallback_image":"default","fallback_image_custom":"","show_author":"no","show_date":"no","show_categories":"no","post_taxonomies":"category","meta_separator":" | ","as_values_posts_post":"","as_values_tax_post_category":"","as_values_tax_post_post_tag":"","as_values_posts_page":"","as_values_users":"","fallback_image_custom_src":"","posts_hamnenplay_matching":"1","posts_hamnenplay":"","as_values_posts_hamnenplay":""},
 		pagination: 'load_more',
-		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/artiklar/segelbatar-artiklar/',
+		current_page: 'http://olle.dyndns-ip.com/hamnen_wordpress/hamnen_wordpress/tester/segelbatstest/',
 		page: '0',
 		is_tax: false,
 		is_author: false,
@@ -6668,6 +6668,7537 @@ jQuery(function($) {
 						}
 					}
 								row_id = '5d5aa335bea46';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+						}
+		})(jQuery);
+		;(function($){
+		$( document ).on( 'change', 'select[name=uabb_col_particles_style]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=enable_particles_col]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=uabb_col_particles_settings]', function() {
+			_hideFields();
+		});
+
+		$( document ).on( 'init', '.fl-builder-settings', function() {
+			_hideFields();
+		});
+		function _hideFields() {
+
+			var form = $('.fl-builder-settings');
+
+			var branding = 'no';
+
+			if ( form.length > 0 ) {
+
+				enable_particle = form.find( 'select[name=enable_particles_col]' ).val();
+
+				if ( 'no' === enable_particle ) {
+
+					form.find('#fl-field-uabb_particles_direction_col').hide();
+					form.find('#fl-field-uabb_particles_custom_code_col').hide();
+					form.find('#fl-field-uabb_col_particles_style').hide();
+					form.find('#fl-field-uabb_col_particles_color').hide();
+					form.find('#fl-field-uabb_col_particles_color_opacity').hide();
+					form.find('#fl-field-uabb_col_particles_settings').hide();
+					form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+					form.find('#fl-field-uabb_col_particles_size').hide();
+					form.find('#fl-field-uabb_col_particles_speed').hide();
+					form.find('#fl-field-uabb_col_number_particles').hide();
+
+				} else {
+					if ( 'snow' === form.find('select[name=uabb_col_particles_style]').val() ) {
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').show();
+						form.find('#fl-field-uabb_col_particles_color_opacity').show();
+						form.find('#fl-field-uabb_col_particles_settings').show();
+						form.find('#fl-field-uabb_particles_direction_col').show();
+						form.find('#fl-field-uabb_particles_custom_code_col').hide();
+						if (  'yes' === form.find('select[name=uabb_col_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_col_particles_size').show();
+							form.find('#fl-field-uabb_col_particles_speed').show();
+							form.find('#fl-field-uabb_col_number_particles').show();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_col_particles_size').hide();
+							form.find('#fl-field-uabb_col_particles_speed').hide();
+							form.find('#fl-field-uabb_col_number_particles').hide();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_col_particles_style]').val() ) {
+
+						form.find('#fl-field-uabb_particles_custom_code_col').show();
+						form.find('#fl-field-uabb_particles_direction_col').hide();
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').hide();
+						form.find('#fl-field-uabb_col_particles_color_opacity').hide();
+						form.find('#fl-field-uabb_col_particles_settings').hide();
+						form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						form.find('#fl-field-uabb_col_particles_size').hide();
+						form.find('#fl-field-uabb_col_particles_speed').hide();
+						form.find('#fl-field-uabb_col_number_particles').hide();
+					}
+					if ( 'nasa' === form.find('select[name=uabb_col_particles_style]').val() || 'default' === form.find('select[name=uabb_col_particles_style]').val() ) {
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').show();
+						form.find('#fl-field-uabb_col_particles_color_opacity').show();
+						form.find('#fl-field-uabb_col_particles_settings').show();
+						form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						form.find('#fl-field-uabb_particles_custom_code_col').hide();
+						form.find('#fl-field-uabb_particles_direction_col').hide();
+
+						if (  'yes' === form.find('select[name=uabb_col_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_col_particles_size').show();
+							form.find('#fl-field-uabb_col_particles_speed').show();
+							form.find('#fl-field-uabb_col_number_particles').show();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_col_particles_size').hide();
+							form.find('#fl-field-uabb_col_particles_speed').hide();
+							form.find('#fl-field-uabb_col_number_particles').hide();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_col_particles_style]').val() ) {
+
+						style_selector = form.find( '#fl-field-uabb_col_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						if ( wrapper.find( '.fl-field-description' ).length === 0 ) {
+
+							if ( 'no' === branding ) {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div><div class="uabb-docs-particle">To know more about creating a custom style, refer to a document <a class="uabb-docs-particle-link" href="https://www.ultimatebeaver.com/docs/custom-particle-backgrounds/?utm_source=uabb-pro-backend&utm_medium=column-editor-screen&utm_campaign=particle-backgrounds-column" target="_blank" rel="noopener"> here. </a></div></span>' );
+
+							} else {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div></span>' );
+							}
+
+						} else {
+							wrapper.find( '.fl-field-description' ).show();
+						}
+					} else {
+
+						style_selector = form.find( '#fl-field-uabb_col_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						wrapper.find( '.fl-field-description' ).hide();
+					}
+				}
+			}
+		}
+	})(jQuery);
+	/*!
+ * Bowser - a browser detector
+ * https://github.com/ded/bowser
+ * MIT License | (c) Dustin Diaz 2015
+ */
+
+!function (name, definition) {
+  if (typeof module != 'undefined' && module.exports) module.exports = definition()
+  else if (typeof define == 'function' && define.amd) define(name, definition)
+  else this[name] = definition()
+}('bowser', function () {
+  /**
+    * See useragents.js for examples of navigator.userAgent
+    */
+
+  var t = true
+
+  function detect(ua) {
+
+    function getFirstMatch(regex) {
+      var match = ua.match(regex);
+      return (match && match.length > 1 && match[1]) || '';
+    }
+
+    function getSecondMatch(regex) {
+      var match = ua.match(regex);
+      return (match && match.length > 1 && match[2]) || '';
+    }
+
+    var iosdevice = getFirstMatch(/(ipod|iphone|ipad)/i).toLowerCase()
+      , likeAndroid = /like android/i.test(ua)
+      , android = !likeAndroid && /android/i.test(ua)
+      , nexusMobile = /nexus\s*[0-6]\s*/i.test(ua)
+      , nexusTablet = !nexusMobile && /nexus\s*[0-9]+/i.test(ua)
+      , chromeos = /CrOS/.test(ua)
+      , silk = /silk/i.test(ua)
+      , sailfish = /sailfish/i.test(ua)
+      , tizen = /tizen/i.test(ua)
+      , webos = /(web|hpw)os/i.test(ua)
+      , windowsphone = /windows phone/i.test(ua)
+      , windows = !windowsphone && /windows/i.test(ua)
+      , mac = !iosdevice && !silk && /macintosh/i.test(ua)
+      , linux = !android && !sailfish && !tizen && !webos && /linux/i.test(ua)
+      , edgeVersion = getFirstMatch(/edge\/(\d+(\.\d+)?)/i)
+      , versionIdentifier = getFirstMatch(/version\/(\d+(\.\d+)?)/i)
+      , tablet = /tablet/i.test(ua)
+      , mobile = !tablet && /[^-]mobi/i.test(ua)
+      , xbox = /xbox/i.test(ua)
+      , result
+
+    if (/opera|opr|opios/i.test(ua)) {
+      result = {
+        name: 'Opera'
+      , opera: t
+      , version: versionIdentifier || getFirstMatch(/(?:opera|opr|opios)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/coast/i.test(ua)) {
+      result = {
+        name: 'Opera Coast'
+        , coast: t
+        , version: versionIdentifier || getFirstMatch(/(?:coast)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/yabrowser/i.test(ua)) {
+      result = {
+        name: 'Yandex Browser'
+      , yandexbrowser: t
+      , version: versionIdentifier || getFirstMatch(/(?:yabrowser)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/ucbrowser/i.test(ua)) {
+      result = {
+          name: 'UC Browser'
+        , ucbrowser: t
+        , version: getFirstMatch(/(?:ucbrowser)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/mxios/i.test(ua)) {
+      result = {
+        name: 'Maxthon'
+        , maxthon: t
+        , version: getFirstMatch(/(?:mxios)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/epiphany/i.test(ua)) {
+      result = {
+        name: 'Epiphany'
+        , epiphany: t
+        , version: getFirstMatch(/(?:epiphany)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/puffin/i.test(ua)) {
+      result = {
+        name: 'Puffin'
+        , puffin: t
+        , version: getFirstMatch(/(?:puffin)[\s\/](\d+(?:\.\d+)?)/i)
+      }
+    }
+    else if (/sleipnir/i.test(ua)) {
+      result = {
+        name: 'Sleipnir'
+        , sleipnir: t
+        , version: getFirstMatch(/(?:sleipnir)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/k-meleon/i.test(ua)) {
+      result = {
+        name: 'K-Meleon'
+        , kMeleon: t
+        , version: getFirstMatch(/(?:k-meleon)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (windowsphone) {
+      result = {
+        name: 'Windows Phone'
+      , windowsphone: t
+      }
+      if (edgeVersion) {
+        result.msedge = t
+        result.version = edgeVersion
+      }
+      else {
+        result.msie = t
+        result.version = getFirstMatch(/iemobile\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/msie|trident/i.test(ua)) {
+      result = {
+        name: 'Internet Explorer'
+      , msie: t
+      , version: getFirstMatch(/(?:msie |rv:)(\d+(\.\d+)?)/i)
+      }
+    } else if (chromeos) {
+      result = {
+        name: 'Chrome'
+      , chromeos: t
+      , chromeBook: t
+      , chrome: t
+      , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
+      }
+    } else if (/chrome.+? edge/i.test(ua)) {
+      result = {
+        name: 'Microsoft Edge'
+      , msedge: t
+      , version: edgeVersion
+      }
+    }
+    else if (/vivaldi/i.test(ua)) {
+      result = {
+        name: 'Vivaldi'
+        , vivaldi: t
+        , version: getFirstMatch(/vivaldi\/(\d+(\.\d+)?)/i) || versionIdentifier
+      }
+    }
+    else if (sailfish) {
+      result = {
+        name: 'Sailfish'
+      , sailfish: t
+      , version: getFirstMatch(/sailfish\s?browser\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/seamonkey\//i.test(ua)) {
+      result = {
+        name: 'SeaMonkey'
+      , seamonkey: t
+      , version: getFirstMatch(/seamonkey\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/firefox|iceweasel|fxios/i.test(ua)) {
+      result = {
+        name: 'Firefox'
+      , firefox: t
+      , version: getFirstMatch(/(?:firefox|iceweasel|fxios)[ \/](\d+(\.\d+)?)/i)
+      }
+      if (/\((mobile|tablet);[^\)]*rv:[\d\.]+\)/i.test(ua)) {
+        result.firefoxos = t
+      }
+    }
+    else if (silk) {
+      result =  {
+        name: 'Amazon Silk'
+      , silk: t
+      , version : getFirstMatch(/silk\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/phantom/i.test(ua)) {
+      result = {
+        name: 'PhantomJS'
+      , phantom: t
+      , version: getFirstMatch(/phantomjs\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/slimerjs/i.test(ua)) {
+      result = {
+        name: 'SlimerJS'
+        , slimer: t
+        , version: getFirstMatch(/slimerjs\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/blackberry|\bbb\d+/i.test(ua) || /rim\stablet/i.test(ua)) {
+      result = {
+        name: 'BlackBerry'
+      , blackberry: t
+      , version: versionIdentifier || getFirstMatch(/blackberry[\d]+\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (webos) {
+      result = {
+        name: 'WebOS'
+      , webos: t
+      , version: versionIdentifier || getFirstMatch(/w(?:eb)?osbrowser\/(\d+(\.\d+)?)/i)
+      };
+      if( /touchpad\//i.test(ua) ){
+        result.touchpad = t;
+      }
+    }
+    else if (/bada/i.test(ua)) {
+      result = {
+        name: 'Bada'
+      , bada: t
+      , version: getFirstMatch(/dolfin\/(\d+(\.\d+)?)/i)
+      };
+    }
+    else if (tizen) {
+      result = {
+        name: 'Tizen'
+      , tizen: t
+      , version: getFirstMatch(/(?:tizen\s?)?browser\/(\d+(\.\d+)?)/i) || versionIdentifier
+      };
+    }
+    else if (/qupzilla/i.test(ua)) {
+      result = {
+        name: 'QupZilla'
+        , qupzilla: t
+        , version: getFirstMatch(/(?:qupzilla)[\s\/](\d+(?:\.\d+)+)/i) || versionIdentifier
+      }
+    }
+    else if (/chromium/i.test(ua)) {
+      result = {
+        name: 'Chromium'
+        , chromium: t
+        , version: getFirstMatch(/(?:chromium)[\s\/](\d+(?:\.\d+)?)/i) || versionIdentifier
+      }
+    }
+    else if (/chrome|crios|crmo/i.test(ua)) {
+      result = {
+        name: 'Chrome'
+        , chrome: t
+        , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (android) {
+      result = {
+        name: 'Android'
+        , version: versionIdentifier
+      }
+    }
+    else if (/safari|applewebkit/i.test(ua)) {
+      result = {
+        name: 'Safari'
+      , safari: t
+      }
+      if (versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    }
+    else if (iosdevice) {
+      result = {
+        name : iosdevice == 'iphone' ? 'iPhone' : iosdevice == 'ipad' ? 'iPad' : 'iPod'
+      }
+      // WTF: version is not part of user agent in web apps
+      if (versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    }
+    else if(/googlebot/i.test(ua)) {
+      result = {
+        name: 'Googlebot'
+      , googlebot: t
+      , version: getFirstMatch(/googlebot\/(\d+(\.\d+))/i) || versionIdentifier
+      }
+    }
+    else {
+      result = {
+        name: getFirstMatch(/^(.*)\/(.*) /),
+        version: getSecondMatch(/^(.*)\/(.*) /)
+     };
+   }
+
+    // set webkit or gecko flag for browsers based on these engines
+    if (!result.msedge && /(apple)?webkit/i.test(ua)) {
+      if (/(apple)?webkit\/537\.36/i.test(ua)) {
+        result.name = result.name || "Blink"
+        result.blink = t
+      } else {
+        result.name = result.name || "Webkit"
+        result.webkit = t
+      }
+      if (!result.version && versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    } else if (!result.opera && /gecko\//i.test(ua)) {
+      result.name = result.name || "Gecko"
+      result.gecko = t
+      result.version = result.version || getFirstMatch(/gecko\/(\d+(\.\d+)?)/i)
+    }
+
+    // set OS flags for platforms that have multiple browsers
+    if (!result.msedge && (android || result.silk)) {
+      result.android = t
+    } else if (iosdevice) {
+      result[iosdevice] = t
+      result.ios = t
+    } else if (mac) {
+      result.mac = t
+    } else if (xbox) {
+      result.xbox = t
+    } else if (windows) {
+      result.windows = t
+    } else if (linux) {
+      result.linux = t
+    }
+
+    // OS version extraction
+    var osVersion = '';
+    if (result.windowsphone) {
+      osVersion = getFirstMatch(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i);
+    } else if (iosdevice) {
+      osVersion = getFirstMatch(/os (\d+([_\s]\d+)*) like mac os x/i);
+      osVersion = osVersion.replace(/[_\s]/g, '.');
+    } else if (android) {
+      osVersion = getFirstMatch(/android[ \/-](\d+(\.\d+)*)/i);
+    } else if (result.webos) {
+      osVersion = getFirstMatch(/(?:web|hpw)os\/(\d+(\.\d+)*)/i);
+    } else if (result.blackberry) {
+      osVersion = getFirstMatch(/rim\stablet\sos\s(\d+(\.\d+)*)/i);
+    } else if (result.bada) {
+      osVersion = getFirstMatch(/bada\/(\d+(\.\d+)*)/i);
+    } else if (result.tizen) {
+      osVersion = getFirstMatch(/tizen[\/\s](\d+(\.\d+)*)/i);
+    }
+    if (osVersion) {
+      result.osversion = osVersion;
+    }
+
+    // device type extraction
+    var osMajorVersion = osVersion.split('.')[0];
+    if (
+         tablet
+      || nexusTablet
+      || iosdevice == 'ipad'
+      || (android && (osMajorVersion == 3 || (osMajorVersion >= 4 && !mobile)))
+      || result.silk
+    ) {
+      result.tablet = t
+    } else if (
+         mobile
+      || iosdevice == 'iphone'
+      || iosdevice == 'ipod'
+      || android
+      || nexusMobile
+      || result.blackberry
+      || result.webos
+      || result.bada
+    ) {
+      result.mobile = t
+    }
+
+    // Graded Browser Support
+    // http://developer.yahoo.com/yui/articles/gbs
+    if (result.msedge ||
+        (result.msie && result.version >= 10) ||
+        (result.yandexbrowser && result.version >= 15) ||
+		    (result.vivaldi && result.version >= 1.0) ||
+        (result.chrome && result.version >= 20) ||
+        (result.firefox && result.version >= 20.0) ||
+        (result.safari && result.version >= 6) ||
+        (result.opera && result.version >= 10.0) ||
+        (result.ios && result.osversion && result.osversion.split(".")[0] >= 6) ||
+        (result.blackberry && result.version >= 10.1)
+        || (result.chromium && result.version >= 20)
+        ) {
+      result.a = t;
+    }
+    else if ((result.msie && result.version < 10) ||
+        (result.chrome && result.version < 20) ||
+        (result.firefox && result.version < 20.0) ||
+        (result.safari && result.version < 6) ||
+        (result.opera && result.version < 10.0) ||
+        (result.ios && result.osversion && result.osversion.split(".")[0] < 6)
+        || (result.chromium && result.version < 20)
+        ) {
+      result.c = t
+    } else result.x = t
+
+    return result
+  }
+
+  var bowser = detect(typeof navigator !== 'undefined' ? navigator.userAgent : '')
+
+  bowser.test = function (browserList) {
+    for (var i = 0; i < browserList.length; ++i) {
+      var browserItem = browserList[i];
+      if (typeof browserItem=== 'string') {
+        if (browserItem in bowser) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Get version precisions count
+   *
+   * @example
+   *   getVersionPrecision("1.10.3") // 3
+   *
+   * @param  {string} version
+   * @return {number}
+   */
+  function getVersionPrecision(version) {
+    return version.split(".").length;
+  }
+
+  /**
+   * Array::map polyfill
+   *
+   * @param  {Array} arr
+   * @param  {Function} iterator
+   * @return {Array}
+   */
+  function map(arr, iterator) {
+    var result = [], i;
+    if (Array.prototype.map) {
+      return Array.prototype.map.call(arr, iterator);
+    }
+    for (i = 0; i < arr.length; i++) {
+      result.push(iterator(arr[i]));
+    }
+    return result;
+  }
+
+  /**
+   * Calculate browser version weight
+   *
+   * @example
+   *   compareVersions(['1.10.2.1',  '1.8.2.1.90'])    // 1
+   *   compareVersions(['1.010.2.1', '1.09.2.1.90']);  // 1
+   *   compareVersions(['1.10.2.1',  '1.10.2.1']);     // 0
+   *   compareVersions(['1.10.2.1',  '1.0800.2']);     // -1
+   *
+   * @param  {Array<String>} versions versions to compare
+   * @return {Number} comparison result
+   */
+  function compareVersions(versions) {
+    // 1) get common precision for both versions, for example for "10.0" and "9" it should be 2
+    var precision = Math.max(getVersionPrecision(versions[0]), getVersionPrecision(versions[1]));
+    var chunks = map(versions, function (version) {
+      var delta = precision - getVersionPrecision(version);
+
+      // 2) "9" -> "9.0" (for precision = 2)
+      version = version + new Array(delta + 1).join(".0");
+
+      // 3) "9.0" -> ["000000000"", "000000009"]
+      return map(version.split("."), function (chunk) {
+        return new Array(20 - chunk.length).join("0") + chunk;
+      }).reverse();
+    });
+
+    // iterate in reverse order by reversed chunks array
+    while (--precision >= 0) {
+      // 4) compare: "000000009" > "000000010" = false (but "9" > "10" = true)
+      if (chunks[0][precision] > chunks[1][precision]) {
+        return 1;
+      }
+      else if (chunks[0][precision] === chunks[1][precision]) {
+        if (precision === 0) {
+          // all version chunks are same
+          return 0;
+        }
+      }
+      else {
+        return -1;
+      }
+    }
+  }
+
+  /**
+   * Check if browser is unsupported
+   *
+   * @example
+   *   bowser.isUnsupportedBrowser({
+   *     msie: "10",
+   *     firefox: "23",
+   *     chrome: "29",
+   *     safari: "5.1",
+   *     opera: "16",
+   *     phantom: "534"
+   *   });
+   *
+   * @param  {Object}  minVersions map of minimal version to browser
+   * @param  {Boolean} [strictMode = false] flag to return false if browser wasn't found in map
+   * @param  {String}  [ua] user agent string
+   * @return {Boolean}
+   */
+  function isUnsupportedBrowser(minVersions, strictMode, ua) {
+    var _bowser = bowser;
+
+    // make strictMode param optional with ua param usage
+    if (typeof strictMode === 'string') {
+      ua = strictMode;
+      strictMode = void(0);
+    }
+
+    if (strictMode === void(0)) {
+      strictMode = false;
+    }
+    if (ua) {
+      _bowser = detect(ua);
+    }
+
+    var version = "" + _bowser.version;
+    for (var browser in minVersions) {
+      if (minVersions.hasOwnProperty(browser)) {
+        if (_bowser[browser]) {
+          // browser version and min supported version.
+          return compareVersions([version, minVersions[browser]]) < 0;
+        }
+      }
+    }
+
+    return strictMode; // not found
+  }
+
+  /**
+   * Check if browser is supported
+   *
+   * @param  {Object} minVersions map of minimal version to browser
+   * @param  {Boolean} [strictMode = false] flag to return false if browser wasn't found in map
+   * @param  {String}  [ua] user agent string
+   * @return {Boolean}
+   */
+  function check(minVersions, strictMode, ua) {
+    return !isUnsupportedBrowser(minVersions, strictMode, ua);
+  }
+
+  bowser.isUnsupportedBrowser = isUnsupportedBrowser;
+  bowser.compareVersions = compareVersions;
+  bowser.check = check;
+
+  /*
+   * Set our detect method to the main bowser object so we can
+   * reuse it to test other user agents.
+   * This is needed to implement future tests.
+   */
+  bowser._detect = detect;
+
+  return bowser
+});
+
+(function($){
+  UABBTrigger = {
+
+      /**
+       * Trigger a hook.
+       *
+       * @since 1.1.0.3
+       * @method triggerHook
+       * @param {String} hook The hook to trigger.
+       * @param {Array} args An array of args to pass to the hook.
+       */
+      triggerHook: function( hook, args )
+      {
+        $( 'body' ).trigger( 'uabb-trigger.' + hook, args );
+      },
+    
+      /**
+       * Add a hook.
+       *
+       * @since 1.1.0.3
+       * @method addHook
+       * @param {String} hook The hook to add.
+       * @param {Function} callback A function to call when the hook is triggered.
+       */
+      addHook: function( hook, callback )
+      {
+        $( 'body' ).on( 'uabb-trigger.' + hook, callback );
+      },
+    
+      /**
+       * Remove a hook.
+       *
+       * @since 1.1.0.3
+       * @method removeHook
+       * @param {String} hook The hook to remove.
+       * @param {Function} callback The callback function to remove.
+       */
+      removeHook: function( hook, callback )
+      {
+        $( 'body' ).off( 'uabb-trigger.' + hook, callback );
+      },
+  };
+})(jQuery);
+
+jQuery(document).ready(function( $ ) {
+
+    if( typeof bowser !== 'undefined' && bowser !== null ) {
+
+      var uabb_browser   = bowser.name,
+          uabb_browser_v = bowser.version,
+          uabb_browser_class = uabb_browser.replace(/\s+/g, '-').toLowerCase(),
+          uabb_browser_v_class = uabb_browser_class + parseInt( uabb_browser_v );
+      
+      $('html').addClass(uabb_browser_class).addClass(uabb_browser_v_class);
+      
+    }
+
+    $('.uabb-row-separator').parents('html').css('overflow-x', 'hidden');
+});
+jQuery(function($) {
+	
+	$(function() {
+		$( '.fl-node-5d0caab68fa93 .fl-photo-img' )
+			.on( 'mouseenter', function( e ) {
+				$( this ).data( 'title', $( this ).attr( 'title' ) ).removeAttr( 'title' );
+			} )
+			.on( 'mouseleave', function( e ){
+				$( this ).attr( 'title', $( this ).data( 'title' ) ).data( 'title', null );
+			} );
+	});
+});
+
+/* Start Global Node Custom JS */
+
+/* End Global Node Custom JS */
+
+
+/* Start Layout Custom JS */
+
+/* End Layout Custom JS */
+
+(function($){
+
+	/**
+	 * Helper class for header layout logic.
+	 *
+	 * @since 1.0
+	 * @class FLThemeBuilderHeaderLayout
+	 */
+	FLThemeBuilderHeaderLayout = {
+
+		/**
+		 * A reference to the window object for this page.
+		 *
+		 * @since 1.0
+		 * @property {Object} win
+		 */
+		win : null,
+
+		/**
+		 * A reference to the body object for this page.
+		 *
+		 * @since 1.0
+		 * @property {Object} body
+		 */
+		body : null,
+
+		/**
+		 * A reference to the header object for this page.
+		 *
+		 * @since 1.0
+		 * @property {Object} header
+		 */
+		header : null,
+
+		/**
+		 * Whether this header overlays the content or not.
+		 *
+		 * @since 1.0
+		 * @property {Boolean} overlay
+		 */
+		overlay : false,
+
+		/**
+		 * Whether the page has the WP admin bar or not.
+		 *
+		 * @since 1.0
+		 * @property {Boolean} hasAdminBar
+		 */
+		hasAdminBar : false,
+
+		/**
+		 * Initializes header layout logic.
+		 *
+		 * @since 1.0
+		 * @method init
+		 */
+		init: function()
+		{
+			var editing = $( 'html.fl-builder-edit' ).length,
+				header  = $( '.fl-builder-content[data-type=header]' );
+
+			if ( ! editing && header.length ) {
+
+				header.imagesLoaded( $.proxy( function() {
+
+					this.win    	 = $( window );
+					this.body   	 = $( 'body' );
+					this.header 	 = header.eq( 0 );
+					this.overlay     = !! Number( header.attr( 'data-overlay' ) );
+					this.hasAdminBar = !! $( 'body.admin-bar' ).length;
+
+					if ( Number( header.attr( 'data-sticky' ) ) ) {
+
+						this.header.data( 'original-top', this.header.offset().top );
+						this.win.on( 'resize', $.throttle( 500, $.proxy( this._initSticky, this ) ) );
+						this._initSticky();
+
+						if ( Number( header.attr( 'data-shrink' ) ) ) {
+							this.header.data( 'original-height', this.header.outerHeight() );
+							this.win.on( 'resize', $.throttle( 500, $.proxy( this._initShrink, this ) ) );
+							this._initShrink();
+						}
+					}
+
+				}, this ) );
+			}
+		},
+
+		/**
+		 * Initializes sticky logic for a header.
+		 *
+		 * @since 1.0
+		 * @access private
+		 * @method _initSticky
+		 */
+		_initSticky: function()
+		{
+			if ( this.win.width() >= FLBuilderLayoutConfig.breakpoints.medium ) {
+				this.win.on( 'scroll.fl-theme-builder-header-sticky', $.proxy( this._doSticky, this ) );
+				this._doSticky();
+			} else {
+				this.win.off( 'scroll.fl-theme-builder-header-sticky' );
+				this.header.removeClass( 'fl-theme-builder-header-sticky' );
+				this.body.css( 'padding-top', '0' );
+			}
+		},
+
+		/**
+		 * Sticks the header when the page is scrolled.
+		 *
+		 * @since 1.0
+		 * @access private
+		 * @method _doSticky
+		 */
+		_doSticky: function()
+		{
+			var winTop    		  = this.win.scrollTop(),
+				headerTop 		  = this.header.data( 'original-top' ),
+				hasStickyClass    = this.header.hasClass( 'fl-theme-builder-header-sticky' ),
+				hasScrolledClass  = this.header.hasClass( 'fl-theme-builder-header-scrolled' );
+
+			if ( this.hasAdminBar ) {
+				winTop += 32;
+			}
+
+			if ( winTop >= headerTop ) {
+				if ( ! hasStickyClass ) {
+					this.header.addClass( 'fl-theme-builder-header-sticky' );
+					if ( ! this.overlay ) {
+						this.body.css( 'padding-top', this.header.outerHeight() + 'px' );
+					}
+				}
+			}
+			else if ( hasStickyClass ) {
+				this.header.removeClass( 'fl-theme-builder-header-sticky' );
+				this.body.css( 'padding-top', '0' );
+			}
+
+			if ( winTop > headerTop ) {
+				if ( ! hasScrolledClass ) {
+					this.header.addClass( 'fl-theme-builder-header-scrolled' );
+				}
+			} else if ( hasScrolledClass ) {
+				this.header.removeClass( 'fl-theme-builder-header-scrolled' );
+			}
+		},
+
+		/**
+		 * Initializes shrink logic for a header.
+		 *
+		 * @since 1.0
+		 * @access private
+		 * @method _initShrink
+		 */
+		_initShrink: function()
+		{
+			if ( this.win.width() >= FLBuilderLayoutConfig.breakpoints.medium ) {
+				this.win.on( 'scroll.fl-theme-builder-header-shrink', $.proxy( this._doShrink, this ) );
+				this._setImageMaxHeight();
+			} else {
+				this.body.css( 'padding-top', '0' );
+				this.win.off( 'scroll.fl-theme-builder-header-shrink' );
+				this._removeShrink();
+				this._removeImageMaxHeight();
+			}
+		},
+
+		/**
+		 * Shrinks the header when the page is scrolled.
+		 *
+		 * @since 1.0
+		 * @access private
+		 * @method _doShrink
+		 */
+		_doShrink: function()
+		{
+			var winTop 	  	 = this.win.scrollTop(),
+				headerTop 	 = this.header.data( 'original-top' ),
+				headerHeight = this.header.data( 'original-height' ),
+				hasClass     = this.header.hasClass( 'fl-theme-builder-header-shrink' );
+
+			if ( this.hasAdminBar ) {
+				winTop += 32;
+			}
+
+			if ( winTop > headerTop + headerHeight ) {
+
+				if ( ! hasClass ) {
+
+					this.header.addClass( 'fl-theme-builder-header-shrink' );
+
+					this.header.find( '.fl-row-content-wrap' ).each( function() {
+
+						var row = $( this );
+
+						if ( parseInt( row.css( 'padding-bottom' ) ) > 5 ) {
+							row.addClass( 'fl-theme-builder-header-shrink-row-bottom' );
+						}
+
+						if ( parseInt( row.css( 'padding-top' ) ) > 5 ) {
+							row.addClass( 'fl-theme-builder-header-shrink-row-top' );
+						}
+					} );
+
+					this.header.find( '.fl-module-content' ).each( function() {
+
+						var module = $( this );
+
+						if ( parseInt( module.css( 'margin-bottom' ) ) > 5 ) {
+							module.addClass( 'fl-theme-builder-header-shrink-module-bottom' );
+						}
+
+						if ( parseInt( module.css( 'margin-top' ) ) > 5 ) {
+							module.addClass( 'fl-theme-builder-header-shrink-module-top' );
+						}
+					} );
+				}
+			} else if ( hasClass ) {
+				this._removeShrink();
+			}
+		},
+
+		/**
+		 * Removes the header shrink effect.
+		 *
+		 * @since 1.0
+		 * @access private
+		 * @method _removeShrink
+		 */
+		_removeShrink: function()
+		{
+			var rows    = this.header.find( '.fl-row-content-wrap' ),
+				modules = this.header.find( '.fl-module-content' );
+
+			rows.removeClass( 'fl-theme-builder-header-shrink-row-bottom' );
+			rows.removeClass( 'fl-theme-builder-header-shrink-row-top' );
+			modules.removeClass( 'fl-theme-builder-header-shrink-module-bottom' );
+			modules.removeClass( 'fl-theme-builder-header-shrink-module-top' );
+			this.header.removeClass( 'fl-theme-builder-header-shrink' );
+		},
+
+		/**
+		 * Adds max height to images in modules for smooth scrolling.
+		 *
+		 * @since 1.1.1
+		 * @access private
+		 * @method _setImageMaxHeight
+		 */
+		_setImageMaxHeight: function()
+		{
+			var head = $( 'head' ),
+				stylesId = 'fl-header-styles-' + this.header.data( 'post-id' ),
+				styles = '',
+				images = this.header.find( '.fl-module-content img' );
+
+			if ( $( '#' + stylesId ).length ) {
+				return;
+			}
+
+			images.each( function( i ) {
+				var image = $( this ),
+					height = image.height(),
+					node = image.closest( '.fl-module' ).data( 'node' ),
+					className = 'fl-node-' + node + '-img-' + i;
+
+				image.addClass( className );
+				styles += '.' + className + ' { max-height: ' + height + 'px }';
+			} );
+
+			if ( '' !== styles ) {
+				head.append( '<style id="' + stylesId + '">' + styles + '</style>' );
+			}
+		},
+
+		/**
+		 * Removes max height on images in modules for smooth scrolling.
+		 *
+		 * @since 1.1.1
+		 * @access private
+		 * @method _removeImageMaxHeight
+		 */
+		_removeImageMaxHeight: function()
+		{
+			$( '#fl-header-styles-' + this.header.data( 'post-id' ) ).remove();
+		},
+	};
+
+	$( function() { FLThemeBuilderHeaderLayout.init(); } );
+
+})(jQuery);
+	;(function($) {
+				var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
+				window.particle_js_loaded = 0;
+
+				$.cachedScript = function( url, options ) {
+
+					// Allow user to set any option except for dataType, cache, and url.
+					options = $.extend( options || {}, {
+						dataType: "script",
+						cache: true,
+						url: url
+					});
+					// Return the jqXHR object so we can chain callbacks.
+					return $.ajax( options );
+				};
+
+				if ( $( '.uabb-row-particles-background' ).length ) {
+
+					$.cachedScript( url ).done( function( script, textStatus ) {					
+						window.particle_js_loaded = 1;
+						init_particles_row_background_script();
+
+					});
+				}
+			function init_particles_row_background_script() {
+
+									row_id = '5d0caa51c00d4';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+						}
+		})(jQuery);
+		;(function($){
+		$( document ).on( 'change', 'select[name=uabb_row_particles_style]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=enable_particles]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=uabb_row_particles_settings]', function() {
+			_hideFields();
+		});
+
+		$( document ).on( 'init', '.fl-builder-settings', function() {
+			_hideFields();
+		});
+		function _hideFields() { 
+
+			var form = $('.fl-builder-settings');
+
+			var branding = 'no';
+
+			if ( form.length > 0 ) {
+
+				enable_particle = form.find( 'select[name=enable_particles]' ).val();
+
+				if ( 'no' === enable_particle ) {
+
+					form.find('#fl-field-uabb_particles_direction').hide();
+					form.find('#fl-field-uabb_particles_custom_code').hide();
+					form.find('#fl-field-uabb_row_particles_style').hide();
+					form.find('#fl-field-uabb_row_particles_color').hide();
+					form.find('#fl-field-uabb_row_particles_color_opacity').hide();
+					form.find('#fl-field-uabb_row_particles_settings').hide();
+					form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+					form.find('#fl-field-uabb_row_particles_size').hide();
+					form.find('#fl-field-uabb_row_particles_speed').hide();
+					form.find('#fl-field-uabb_row_number_particles').hide();
+
+				} else {
+					if ( 'snow' === form.find('select[name=uabb_row_particles_style]').val() ) {
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').show();
+						form.find('#fl-field-uabb_row_particles_color_opacity').show();
+						form.find('#fl-field-uabb_row_particles_settings').show();
+						form.find('#fl-field-uabb_particles_direction').show();
+						form.find('#fl-field-uabb_particles_custom_code').hide();
+						if (  'yes' === form.find('select[name=uabb_row_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_row_particles_size').show();
+							form.find('#fl-field-uabb_row_particles_speed').show();
+							form.find('#fl-field-uabb_row_number_particles').show();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_row_particles_size').hide();
+							form.find('#fl-field-uabb_row_particles_speed').hide();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+							form.find('#fl-field-uabb_row_number_particles').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_row_particles_style]').val() ) {
+
+						form.find('#fl-field-uabb_particles_custom_code').show();
+						form.find('#fl-field-uabb_particles_direction').hide();
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').hide();
+						form.find('#fl-field-uabb_row_particles_color_opacity').hide();
+						form.find('#fl-field-uabb_row_particles_settings').hide();
+						form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+						form.find('#fl-field-uabb_row_particles_size').hide();
+						form.find('#fl-field-uabb_row_particles_speed').hide();
+						form.find('#fl-field-uabb_row_number_particles').hide();
+					}
+					if ( 'nasa' === form.find('select[name=uabb_row_particles_style]').val() || 'default' === form.find('select[name=uabb_row_particles_style]').val() ) {
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').show();
+						form.find('#fl-field-uabb_row_particles_color_opacity').show();
+						form.find('#fl-field-uabb_row_particles_settings').show();
+						form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						form.find('#fl-field-uabb_particles_custom_code').hide();
+						form.find('#fl-field-uabb_particles_direction').hide();
+
+						if (  'yes' === form.find('select[name=uabb_row_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_row_particles_size').show();
+							form.find('#fl-field-uabb_row_particles_speed').show();
+							form.find('#fl-field-uabb_row_number_particles').show();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_row_particles_size').hide();
+							form.find('#fl-field-uabb_row_particles_speed').hide();
+							form.find('#fl-field-uabb_row_number_particles').hide();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_row_particles_style]').val() ) {
+
+						style_selector = form.find( '#fl-field-uabb_row_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						if ( wrapper.find( '.fl-field-description' ).length === 0 ) {
+
+							if ( 'no' === branding ) {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div><div class="uabb-docs-particle">To know more about creating a custom style, refer to a document <a class="uabb-docs-particle-link" href="https://www.ultimatebeaver.com/docs/custom-particle-backgrounds/?utm_source=uabb-pro-backend&utm_medium=row-editor-screen&utm_campaign=particle-backgrounds-row" target="_blank" rel="noopener"> here. </a></div></span>' );
+
+							} else {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div></span>' );
+							}
+
+						} else {
+							wrapper.find( '.fl-field-description' ).show();
+						}
+					} else {
+
+						style_selector = form.find( '#fl-field-uabb_row_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						wrapper.find( '.fl-field-description' ).hide();
+					}
+				}
+			}
+		}
+	})(jQuery);
+		;(function($) {
+			var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
+				window.particle_js_loaded = 0;
+
+				$.cachedScript = function( url, options ) {
+
+					// Allow user to set any option except for dataType, cache, and url.
+					options = $.extend( options || {}, {
+						dataType: "script",
+						cache: true,
+						url: url
+					});
+
+					// Return the jqXHR object so we can chain callbacks.
+					return $.ajax( options );
+				};
+				if ( $( '.uabb-col-particles-background' ).length ) {
+
+					$.cachedScript( url ).done( function( script, textStatus ) {					
+						window.particle_js_loaded = 1;
+						init_particles_col_background_script();
+
+					});
+				}
+
+			function init_particles_col_background_script() {
+
+									row_id = '5d0caa51c2123';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d0cabd703d8e';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+						}
+		})(jQuery);
+		;(function($){
+		$( document ).on( 'change', 'select[name=uabb_col_particles_style]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=enable_particles_col]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=uabb_col_particles_settings]', function() {
+			_hideFields();
+		});
+
+		$( document ).on( 'init', '.fl-builder-settings', function() {
+			_hideFields();
+		});
+		function _hideFields() {
+
+			var form = $('.fl-builder-settings');
+
+			var branding = 'no';
+
+			if ( form.length > 0 ) {
+
+				enable_particle = form.find( 'select[name=enable_particles_col]' ).val();
+
+				if ( 'no' === enable_particle ) {
+
+					form.find('#fl-field-uabb_particles_direction_col').hide();
+					form.find('#fl-field-uabb_particles_custom_code_col').hide();
+					form.find('#fl-field-uabb_col_particles_style').hide();
+					form.find('#fl-field-uabb_col_particles_color').hide();
+					form.find('#fl-field-uabb_col_particles_color_opacity').hide();
+					form.find('#fl-field-uabb_col_particles_settings').hide();
+					form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+					form.find('#fl-field-uabb_col_particles_size').hide();
+					form.find('#fl-field-uabb_col_particles_speed').hide();
+					form.find('#fl-field-uabb_col_number_particles').hide();
+
+				} else {
+					if ( 'snow' === form.find('select[name=uabb_col_particles_style]').val() ) {
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').show();
+						form.find('#fl-field-uabb_col_particles_color_opacity').show();
+						form.find('#fl-field-uabb_col_particles_settings').show();
+						form.find('#fl-field-uabb_particles_direction_col').show();
+						form.find('#fl-field-uabb_particles_custom_code_col').hide();
+						if (  'yes' === form.find('select[name=uabb_col_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_col_particles_size').show();
+							form.find('#fl-field-uabb_col_particles_speed').show();
+							form.find('#fl-field-uabb_col_number_particles').show();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_col_particles_size').hide();
+							form.find('#fl-field-uabb_col_particles_speed').hide();
+							form.find('#fl-field-uabb_col_number_particles').hide();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_col_particles_style]').val() ) {
+
+						form.find('#fl-field-uabb_particles_custom_code_col').show();
+						form.find('#fl-field-uabb_particles_direction_col').hide();
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').hide();
+						form.find('#fl-field-uabb_col_particles_color_opacity').hide();
+						form.find('#fl-field-uabb_col_particles_settings').hide();
+						form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						form.find('#fl-field-uabb_col_particles_size').hide();
+						form.find('#fl-field-uabb_col_particles_speed').hide();
+						form.find('#fl-field-uabb_col_number_particles').hide();
+					}
+					if ( 'nasa' === form.find('select[name=uabb_col_particles_style]').val() || 'default' === form.find('select[name=uabb_col_particles_style]').val() ) {
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').show();
+						form.find('#fl-field-uabb_col_particles_color_opacity').show();
+						form.find('#fl-field-uabb_col_particles_settings').show();
+						form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						form.find('#fl-field-uabb_particles_custom_code_col').hide();
+						form.find('#fl-field-uabb_particles_direction_col').hide();
+
+						if (  'yes' === form.find('select[name=uabb_col_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_col_particles_size').show();
+							form.find('#fl-field-uabb_col_particles_speed').show();
+							form.find('#fl-field-uabb_col_number_particles').show();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_col_particles_size').hide();
+							form.find('#fl-field-uabb_col_particles_speed').hide();
+							form.find('#fl-field-uabb_col_number_particles').hide();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_col_particles_style]').val() ) {
+
+						style_selector = form.find( '#fl-field-uabb_col_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						if ( wrapper.find( '.fl-field-description' ).length === 0 ) {
+
+							if ( 'no' === branding ) {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div><div class="uabb-docs-particle">To know more about creating a custom style, refer to a document <a class="uabb-docs-particle-link" href="https://www.ultimatebeaver.com/docs/custom-particle-backgrounds/?utm_source=uabb-pro-backend&utm_medium=column-editor-screen&utm_campaign=particle-backgrounds-column" target="_blank" rel="noopener"> here. </a></div></span>' );
+
+							} else {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div></span>' );
+							}
+
+						} else {
+							wrapper.find( '.fl-field-description' ).show();
+						}
+					} else {
+
+						style_selector = form.find( '#fl-field-uabb_col_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						wrapper.find( '.fl-field-description' ).hide();
+					}
+				}
+			}
+		}
+	})(jQuery);
+	/*!
+ * Bowser - a browser detector
+ * https://github.com/ded/bowser
+ * MIT License | (c) Dustin Diaz 2015
+ */
+
+!function (name, definition) {
+  if (typeof module != 'undefined' && module.exports) module.exports = definition()
+  else if (typeof define == 'function' && define.amd) define(name, definition)
+  else this[name] = definition()
+}('bowser', function () {
+  /**
+    * See useragents.js for examples of navigator.userAgent
+    */
+
+  var t = true
+
+  function detect(ua) {
+
+    function getFirstMatch(regex) {
+      var match = ua.match(regex);
+      return (match && match.length > 1 && match[1]) || '';
+    }
+
+    function getSecondMatch(regex) {
+      var match = ua.match(regex);
+      return (match && match.length > 1 && match[2]) || '';
+    }
+
+    var iosdevice = getFirstMatch(/(ipod|iphone|ipad)/i).toLowerCase()
+      , likeAndroid = /like android/i.test(ua)
+      , android = !likeAndroid && /android/i.test(ua)
+      , nexusMobile = /nexus\s*[0-6]\s*/i.test(ua)
+      , nexusTablet = !nexusMobile && /nexus\s*[0-9]+/i.test(ua)
+      , chromeos = /CrOS/.test(ua)
+      , silk = /silk/i.test(ua)
+      , sailfish = /sailfish/i.test(ua)
+      , tizen = /tizen/i.test(ua)
+      , webos = /(web|hpw)os/i.test(ua)
+      , windowsphone = /windows phone/i.test(ua)
+      , windows = !windowsphone && /windows/i.test(ua)
+      , mac = !iosdevice && !silk && /macintosh/i.test(ua)
+      , linux = !android && !sailfish && !tizen && !webos && /linux/i.test(ua)
+      , edgeVersion = getFirstMatch(/edge\/(\d+(\.\d+)?)/i)
+      , versionIdentifier = getFirstMatch(/version\/(\d+(\.\d+)?)/i)
+      , tablet = /tablet/i.test(ua)
+      , mobile = !tablet && /[^-]mobi/i.test(ua)
+      , xbox = /xbox/i.test(ua)
+      , result
+
+    if (/opera|opr|opios/i.test(ua)) {
+      result = {
+        name: 'Opera'
+      , opera: t
+      , version: versionIdentifier || getFirstMatch(/(?:opera|opr|opios)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/coast/i.test(ua)) {
+      result = {
+        name: 'Opera Coast'
+        , coast: t
+        , version: versionIdentifier || getFirstMatch(/(?:coast)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/yabrowser/i.test(ua)) {
+      result = {
+        name: 'Yandex Browser'
+      , yandexbrowser: t
+      , version: versionIdentifier || getFirstMatch(/(?:yabrowser)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/ucbrowser/i.test(ua)) {
+      result = {
+          name: 'UC Browser'
+        , ucbrowser: t
+        , version: getFirstMatch(/(?:ucbrowser)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/mxios/i.test(ua)) {
+      result = {
+        name: 'Maxthon'
+        , maxthon: t
+        , version: getFirstMatch(/(?:mxios)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/epiphany/i.test(ua)) {
+      result = {
+        name: 'Epiphany'
+        , epiphany: t
+        , version: getFirstMatch(/(?:epiphany)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/puffin/i.test(ua)) {
+      result = {
+        name: 'Puffin'
+        , puffin: t
+        , version: getFirstMatch(/(?:puffin)[\s\/](\d+(?:\.\d+)?)/i)
+      }
+    }
+    else if (/sleipnir/i.test(ua)) {
+      result = {
+        name: 'Sleipnir'
+        , sleipnir: t
+        , version: getFirstMatch(/(?:sleipnir)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/k-meleon/i.test(ua)) {
+      result = {
+        name: 'K-Meleon'
+        , kMeleon: t
+        , version: getFirstMatch(/(?:k-meleon)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (windowsphone) {
+      result = {
+        name: 'Windows Phone'
+      , windowsphone: t
+      }
+      if (edgeVersion) {
+        result.msedge = t
+        result.version = edgeVersion
+      }
+      else {
+        result.msie = t
+        result.version = getFirstMatch(/iemobile\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/msie|trident/i.test(ua)) {
+      result = {
+        name: 'Internet Explorer'
+      , msie: t
+      , version: getFirstMatch(/(?:msie |rv:)(\d+(\.\d+)?)/i)
+      }
+    } else if (chromeos) {
+      result = {
+        name: 'Chrome'
+      , chromeos: t
+      , chromeBook: t
+      , chrome: t
+      , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
+      }
+    } else if (/chrome.+? edge/i.test(ua)) {
+      result = {
+        name: 'Microsoft Edge'
+      , msedge: t
+      , version: edgeVersion
+      }
+    }
+    else if (/vivaldi/i.test(ua)) {
+      result = {
+        name: 'Vivaldi'
+        , vivaldi: t
+        , version: getFirstMatch(/vivaldi\/(\d+(\.\d+)?)/i) || versionIdentifier
+      }
+    }
+    else if (sailfish) {
+      result = {
+        name: 'Sailfish'
+      , sailfish: t
+      , version: getFirstMatch(/sailfish\s?browser\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/seamonkey\//i.test(ua)) {
+      result = {
+        name: 'SeaMonkey'
+      , seamonkey: t
+      , version: getFirstMatch(/seamonkey\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/firefox|iceweasel|fxios/i.test(ua)) {
+      result = {
+        name: 'Firefox'
+      , firefox: t
+      , version: getFirstMatch(/(?:firefox|iceweasel|fxios)[ \/](\d+(\.\d+)?)/i)
+      }
+      if (/\((mobile|tablet);[^\)]*rv:[\d\.]+\)/i.test(ua)) {
+        result.firefoxos = t
+      }
+    }
+    else if (silk) {
+      result =  {
+        name: 'Amazon Silk'
+      , silk: t
+      , version : getFirstMatch(/silk\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/phantom/i.test(ua)) {
+      result = {
+        name: 'PhantomJS'
+      , phantom: t
+      , version: getFirstMatch(/phantomjs\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/slimerjs/i.test(ua)) {
+      result = {
+        name: 'SlimerJS'
+        , slimer: t
+        , version: getFirstMatch(/slimerjs\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/blackberry|\bbb\d+/i.test(ua) || /rim\stablet/i.test(ua)) {
+      result = {
+        name: 'BlackBerry'
+      , blackberry: t
+      , version: versionIdentifier || getFirstMatch(/blackberry[\d]+\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (webos) {
+      result = {
+        name: 'WebOS'
+      , webos: t
+      , version: versionIdentifier || getFirstMatch(/w(?:eb)?osbrowser\/(\d+(\.\d+)?)/i)
+      };
+      if( /touchpad\//i.test(ua) ){
+        result.touchpad = t;
+      }
+    }
+    else if (/bada/i.test(ua)) {
+      result = {
+        name: 'Bada'
+      , bada: t
+      , version: getFirstMatch(/dolfin\/(\d+(\.\d+)?)/i)
+      };
+    }
+    else if (tizen) {
+      result = {
+        name: 'Tizen'
+      , tizen: t
+      , version: getFirstMatch(/(?:tizen\s?)?browser\/(\d+(\.\d+)?)/i) || versionIdentifier
+      };
+    }
+    else if (/qupzilla/i.test(ua)) {
+      result = {
+        name: 'QupZilla'
+        , qupzilla: t
+        , version: getFirstMatch(/(?:qupzilla)[\s\/](\d+(?:\.\d+)+)/i) || versionIdentifier
+      }
+    }
+    else if (/chromium/i.test(ua)) {
+      result = {
+        name: 'Chromium'
+        , chromium: t
+        , version: getFirstMatch(/(?:chromium)[\s\/](\d+(?:\.\d+)?)/i) || versionIdentifier
+      }
+    }
+    else if (/chrome|crios|crmo/i.test(ua)) {
+      result = {
+        name: 'Chrome'
+        , chrome: t
+        , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (android) {
+      result = {
+        name: 'Android'
+        , version: versionIdentifier
+      }
+    }
+    else if (/safari|applewebkit/i.test(ua)) {
+      result = {
+        name: 'Safari'
+      , safari: t
+      }
+      if (versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    }
+    else if (iosdevice) {
+      result = {
+        name : iosdevice == 'iphone' ? 'iPhone' : iosdevice == 'ipad' ? 'iPad' : 'iPod'
+      }
+      // WTF: version is not part of user agent in web apps
+      if (versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    }
+    else if(/googlebot/i.test(ua)) {
+      result = {
+        name: 'Googlebot'
+      , googlebot: t
+      , version: getFirstMatch(/googlebot\/(\d+(\.\d+))/i) || versionIdentifier
+      }
+    }
+    else {
+      result = {
+        name: getFirstMatch(/^(.*)\/(.*) /),
+        version: getSecondMatch(/^(.*)\/(.*) /)
+     };
+   }
+
+    // set webkit or gecko flag for browsers based on these engines
+    if (!result.msedge && /(apple)?webkit/i.test(ua)) {
+      if (/(apple)?webkit\/537\.36/i.test(ua)) {
+        result.name = result.name || "Blink"
+        result.blink = t
+      } else {
+        result.name = result.name || "Webkit"
+        result.webkit = t
+      }
+      if (!result.version && versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    } else if (!result.opera && /gecko\//i.test(ua)) {
+      result.name = result.name || "Gecko"
+      result.gecko = t
+      result.version = result.version || getFirstMatch(/gecko\/(\d+(\.\d+)?)/i)
+    }
+
+    // set OS flags for platforms that have multiple browsers
+    if (!result.msedge && (android || result.silk)) {
+      result.android = t
+    } else if (iosdevice) {
+      result[iosdevice] = t
+      result.ios = t
+    } else if (mac) {
+      result.mac = t
+    } else if (xbox) {
+      result.xbox = t
+    } else if (windows) {
+      result.windows = t
+    } else if (linux) {
+      result.linux = t
+    }
+
+    // OS version extraction
+    var osVersion = '';
+    if (result.windowsphone) {
+      osVersion = getFirstMatch(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i);
+    } else if (iosdevice) {
+      osVersion = getFirstMatch(/os (\d+([_\s]\d+)*) like mac os x/i);
+      osVersion = osVersion.replace(/[_\s]/g, '.');
+    } else if (android) {
+      osVersion = getFirstMatch(/android[ \/-](\d+(\.\d+)*)/i);
+    } else if (result.webos) {
+      osVersion = getFirstMatch(/(?:web|hpw)os\/(\d+(\.\d+)*)/i);
+    } else if (result.blackberry) {
+      osVersion = getFirstMatch(/rim\stablet\sos\s(\d+(\.\d+)*)/i);
+    } else if (result.bada) {
+      osVersion = getFirstMatch(/bada\/(\d+(\.\d+)*)/i);
+    } else if (result.tizen) {
+      osVersion = getFirstMatch(/tizen[\/\s](\d+(\.\d+)*)/i);
+    }
+    if (osVersion) {
+      result.osversion = osVersion;
+    }
+
+    // device type extraction
+    var osMajorVersion = osVersion.split('.')[0];
+    if (
+         tablet
+      || nexusTablet
+      || iosdevice == 'ipad'
+      || (android && (osMajorVersion == 3 || (osMajorVersion >= 4 && !mobile)))
+      || result.silk
+    ) {
+      result.tablet = t
+    } else if (
+         mobile
+      || iosdevice == 'iphone'
+      || iosdevice == 'ipod'
+      || android
+      || nexusMobile
+      || result.blackberry
+      || result.webos
+      || result.bada
+    ) {
+      result.mobile = t
+    }
+
+    // Graded Browser Support
+    // http://developer.yahoo.com/yui/articles/gbs
+    if (result.msedge ||
+        (result.msie && result.version >= 10) ||
+        (result.yandexbrowser && result.version >= 15) ||
+		    (result.vivaldi && result.version >= 1.0) ||
+        (result.chrome && result.version >= 20) ||
+        (result.firefox && result.version >= 20.0) ||
+        (result.safari && result.version >= 6) ||
+        (result.opera && result.version >= 10.0) ||
+        (result.ios && result.osversion && result.osversion.split(".")[0] >= 6) ||
+        (result.blackberry && result.version >= 10.1)
+        || (result.chromium && result.version >= 20)
+        ) {
+      result.a = t;
+    }
+    else if ((result.msie && result.version < 10) ||
+        (result.chrome && result.version < 20) ||
+        (result.firefox && result.version < 20.0) ||
+        (result.safari && result.version < 6) ||
+        (result.opera && result.version < 10.0) ||
+        (result.ios && result.osversion && result.osversion.split(".")[0] < 6)
+        || (result.chromium && result.version < 20)
+        ) {
+      result.c = t
+    } else result.x = t
+
+    return result
+  }
+
+  var bowser = detect(typeof navigator !== 'undefined' ? navigator.userAgent : '')
+
+  bowser.test = function (browserList) {
+    for (var i = 0; i < browserList.length; ++i) {
+      var browserItem = browserList[i];
+      if (typeof browserItem=== 'string') {
+        if (browserItem in bowser) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Get version precisions count
+   *
+   * @example
+   *   getVersionPrecision("1.10.3") // 3
+   *
+   * @param  {string} version
+   * @return {number}
+   */
+  function getVersionPrecision(version) {
+    return version.split(".").length;
+  }
+
+  /**
+   * Array::map polyfill
+   *
+   * @param  {Array} arr
+   * @param  {Function} iterator
+   * @return {Array}
+   */
+  function map(arr, iterator) {
+    var result = [], i;
+    if (Array.prototype.map) {
+      return Array.prototype.map.call(arr, iterator);
+    }
+    for (i = 0; i < arr.length; i++) {
+      result.push(iterator(arr[i]));
+    }
+    return result;
+  }
+
+  /**
+   * Calculate browser version weight
+   *
+   * @example
+   *   compareVersions(['1.10.2.1',  '1.8.2.1.90'])    // 1
+   *   compareVersions(['1.010.2.1', '1.09.2.1.90']);  // 1
+   *   compareVersions(['1.10.2.1',  '1.10.2.1']);     // 0
+   *   compareVersions(['1.10.2.1',  '1.0800.2']);     // -1
+   *
+   * @param  {Array<String>} versions versions to compare
+   * @return {Number} comparison result
+   */
+  function compareVersions(versions) {
+    // 1) get common precision for both versions, for example for "10.0" and "9" it should be 2
+    var precision = Math.max(getVersionPrecision(versions[0]), getVersionPrecision(versions[1]));
+    var chunks = map(versions, function (version) {
+      var delta = precision - getVersionPrecision(version);
+
+      // 2) "9" -> "9.0" (for precision = 2)
+      version = version + new Array(delta + 1).join(".0");
+
+      // 3) "9.0" -> ["000000000"", "000000009"]
+      return map(version.split("."), function (chunk) {
+        return new Array(20 - chunk.length).join("0") + chunk;
+      }).reverse();
+    });
+
+    // iterate in reverse order by reversed chunks array
+    while (--precision >= 0) {
+      // 4) compare: "000000009" > "000000010" = false (but "9" > "10" = true)
+      if (chunks[0][precision] > chunks[1][precision]) {
+        return 1;
+      }
+      else if (chunks[0][precision] === chunks[1][precision]) {
+        if (precision === 0) {
+          // all version chunks are same
+          return 0;
+        }
+      }
+      else {
+        return -1;
+      }
+    }
+  }
+
+  /**
+   * Check if browser is unsupported
+   *
+   * @example
+   *   bowser.isUnsupportedBrowser({
+   *     msie: "10",
+   *     firefox: "23",
+   *     chrome: "29",
+   *     safari: "5.1",
+   *     opera: "16",
+   *     phantom: "534"
+   *   });
+   *
+   * @param  {Object}  minVersions map of minimal version to browser
+   * @param  {Boolean} [strictMode = false] flag to return false if browser wasn't found in map
+   * @param  {String}  [ua] user agent string
+   * @return {Boolean}
+   */
+  function isUnsupportedBrowser(minVersions, strictMode, ua) {
+    var _bowser = bowser;
+
+    // make strictMode param optional with ua param usage
+    if (typeof strictMode === 'string') {
+      ua = strictMode;
+      strictMode = void(0);
+    }
+
+    if (strictMode === void(0)) {
+      strictMode = false;
+    }
+    if (ua) {
+      _bowser = detect(ua);
+    }
+
+    var version = "" + _bowser.version;
+    for (var browser in minVersions) {
+      if (minVersions.hasOwnProperty(browser)) {
+        if (_bowser[browser]) {
+          // browser version and min supported version.
+          return compareVersions([version, minVersions[browser]]) < 0;
+        }
+      }
+    }
+
+    return strictMode; // not found
+  }
+
+  /**
+   * Check if browser is supported
+   *
+   * @param  {Object} minVersions map of minimal version to browser
+   * @param  {Boolean} [strictMode = false] flag to return false if browser wasn't found in map
+   * @param  {String}  [ua] user agent string
+   * @return {Boolean}
+   */
+  function check(minVersions, strictMode, ua) {
+    return !isUnsupportedBrowser(minVersions, strictMode, ua);
+  }
+
+  bowser.isUnsupportedBrowser = isUnsupportedBrowser;
+  bowser.compareVersions = compareVersions;
+  bowser.check = check;
+
+  /*
+   * Set our detect method to the main bowser object so we can
+   * reuse it to test other user agents.
+   * This is needed to implement future tests.
+   */
+  bowser._detect = detect;
+
+  return bowser
+});
+
+(function($){
+  UABBTrigger = {
+
+      /**
+       * Trigger a hook.
+       *
+       * @since 1.1.0.3
+       * @method triggerHook
+       * @param {String} hook The hook to trigger.
+       * @param {Array} args An array of args to pass to the hook.
+       */
+      triggerHook: function( hook, args )
+      {
+        $( 'body' ).trigger( 'uabb-trigger.' + hook, args );
+      },
+    
+      /**
+       * Add a hook.
+       *
+       * @since 1.1.0.3
+       * @method addHook
+       * @param {String} hook The hook to add.
+       * @param {Function} callback A function to call when the hook is triggered.
+       */
+      addHook: function( hook, callback )
+      {
+        $( 'body' ).on( 'uabb-trigger.' + hook, callback );
+      },
+    
+      /**
+       * Remove a hook.
+       *
+       * @since 1.1.0.3
+       * @method removeHook
+       * @param {String} hook The hook to remove.
+       * @param {Function} callback The callback function to remove.
+       */
+      removeHook: function( hook, callback )
+      {
+        $( 'body' ).off( 'uabb-trigger.' + hook, callback );
+      },
+  };
+})(jQuery);
+
+jQuery(document).ready(function( $ ) {
+
+    if( typeof bowser !== 'undefined' && bowser !== null ) {
+
+      var uabb_browser   = bowser.name,
+          uabb_browser_v = bowser.version,
+          uabb_browser_class = uabb_browser.replace(/\s+/g, '-').toLowerCase(),
+          uabb_browser_v_class = uabb_browser_class + parseInt( uabb_browser_v );
+      
+      $('html').addClass(uabb_browser_class).addClass(uabb_browser_v_class);
+      
+    }
+
+    $('.uabb-row-separator').parents('html').css('overflow-x', 'hidden');
+});
+jQuery(function($) {
+	
+	$(function() {
+		$( '.fl-node-5d0ca9f2100fa .fl-photo-img' )
+			.on( 'mouseenter', function( e ) {
+				$( this ).data( 'title', $( this ).attr( 'title' ) ).removeAttr( 'title' );
+			} )
+			.on( 'mouseleave', function( e ){
+				$( this ).attr( 'title', $( this ).data( 'title' ) ).data( 'title', null );
+			} );
+	});
+});
+
+/* Start Global Node Custom JS */
+
+/* End Global Node Custom JS */
+
+
+/* Start Layout Custom JS */
+
+/* End Layout Custom JS */
+
+	;(function($) {
+				var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
+				window.particle_js_loaded = 0;
+
+				$.cachedScript = function( url, options ) {
+
+					// Allow user to set any option except for dataType, cache, and url.
+					options = $.extend( options || {}, {
+						dataType: "script",
+						cache: true,
+						url: url
+					});
+					// Return the jqXHR object so we can chain callbacks.
+					return $.ajax( options );
+				};
+
+				if ( $( '.uabb-row-particles-background' ).length ) {
+
+					$.cachedScript( url ).done( function( script, textStatus ) {					
+						window.particle_js_loaded = 1;
+						init_particles_row_background_script();
+
+					});
+				}
+			function init_particles_row_background_script() {
+
+									row_id = '5d0caa1ea85af';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+						}
+		})(jQuery);
+		;(function($){
+		$( document ).on( 'change', 'select[name=uabb_row_particles_style]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=enable_particles]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=uabb_row_particles_settings]', function() {
+			_hideFields();
+		});
+
+		$( document ).on( 'init', '.fl-builder-settings', function() {
+			_hideFields();
+		});
+		function _hideFields() { 
+
+			var form = $('.fl-builder-settings');
+
+			var branding = 'no';
+
+			if ( form.length > 0 ) {
+
+				enable_particle = form.find( 'select[name=enable_particles]' ).val();
+
+				if ( 'no' === enable_particle ) {
+
+					form.find('#fl-field-uabb_particles_direction').hide();
+					form.find('#fl-field-uabb_particles_custom_code').hide();
+					form.find('#fl-field-uabb_row_particles_style').hide();
+					form.find('#fl-field-uabb_row_particles_color').hide();
+					form.find('#fl-field-uabb_row_particles_color_opacity').hide();
+					form.find('#fl-field-uabb_row_particles_settings').hide();
+					form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+					form.find('#fl-field-uabb_row_particles_size').hide();
+					form.find('#fl-field-uabb_row_particles_speed').hide();
+					form.find('#fl-field-uabb_row_number_particles').hide();
+
+				} else {
+					if ( 'snow' === form.find('select[name=uabb_row_particles_style]').val() ) {
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').show();
+						form.find('#fl-field-uabb_row_particles_color_opacity').show();
+						form.find('#fl-field-uabb_row_particles_settings').show();
+						form.find('#fl-field-uabb_particles_direction').show();
+						form.find('#fl-field-uabb_particles_custom_code').hide();
+						if (  'yes' === form.find('select[name=uabb_row_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_row_particles_size').show();
+							form.find('#fl-field-uabb_row_particles_speed').show();
+							form.find('#fl-field-uabb_row_number_particles').show();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_row_particles_size').hide();
+							form.find('#fl-field-uabb_row_particles_speed').hide();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+							form.find('#fl-field-uabb_row_number_particles').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_row_particles_style]').val() ) {
+
+						form.find('#fl-field-uabb_particles_custom_code').show();
+						form.find('#fl-field-uabb_particles_direction').hide();
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').hide();
+						form.find('#fl-field-uabb_row_particles_color_opacity').hide();
+						form.find('#fl-field-uabb_row_particles_settings').hide();
+						form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+						form.find('#fl-field-uabb_row_particles_size').hide();
+						form.find('#fl-field-uabb_row_particles_speed').hide();
+						form.find('#fl-field-uabb_row_number_particles').hide();
+					}
+					if ( 'nasa' === form.find('select[name=uabb_row_particles_style]').val() || 'default' === form.find('select[name=uabb_row_particles_style]').val() ) {
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').show();
+						form.find('#fl-field-uabb_row_particles_color_opacity').show();
+						form.find('#fl-field-uabb_row_particles_settings').show();
+						form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						form.find('#fl-field-uabb_particles_custom_code').hide();
+						form.find('#fl-field-uabb_particles_direction').hide();
+
+						if (  'yes' === form.find('select[name=uabb_row_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_row_particles_size').show();
+							form.find('#fl-field-uabb_row_particles_speed').show();
+							form.find('#fl-field-uabb_row_number_particles').show();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_row_particles_size').hide();
+							form.find('#fl-field-uabb_row_particles_speed').hide();
+							form.find('#fl-field-uabb_row_number_particles').hide();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_row_particles_style]').val() ) {
+
+						style_selector = form.find( '#fl-field-uabb_row_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						if ( wrapper.find( '.fl-field-description' ).length === 0 ) {
+
+							if ( 'no' === branding ) {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div><div class="uabb-docs-particle">To know more about creating a custom style, refer to a document <a class="uabb-docs-particle-link" href="https://www.ultimatebeaver.com/docs/custom-particle-backgrounds/?utm_source=uabb-pro-backend&utm_medium=row-editor-screen&utm_campaign=particle-backgrounds-row" target="_blank" rel="noopener"> here. </a></div></span>' );
+
+							} else {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div></span>' );
+							}
+
+						} else {
+							wrapper.find( '.fl-field-description' ).show();
+						}
+					} else {
+
+						style_selector = form.find( '#fl-field-uabb_row_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						wrapper.find( '.fl-field-description' ).hide();
+					}
+				}
+			}
+		}
+	})(jQuery);
+		;(function($) {
+			var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
+				window.particle_js_loaded = 0;
+
+				$.cachedScript = function( url, options ) {
+
+					// Allow user to set any option except for dataType, cache, and url.
+					options = $.extend( options || {}, {
+						dataType: "script",
+						cache: true,
+						url: url
+					});
+
+					// Return the jqXHR object so we can chain callbacks.
+					return $.ajax( options );
+				};
+				if ( $( '.uabb-col-particles-background' ).length ) {
+
+					$.cachedScript( url ).done( function( script, textStatus ) {					
+						window.particle_js_loaded = 1;
+						init_particles_col_background_script();
+
+					});
+				}
+
+			function init_particles_col_background_script() {
+
+									row_id = '5d0ca9f2100e6';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d0ca9f2100f3';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+						}
+		})(jQuery);
+		;(function($){
+		$( document ).on( 'change', 'select[name=uabb_col_particles_style]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=enable_particles_col]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=uabb_col_particles_settings]', function() {
+			_hideFields();
+		});
+
+		$( document ).on( 'init', '.fl-builder-settings', function() {
+			_hideFields();
+		});
+		function _hideFields() {
+
+			var form = $('.fl-builder-settings');
+
+			var branding = 'no';
+
+			if ( form.length > 0 ) {
+
+				enable_particle = form.find( 'select[name=enable_particles_col]' ).val();
+
+				if ( 'no' === enable_particle ) {
+
+					form.find('#fl-field-uabb_particles_direction_col').hide();
+					form.find('#fl-field-uabb_particles_custom_code_col').hide();
+					form.find('#fl-field-uabb_col_particles_style').hide();
+					form.find('#fl-field-uabb_col_particles_color').hide();
+					form.find('#fl-field-uabb_col_particles_color_opacity').hide();
+					form.find('#fl-field-uabb_col_particles_settings').hide();
+					form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+					form.find('#fl-field-uabb_col_particles_size').hide();
+					form.find('#fl-field-uabb_col_particles_speed').hide();
+					form.find('#fl-field-uabb_col_number_particles').hide();
+
+				} else {
+					if ( 'snow' === form.find('select[name=uabb_col_particles_style]').val() ) {
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').show();
+						form.find('#fl-field-uabb_col_particles_color_opacity').show();
+						form.find('#fl-field-uabb_col_particles_settings').show();
+						form.find('#fl-field-uabb_particles_direction_col').show();
+						form.find('#fl-field-uabb_particles_custom_code_col').hide();
+						if (  'yes' === form.find('select[name=uabb_col_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_col_particles_size').show();
+							form.find('#fl-field-uabb_col_particles_speed').show();
+							form.find('#fl-field-uabb_col_number_particles').show();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_col_particles_size').hide();
+							form.find('#fl-field-uabb_col_particles_speed').hide();
+							form.find('#fl-field-uabb_col_number_particles').hide();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_col_particles_style]').val() ) {
+
+						form.find('#fl-field-uabb_particles_custom_code_col').show();
+						form.find('#fl-field-uabb_particles_direction_col').hide();
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').hide();
+						form.find('#fl-field-uabb_col_particles_color_opacity').hide();
+						form.find('#fl-field-uabb_col_particles_settings').hide();
+						form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						form.find('#fl-field-uabb_col_particles_size').hide();
+						form.find('#fl-field-uabb_col_particles_speed').hide();
+						form.find('#fl-field-uabb_col_number_particles').hide();
+					}
+					if ( 'nasa' === form.find('select[name=uabb_col_particles_style]').val() || 'default' === form.find('select[name=uabb_col_particles_style]').val() ) {
+						form.find('#fl-field-uabb_col_particles_style').show();
+						form.find('#fl-field-uabb_col_particles_color').show();
+						form.find('#fl-field-uabb_col_particles_color_opacity').show();
+						form.find('#fl-field-uabb_col_particles_settings').show();
+						form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						form.find('#fl-field-uabb_particles_custom_code_col').hide();
+						form.find('#fl-field-uabb_particles_direction_col').hide();
+
+						if (  'yes' === form.find('select[name=uabb_col_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_col_particles_size').show();
+							form.find('#fl-field-uabb_col_particles_speed').show();
+							form.find('#fl-field-uabb_col_number_particles').show();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_col_particles_size').hide();
+							form.find('#fl-field-uabb_col_particles_speed').hide();
+							form.find('#fl-field-uabb_col_number_particles').hide();
+							form.find('#fl-field-uabb_col_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_col_particles_style]').val() ) {
+
+						style_selector = form.find( '#fl-field-uabb_col_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						if ( wrapper.find( '.fl-field-description' ).length === 0 ) {
+
+							if ( 'no' === branding ) {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div><div class="uabb-docs-particle">To know more about creating a custom style, refer to a document <a class="uabb-docs-particle-link" href="https://www.ultimatebeaver.com/docs/custom-particle-backgrounds/?utm_source=uabb-pro-backend&utm_medium=column-editor-screen&utm_campaign=particle-backgrounds-column" target="_blank" rel="noopener"> here. </a></div></span>' );
+
+							} else {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div></span>' );
+							}
+
+						} else {
+							wrapper.find( '.fl-field-description' ).show();
+						}
+					} else {
+
+						style_selector = form.find( '#fl-field-uabb_col_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						wrapper.find( '.fl-field-description' ).hide();
+					}
+				}
+			}
+		}
+	})(jQuery);
+	/*!
+ * Bowser - a browser detector
+ * https://github.com/ded/bowser
+ * MIT License | (c) Dustin Diaz 2015
+ */
+
+!function (name, definition) {
+  if (typeof module != 'undefined' && module.exports) module.exports = definition()
+  else if (typeof define == 'function' && define.amd) define(name, definition)
+  else this[name] = definition()
+}('bowser', function () {
+  /**
+    * See useragents.js for examples of navigator.userAgent
+    */
+
+  var t = true
+
+  function detect(ua) {
+
+    function getFirstMatch(regex) {
+      var match = ua.match(regex);
+      return (match && match.length > 1 && match[1]) || '';
+    }
+
+    function getSecondMatch(regex) {
+      var match = ua.match(regex);
+      return (match && match.length > 1 && match[2]) || '';
+    }
+
+    var iosdevice = getFirstMatch(/(ipod|iphone|ipad)/i).toLowerCase()
+      , likeAndroid = /like android/i.test(ua)
+      , android = !likeAndroid && /android/i.test(ua)
+      , nexusMobile = /nexus\s*[0-6]\s*/i.test(ua)
+      , nexusTablet = !nexusMobile && /nexus\s*[0-9]+/i.test(ua)
+      , chromeos = /CrOS/.test(ua)
+      , silk = /silk/i.test(ua)
+      , sailfish = /sailfish/i.test(ua)
+      , tizen = /tizen/i.test(ua)
+      , webos = /(web|hpw)os/i.test(ua)
+      , windowsphone = /windows phone/i.test(ua)
+      , windows = !windowsphone && /windows/i.test(ua)
+      , mac = !iosdevice && !silk && /macintosh/i.test(ua)
+      , linux = !android && !sailfish && !tizen && !webos && /linux/i.test(ua)
+      , edgeVersion = getFirstMatch(/edge\/(\d+(\.\d+)?)/i)
+      , versionIdentifier = getFirstMatch(/version\/(\d+(\.\d+)?)/i)
+      , tablet = /tablet/i.test(ua)
+      , mobile = !tablet && /[^-]mobi/i.test(ua)
+      , xbox = /xbox/i.test(ua)
+      , result
+
+    if (/opera|opr|opios/i.test(ua)) {
+      result = {
+        name: 'Opera'
+      , opera: t
+      , version: versionIdentifier || getFirstMatch(/(?:opera|opr|opios)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/coast/i.test(ua)) {
+      result = {
+        name: 'Opera Coast'
+        , coast: t
+        , version: versionIdentifier || getFirstMatch(/(?:coast)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/yabrowser/i.test(ua)) {
+      result = {
+        name: 'Yandex Browser'
+      , yandexbrowser: t
+      , version: versionIdentifier || getFirstMatch(/(?:yabrowser)[\s\/](\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/ucbrowser/i.test(ua)) {
+      result = {
+          name: 'UC Browser'
+        , ucbrowser: t
+        , version: getFirstMatch(/(?:ucbrowser)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/mxios/i.test(ua)) {
+      result = {
+        name: 'Maxthon'
+        , maxthon: t
+        , version: getFirstMatch(/(?:mxios)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/epiphany/i.test(ua)) {
+      result = {
+        name: 'Epiphany'
+        , epiphany: t
+        , version: getFirstMatch(/(?:epiphany)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/puffin/i.test(ua)) {
+      result = {
+        name: 'Puffin'
+        , puffin: t
+        , version: getFirstMatch(/(?:puffin)[\s\/](\d+(?:\.\d+)?)/i)
+      }
+    }
+    else if (/sleipnir/i.test(ua)) {
+      result = {
+        name: 'Sleipnir'
+        , sleipnir: t
+        , version: getFirstMatch(/(?:sleipnir)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (/k-meleon/i.test(ua)) {
+      result = {
+        name: 'K-Meleon'
+        , kMeleon: t
+        , version: getFirstMatch(/(?:k-meleon)[\s\/](\d+(?:\.\d+)+)/i)
+      }
+    }
+    else if (windowsphone) {
+      result = {
+        name: 'Windows Phone'
+      , windowsphone: t
+      }
+      if (edgeVersion) {
+        result.msedge = t
+        result.version = edgeVersion
+      }
+      else {
+        result.msie = t
+        result.version = getFirstMatch(/iemobile\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/msie|trident/i.test(ua)) {
+      result = {
+        name: 'Internet Explorer'
+      , msie: t
+      , version: getFirstMatch(/(?:msie |rv:)(\d+(\.\d+)?)/i)
+      }
+    } else if (chromeos) {
+      result = {
+        name: 'Chrome'
+      , chromeos: t
+      , chromeBook: t
+      , chrome: t
+      , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
+      }
+    } else if (/chrome.+? edge/i.test(ua)) {
+      result = {
+        name: 'Microsoft Edge'
+      , msedge: t
+      , version: edgeVersion
+      }
+    }
+    else if (/vivaldi/i.test(ua)) {
+      result = {
+        name: 'Vivaldi'
+        , vivaldi: t
+        , version: getFirstMatch(/vivaldi\/(\d+(\.\d+)?)/i) || versionIdentifier
+      }
+    }
+    else if (sailfish) {
+      result = {
+        name: 'Sailfish'
+      , sailfish: t
+      , version: getFirstMatch(/sailfish\s?browser\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/seamonkey\//i.test(ua)) {
+      result = {
+        name: 'SeaMonkey'
+      , seamonkey: t
+      , version: getFirstMatch(/seamonkey\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/firefox|iceweasel|fxios/i.test(ua)) {
+      result = {
+        name: 'Firefox'
+      , firefox: t
+      , version: getFirstMatch(/(?:firefox|iceweasel|fxios)[ \/](\d+(\.\d+)?)/i)
+      }
+      if (/\((mobile|tablet);[^\)]*rv:[\d\.]+\)/i.test(ua)) {
+        result.firefoxos = t
+      }
+    }
+    else if (silk) {
+      result =  {
+        name: 'Amazon Silk'
+      , silk: t
+      , version : getFirstMatch(/silk\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/phantom/i.test(ua)) {
+      result = {
+        name: 'PhantomJS'
+      , phantom: t
+      , version: getFirstMatch(/phantomjs\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/slimerjs/i.test(ua)) {
+      result = {
+        name: 'SlimerJS'
+        , slimer: t
+        , version: getFirstMatch(/slimerjs\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (/blackberry|\bbb\d+/i.test(ua) || /rim\stablet/i.test(ua)) {
+      result = {
+        name: 'BlackBerry'
+      , blackberry: t
+      , version: versionIdentifier || getFirstMatch(/blackberry[\d]+\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (webos) {
+      result = {
+        name: 'WebOS'
+      , webos: t
+      , version: versionIdentifier || getFirstMatch(/w(?:eb)?osbrowser\/(\d+(\.\d+)?)/i)
+      };
+      if( /touchpad\//i.test(ua) ){
+        result.touchpad = t;
+      }
+    }
+    else if (/bada/i.test(ua)) {
+      result = {
+        name: 'Bada'
+      , bada: t
+      , version: getFirstMatch(/dolfin\/(\d+(\.\d+)?)/i)
+      };
+    }
+    else if (tizen) {
+      result = {
+        name: 'Tizen'
+      , tizen: t
+      , version: getFirstMatch(/(?:tizen\s?)?browser\/(\d+(\.\d+)?)/i) || versionIdentifier
+      };
+    }
+    else if (/qupzilla/i.test(ua)) {
+      result = {
+        name: 'QupZilla'
+        , qupzilla: t
+        , version: getFirstMatch(/(?:qupzilla)[\s\/](\d+(?:\.\d+)+)/i) || versionIdentifier
+      }
+    }
+    else if (/chromium/i.test(ua)) {
+      result = {
+        name: 'Chromium'
+        , chromium: t
+        , version: getFirstMatch(/(?:chromium)[\s\/](\d+(?:\.\d+)?)/i) || versionIdentifier
+      }
+    }
+    else if (/chrome|crios|crmo/i.test(ua)) {
+      result = {
+        name: 'Chrome'
+        , chrome: t
+        , version: getFirstMatch(/(?:chrome|crios|crmo)\/(\d+(\.\d+)?)/i)
+      }
+    }
+    else if (android) {
+      result = {
+        name: 'Android'
+        , version: versionIdentifier
+      }
+    }
+    else if (/safari|applewebkit/i.test(ua)) {
+      result = {
+        name: 'Safari'
+      , safari: t
+      }
+      if (versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    }
+    else if (iosdevice) {
+      result = {
+        name : iosdevice == 'iphone' ? 'iPhone' : iosdevice == 'ipad' ? 'iPad' : 'iPod'
+      }
+      // WTF: version is not part of user agent in web apps
+      if (versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    }
+    else if(/googlebot/i.test(ua)) {
+      result = {
+        name: 'Googlebot'
+      , googlebot: t
+      , version: getFirstMatch(/googlebot\/(\d+(\.\d+))/i) || versionIdentifier
+      }
+    }
+    else {
+      result = {
+        name: getFirstMatch(/^(.*)\/(.*) /),
+        version: getSecondMatch(/^(.*)\/(.*) /)
+     };
+   }
+
+    // set webkit or gecko flag for browsers based on these engines
+    if (!result.msedge && /(apple)?webkit/i.test(ua)) {
+      if (/(apple)?webkit\/537\.36/i.test(ua)) {
+        result.name = result.name || "Blink"
+        result.blink = t
+      } else {
+        result.name = result.name || "Webkit"
+        result.webkit = t
+      }
+      if (!result.version && versionIdentifier) {
+        result.version = versionIdentifier
+      }
+    } else if (!result.opera && /gecko\//i.test(ua)) {
+      result.name = result.name || "Gecko"
+      result.gecko = t
+      result.version = result.version || getFirstMatch(/gecko\/(\d+(\.\d+)?)/i)
+    }
+
+    // set OS flags for platforms that have multiple browsers
+    if (!result.msedge && (android || result.silk)) {
+      result.android = t
+    } else if (iosdevice) {
+      result[iosdevice] = t
+      result.ios = t
+    } else if (mac) {
+      result.mac = t
+    } else if (xbox) {
+      result.xbox = t
+    } else if (windows) {
+      result.windows = t
+    } else if (linux) {
+      result.linux = t
+    }
+
+    // OS version extraction
+    var osVersion = '';
+    if (result.windowsphone) {
+      osVersion = getFirstMatch(/windows phone (?:os)?\s?(\d+(\.\d+)*)/i);
+    } else if (iosdevice) {
+      osVersion = getFirstMatch(/os (\d+([_\s]\d+)*) like mac os x/i);
+      osVersion = osVersion.replace(/[_\s]/g, '.');
+    } else if (android) {
+      osVersion = getFirstMatch(/android[ \/-](\d+(\.\d+)*)/i);
+    } else if (result.webos) {
+      osVersion = getFirstMatch(/(?:web|hpw)os\/(\d+(\.\d+)*)/i);
+    } else if (result.blackberry) {
+      osVersion = getFirstMatch(/rim\stablet\sos\s(\d+(\.\d+)*)/i);
+    } else if (result.bada) {
+      osVersion = getFirstMatch(/bada\/(\d+(\.\d+)*)/i);
+    } else if (result.tizen) {
+      osVersion = getFirstMatch(/tizen[\/\s](\d+(\.\d+)*)/i);
+    }
+    if (osVersion) {
+      result.osversion = osVersion;
+    }
+
+    // device type extraction
+    var osMajorVersion = osVersion.split('.')[0];
+    if (
+         tablet
+      || nexusTablet
+      || iosdevice == 'ipad'
+      || (android && (osMajorVersion == 3 || (osMajorVersion >= 4 && !mobile)))
+      || result.silk
+    ) {
+      result.tablet = t
+    } else if (
+         mobile
+      || iosdevice == 'iphone'
+      || iosdevice == 'ipod'
+      || android
+      || nexusMobile
+      || result.blackberry
+      || result.webos
+      || result.bada
+    ) {
+      result.mobile = t
+    }
+
+    // Graded Browser Support
+    // http://developer.yahoo.com/yui/articles/gbs
+    if (result.msedge ||
+        (result.msie && result.version >= 10) ||
+        (result.yandexbrowser && result.version >= 15) ||
+		    (result.vivaldi && result.version >= 1.0) ||
+        (result.chrome && result.version >= 20) ||
+        (result.firefox && result.version >= 20.0) ||
+        (result.safari && result.version >= 6) ||
+        (result.opera && result.version >= 10.0) ||
+        (result.ios && result.osversion && result.osversion.split(".")[0] >= 6) ||
+        (result.blackberry && result.version >= 10.1)
+        || (result.chromium && result.version >= 20)
+        ) {
+      result.a = t;
+    }
+    else if ((result.msie && result.version < 10) ||
+        (result.chrome && result.version < 20) ||
+        (result.firefox && result.version < 20.0) ||
+        (result.safari && result.version < 6) ||
+        (result.opera && result.version < 10.0) ||
+        (result.ios && result.osversion && result.osversion.split(".")[0] < 6)
+        || (result.chromium && result.version < 20)
+        ) {
+      result.c = t
+    } else result.x = t
+
+    return result
+  }
+
+  var bowser = detect(typeof navigator !== 'undefined' ? navigator.userAgent : '')
+
+  bowser.test = function (browserList) {
+    for (var i = 0; i < browserList.length; ++i) {
+      var browserItem = browserList[i];
+      if (typeof browserItem=== 'string') {
+        if (browserItem in bowser) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+
+  /**
+   * Get version precisions count
+   *
+   * @example
+   *   getVersionPrecision("1.10.3") // 3
+   *
+   * @param  {string} version
+   * @return {number}
+   */
+  function getVersionPrecision(version) {
+    return version.split(".").length;
+  }
+
+  /**
+   * Array::map polyfill
+   *
+   * @param  {Array} arr
+   * @param  {Function} iterator
+   * @return {Array}
+   */
+  function map(arr, iterator) {
+    var result = [], i;
+    if (Array.prototype.map) {
+      return Array.prototype.map.call(arr, iterator);
+    }
+    for (i = 0; i < arr.length; i++) {
+      result.push(iterator(arr[i]));
+    }
+    return result;
+  }
+
+  /**
+   * Calculate browser version weight
+   *
+   * @example
+   *   compareVersions(['1.10.2.1',  '1.8.2.1.90'])    // 1
+   *   compareVersions(['1.010.2.1', '1.09.2.1.90']);  // 1
+   *   compareVersions(['1.10.2.1',  '1.10.2.1']);     // 0
+   *   compareVersions(['1.10.2.1',  '1.0800.2']);     // -1
+   *
+   * @param  {Array<String>} versions versions to compare
+   * @return {Number} comparison result
+   */
+  function compareVersions(versions) {
+    // 1) get common precision for both versions, for example for "10.0" and "9" it should be 2
+    var precision = Math.max(getVersionPrecision(versions[0]), getVersionPrecision(versions[1]));
+    var chunks = map(versions, function (version) {
+      var delta = precision - getVersionPrecision(version);
+
+      // 2) "9" -> "9.0" (for precision = 2)
+      version = version + new Array(delta + 1).join(".0");
+
+      // 3) "9.0" -> ["000000000"", "000000009"]
+      return map(version.split("."), function (chunk) {
+        return new Array(20 - chunk.length).join("0") + chunk;
+      }).reverse();
+    });
+
+    // iterate in reverse order by reversed chunks array
+    while (--precision >= 0) {
+      // 4) compare: "000000009" > "000000010" = false (but "9" > "10" = true)
+      if (chunks[0][precision] > chunks[1][precision]) {
+        return 1;
+      }
+      else if (chunks[0][precision] === chunks[1][precision]) {
+        if (precision === 0) {
+          // all version chunks are same
+          return 0;
+        }
+      }
+      else {
+        return -1;
+      }
+    }
+  }
+
+  /**
+   * Check if browser is unsupported
+   *
+   * @example
+   *   bowser.isUnsupportedBrowser({
+   *     msie: "10",
+   *     firefox: "23",
+   *     chrome: "29",
+   *     safari: "5.1",
+   *     opera: "16",
+   *     phantom: "534"
+   *   });
+   *
+   * @param  {Object}  minVersions map of minimal version to browser
+   * @param  {Boolean} [strictMode = false] flag to return false if browser wasn't found in map
+   * @param  {String}  [ua] user agent string
+   * @return {Boolean}
+   */
+  function isUnsupportedBrowser(minVersions, strictMode, ua) {
+    var _bowser = bowser;
+
+    // make strictMode param optional with ua param usage
+    if (typeof strictMode === 'string') {
+      ua = strictMode;
+      strictMode = void(0);
+    }
+
+    if (strictMode === void(0)) {
+      strictMode = false;
+    }
+    if (ua) {
+      _bowser = detect(ua);
+    }
+
+    var version = "" + _bowser.version;
+    for (var browser in minVersions) {
+      if (minVersions.hasOwnProperty(browser)) {
+        if (_bowser[browser]) {
+          // browser version and min supported version.
+          return compareVersions([version, minVersions[browser]]) < 0;
+        }
+      }
+    }
+
+    return strictMode; // not found
+  }
+
+  /**
+   * Check if browser is supported
+   *
+   * @param  {Object} minVersions map of minimal version to browser
+   * @param  {Boolean} [strictMode = false] flag to return false if browser wasn't found in map
+   * @param  {String}  [ua] user agent string
+   * @return {Boolean}
+   */
+  function check(minVersions, strictMode, ua) {
+    return !isUnsupportedBrowser(minVersions, strictMode, ua);
+  }
+
+  bowser.isUnsupportedBrowser = isUnsupportedBrowser;
+  bowser.compareVersions = compareVersions;
+  bowser.check = check;
+
+  /*
+   * Set our detect method to the main bowser object so we can
+   * reuse it to test other user agents.
+   * This is needed to implement future tests.
+   */
+  bowser._detect = detect;
+
+  return bowser
+});
+
+(function($){
+  UABBTrigger = {
+
+      /**
+       * Trigger a hook.
+       *
+       * @since 1.1.0.3
+       * @method triggerHook
+       * @param {String} hook The hook to trigger.
+       * @param {Array} args An array of args to pass to the hook.
+       */
+      triggerHook: function( hook, args )
+      {
+        $( 'body' ).trigger( 'uabb-trigger.' + hook, args );
+      },
+    
+      /**
+       * Add a hook.
+       *
+       * @since 1.1.0.3
+       * @method addHook
+       * @param {String} hook The hook to add.
+       * @param {Function} callback A function to call when the hook is triggered.
+       */
+      addHook: function( hook, callback )
+      {
+        $( 'body' ).on( 'uabb-trigger.' + hook, callback );
+      },
+    
+      /**
+       * Remove a hook.
+       *
+       * @since 1.1.0.3
+       * @method removeHook
+       * @param {String} hook The hook to remove.
+       * @param {Function} callback The callback function to remove.
+       */
+      removeHook: function( hook, callback )
+      {
+        $( 'body' ).off( 'uabb-trigger.' + hook, callback );
+      },
+  };
+})(jQuery);
+
+jQuery(document).ready(function( $ ) {
+
+    if( typeof bowser !== 'undefined' && bowser !== null ) {
+
+      var uabb_browser   = bowser.name,
+          uabb_browser_v = bowser.version,
+          uabb_browser_class = uabb_browser.replace(/\s+/g, '-').toLowerCase(),
+          uabb_browser_v_class = uabb_browser_class + parseInt( uabb_browser_v );
+      
+      $('html').addClass(uabb_browser_class).addClass(uabb_browser_v_class);
+      
+    }
+
+    $('.uabb-row-separator').parents('html').css('overflow-x', 'hidden');
+});
+jQuery(function($) {
+	
+	$(function() {
+		$( '.fl-node-5d6d6afe822b0 .fl-photo-img' )
+			.on( 'mouseenter', function( e ) {
+				$( this ).data( 'title', $( this ).attr( 'title' ) ).removeAttr( 'title' );
+			} )
+			.on( 'mouseleave', function( e ){
+				$( this ).attr( 'title', $( this ).data( 'title' ) ).data( 'title', null );
+			} );
+	});
+});
+
+/* Start Global Node Custom JS */
+
+/* End Global Node Custom JS */
+
+
+/* Start Layout Custom JS */
+
+/* End Layout Custom JS */
+
+	;(function($) {
+				var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
+				window.particle_js_loaded = 0;
+
+				$.cachedScript = function( url, options ) {
+
+					// Allow user to set any option except for dataType, cache, and url.
+					options = $.extend( options || {}, {
+						dataType: "script",
+						cache: true,
+						url: url
+					});
+					// Return the jqXHR object so we can chain callbacks.
+					return $.ajax( options );
+				};
+
+				if ( $( '.uabb-row-particles-background' ).length ) {
+
+					$.cachedScript( url ).done( function( script, textStatus ) {					
+						window.particle_js_loaded = 1;
+						init_particles_row_background_script();
+
+					});
+				}
+			function init_particles_row_background_script() {
+
+									row_id = '5d6d6adcba55a';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d2c37c837a99';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d729d7ed49';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d698893806';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d69dc20bd1';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-row-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+													} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+						}
+		})(jQuery);
+		;(function($){
+		$( document ).on( 'change', 'select[name=uabb_row_particles_style]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=enable_particles]', function() {
+			_hideFields();
+		});
+		$( document ).on( 'change', 'select[name=uabb_row_particles_settings]', function() {
+			_hideFields();
+		});
+
+		$( document ).on( 'init', '.fl-builder-settings', function() {
+			_hideFields();
+		});
+		function _hideFields() { 
+
+			var form = $('.fl-builder-settings');
+
+			var branding = 'no';
+
+			if ( form.length > 0 ) {
+
+				enable_particle = form.find( 'select[name=enable_particles]' ).val();
+
+				if ( 'no' === enable_particle ) {
+
+					form.find('#fl-field-uabb_particles_direction').hide();
+					form.find('#fl-field-uabb_particles_custom_code').hide();
+					form.find('#fl-field-uabb_row_particles_style').hide();
+					form.find('#fl-field-uabb_row_particles_color').hide();
+					form.find('#fl-field-uabb_row_particles_color_opacity').hide();
+					form.find('#fl-field-uabb_row_particles_settings').hide();
+					form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+					form.find('#fl-field-uabb_row_particles_size').hide();
+					form.find('#fl-field-uabb_row_particles_speed').hide();
+					form.find('#fl-field-uabb_row_number_particles').hide();
+
+				} else {
+					if ( 'snow' === form.find('select[name=uabb_row_particles_style]').val() ) {
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').show();
+						form.find('#fl-field-uabb_row_particles_color_opacity').show();
+						form.find('#fl-field-uabb_row_particles_settings').show();
+						form.find('#fl-field-uabb_particles_direction').show();
+						form.find('#fl-field-uabb_particles_custom_code').hide();
+						if (  'yes' === form.find('select[name=uabb_row_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_row_particles_size').show();
+							form.find('#fl-field-uabb_row_particles_speed').show();
+							form.find('#fl-field-uabb_row_number_particles').show();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_row_particles_size').hide();
+							form.find('#fl-field-uabb_row_particles_speed').hide();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+							form.find('#fl-field-uabb_row_number_particles').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_row_particles_style]').val() ) {
+
+						form.find('#fl-field-uabb_particles_custom_code').show();
+						form.find('#fl-field-uabb_particles_direction').hide();
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').hide();
+						form.find('#fl-field-uabb_row_particles_color_opacity').hide();
+						form.find('#fl-field-uabb_row_particles_settings').hide();
+						form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+						form.find('#fl-field-uabb_row_particles_size').hide();
+						form.find('#fl-field-uabb_row_particles_speed').hide();
+						form.find('#fl-field-uabb_row_number_particles').hide();
+					}
+					if ( 'nasa' === form.find('select[name=uabb_row_particles_style]').val() || 'default' === form.find('select[name=uabb_row_particles_style]').val() ) {
+						form.find('#fl-field-uabb_row_particles_style').show();
+						form.find('#fl-field-uabb_row_particles_color').show();
+						form.find('#fl-field-uabb_row_particles_color_opacity').show();
+						form.find('#fl-field-uabb_row_particles_settings').show();
+						form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						form.find('#fl-field-uabb_particles_custom_code').hide();
+						form.find('#fl-field-uabb_particles_direction').hide();
+
+						if (  'yes' === form.find('select[name=uabb_row_particles_settings]').val() ) {
+							form.find('#fl-field-uabb_row_particles_size').show();
+							form.find('#fl-field-uabb_row_particles_speed').show();
+							form.find('#fl-field-uabb_row_number_particles').show();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').show();
+						} else {
+							form.find('#fl-field-uabb_row_particles_size').hide();
+							form.find('#fl-field-uabb_row_particles_speed').hide();
+							form.find('#fl-field-uabb_row_number_particles').hide();
+							form.find('#fl-field-uabb_row_particles_interactive_settings').hide();
+						}
+					}
+					if ( 'custom' === form.find('select[name=uabb_row_particles_style]').val() ) {
+
+						style_selector = form.find( '#fl-field-uabb_row_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						if ( wrapper.find( '.fl-field-description' ).length === 0 ) {
+
+							if ( 'no' === branding ) {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div><div class="uabb-docs-particle">To know more about creating a custom style, refer to a document <a class="uabb-docs-particle-link" href="https://www.ultimatebeaver.com/docs/custom-particle-backgrounds/?utm_source=uabb-pro-backend&utm_medium=row-editor-screen&utm_campaign=particle-backgrounds-row" target="_blank" rel="noopener"> here. </a></div></span>' );
+
+							} else {
+
+								style_selector.find( '.fl-field-control-wrapper' ).append( '<span class="fl-field-description uabb-particle-docs-list"><div class="uabb-docs-particle"> Add custom JSON for the Particles Background below. To generate a completely customized background style follow steps below - </div><div class="uabb-docs-particle">1. Visit a link <a class="uabb-docs-particle-link" href="https://vincentgarreau.com/particles.js/" target="_blank"> here </a> and choose required attributes for particles</div><div class="uabb-docs-particle">2. Once a custom style is created, download JSON from "Download current config (json)" link</div><div class="uabb-docs-particle">3. Copy JSON code from the above file and paste it below</div></span>' );
+							}
+
+						} else {
+							wrapper.find( '.fl-field-description' ).show();
+						}
+					} else {
+
+						style_selector = form.find( '#fl-field-uabb_row_particles_style' );
+
+						wrapper =	style_selector.find( '.fl-field-control-wrapper' );
+
+						wrapper.find( '.fl-field-description' ).hide();
+					}
+				}
+			}
+		}
+	})(jQuery);
+		;(function($) {
+			var url ='http://olle.dyndns-ip.com/hamnen_wordpress/wp-content/plugins/bb-ultimate-addon/assets/js/particles.min.js';
+				window.particle_js_loaded = 0;
+
+				$.cachedScript = function( url, options ) {
+
+					// Allow user to set any option except for dataType, cache, and url.
+					options = $.extend( options || {}, {
+						dataType: "script",
+						cache: true,
+						url: url
+					});
+
+					// Return the jqXHR object so we can chain callbacks.
+					return $.ajax( options );
+				};
+				if ( $( '.uabb-col-particles-background' ).length ) {
+
+					$.cachedScript( url ).done( function( script, textStatus ) {					
+						window.particle_js_loaded = 1;
+						init_particles_col_background_script();
+
+					});
+				}
+
+			function init_particles_col_background_script() {
+
+									row_id = '5d6d6adcc54bc';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d2d8623eaacf';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d2c37c837a9d';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d2c37c837a9c';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d68998c25d';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d729d7f79d';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d729d7f7a0';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d72e474e83';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d69889cdb8';
+
+					nodeclass = '.fl-node-' + row_id;
+
+					var nodeClass  	= jQuery( '.fl-node-' + row_id );
+
+					particle_selector = nodeClass.find( '.uabb-col-particles-background' );
+
+					if ( particle_selector.length > 0 ) {
+
+						data_particles = particle_selector.data( 'particle' );
+						enable_particles = data_particles.enable_particles;
+						particles_style =  data_particles.particles_style;
+						particles_dot_color = data_particles.particles_dot_color;
+						number_particles = data_particles.number_particles;
+						particles_size = data_particles.particles_size;
+						particles_speed = data_particles.particles_speed;
+						interactive_settings = data_particles.interactive_settings;
+						advanced_settings = data_particles.advanced_settings;
+						particles_opacity = data_particles.particles_opacity;
+						particles_direction = data_particles.particles_direction;
+						row_id = data_particles.id;
+
+						if ( 'yes' === enable_particles ){
+							if ( 'custom' === particles_style ) {
+															} else {
+								var number_value = 150,
+									shape_type = 'circle',
+									shape_nb_sides = 5,
+									opacity_value = 0.6,
+									opacity_random = true,
+									opacity_anim_enable  = false,
+									line_linked = false,
+									move_speed = 4,
+									move_random = true,
+									size_value = 2,
+									size_random = true,
+									size_anim_enable  = false,
+									onhover = 'repulse',
+									move_direction = 'none',
+									interactive = false;
+								if ( 'default' === particles_style ) {
+									line_linked = true;
+									opacity_random = false;
+									move_random = false;
+									move_speed = 6;
+								} else if( 'nasa' == particles_style ) {
+									number_value = 160;
+									shape_type = 'circle';
+									opacity_value = 1;
+									opacity_anim_enable  = true;
+									move_speed = 1;
+									size_value = 3;
+									onhover = 'bubble';
+								} else if ( 'snow' == particles_style ) {
+									opacity_value = 0.5;
+									size_value = 4;
+									move_speed = 3;
+									move_direction = particles_direction;
+									number_value = 200;
+									opacity_random = false;
+								}  else if ( 'flow' == particles_style ) {
+									number_value = 14;
+									shape_type = 'polygon';
+									shape_nb_sides = 6;
+									opacity_value = 0.3;
+									move_speed = 5;
+									size_value = 40;
+									size_random = false;
+									size_anim_enable  = true;
+
+								} else if( 'bubble' == particles_style ) {
+									move_speed = 5;
+									move_direction = 'top';
+									number_value = 500;
+									size_value = 1;
+									size_random = false;
+									opacity_value = 0.6;
+									opacity_random = false;
+								}
+								if( particles_dot_color == '' ) {
+									particles_dot_color = '#bdbdbd';
+								}
+								if( particles_opacity != '' || particles_opacity == '0' ) {
+									opacity_value = particles_opacity;
+								}
+								if ( 'yes' === advanced_settings ) {
+
+									if( number_particles != '' ) {
+										number_value = number_particles;
+									}
+
+									if( particles_size !== '' ) {
+										size_value = particles_size;
+									}
+
+									if( particles_speed !== '' ) {
+										move_speed = particles_speed;
+									}
+								}
+								if ( interactive_settings == 'yes' ) {
+									interactive = true;
+								}
+								var config = {
+									"particles": {
+										"number": {
+											"value": number_value,
+											"density": {
+												"enable": true,
+												"value_area": 800
+											}
+										},
+										"color": {
+											"value": particles_dot_color
+										},
+										"shape": {
+											"type": shape_type,
+											"stroke": {
+												"width": 0,
+												"color": "#ffffff"
+											},
+											"polygon": {
+												"nb_sides": shape_nb_sides
+											},
+										},
+										"opacity": {
+											"value": opacity_value,
+											"random": opacity_random,
+											"anim": {
+												"enable": opacity_anim_enable,
+												"speed": 1,
+												"opacity_min": 0.1,
+												"sync": false
+											}
+										},
+										"size": {
+											"value": size_value,
+											"random": size_random,
+											"anim": {
+												"enable": size_anim_enable,
+												"speed": 5,
+												"size_min": 35,
+												"sync": false
+											}
+										},
+										"line_linked": {
+											"enable": line_linked,
+											"distance": 150,
+											"color": particles_dot_color,
+											"opacity": 0.4,
+											"width": 1
+										},
+										"move": {
+											"enable": true,
+											"speed": move_speed,
+											"direction": move_direction,
+											"random": move_random,
+											"straight": false,
+											"out_mode": "out",
+											"attract": {
+											"enable": false,
+											"rotateX": 600,
+											"rotateY": 1200
+											}
+										}
+									},
+									"interactivity": {
+										"detect_on": "canvas",
+										"events": {
+											"onhover": {
+												"enable": interactive,
+												"mode": onhover,
+											},
+											"onclick": {
+												"enable": false,
+												"mode": "push"
+											},
+											"resize": true
+										},
+										"modes": {
+											"grab": {
+												"distance": 400,
+												"line_linked": {
+													"opacity": 1
+												}
+											},
+											"bubble": {
+												"distance": 200,
+												"size": 0,
+												"duration": 2,
+												"opacity": 0,
+												"speed": 2
+											},
+											"repulse": {
+												"distance": 150
+											},
+											"push": {
+												"particles_nb": 4
+											},
+											"remove": {
+												"particles_nb": 2
+											}
+										}
+									},
+								"retina_detect": true
+								}
+								particlesJS( 'uabb-particle-' + row_id, config );
+							}
+						}
+					}
+								row_id = '5d6d69dc2ca8d';
 
 					nodeclass = '.fl-node-' + row_id;
 

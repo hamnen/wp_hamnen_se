@@ -3,9 +3,9 @@ Contributors: berkux
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=APWXWK3DF2E22
 Tags: json,api,gutenberg,block,webservice,twig,livedata,connect,template,content,opendata,parser,application
 Requires at least: 3.0
-Tested up to: 5.1
+Tested up to: 5.2.3
 Requires PHP: 5.3.0
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,12 +15,12 @@ Plugin to import, cache and display a JSON-Feed / JSON-API: Connect your Wordpre
 == Description ==
 
 = Display live data from a JSON-feed / API on your wordpress-site! =
-This is the answer when you ask: Why Do I Need this Plugin on my Website?
+Grab JSON from an URL and convert it to HTML on a Wordpress-Page
 
 = JSON Content Importer - API- and Webservice-Connector - Powerful and Simple JSON-Import Plugin: =
-* Use a template engine to display the data of an JSON-Feed.
+* Use a templateengine to display the data from an JSON-Feed.
 * Define the url of the JSON-Feed, a template for it and other options like number of displayed items, cachetime etc..
-* The template engine inserts the JSON-data in the template
+* The templateengine inserts the JSON-data in the template.
 * You can either use this as wordpress-shortcode inside a page - whereby some extras like urlencoding can be invoked.
 * Or use the Gutenberg Mode: Then you don't have the hassle to put an shortcode together, test it and change it. With a Gutenberg-Block you can test it in realtime and create a shortcode (if you want to stay with shortcodes).
 
@@ -34,6 +34,7 @@ This is the answer when you ask: Why Do I Need this Plugin on my Website?
 
 [youtube https://www.youtube.com/watch?v=t3m0PmNyOHI]
 
+Basic structure of the Shortcode:
 '[jsoncontentimporter
 
 * url="http://...json"
@@ -42,14 +43,12 @@ This is the answer when you ask: Why Do I Need this Plugin on my Website?
 * basenode="starting point of datasets, the base-node in the JSON-Feed where the data is"
 * oneofthesewordsmustbein="default empty, if not empty keywords spearated by ','. At least one of these keywords must be in the created text (here: text=code without html-tags)"
 * oneofthesewordsmustbeindepth="default: 1, number: where in the JSON-tree oneofthesewordsmustbein must be?"
-
 ]
-
+This is the template:
 Any HTML-Code plus "basenode"-datafields wrapped in "{}"
 {subloop:"basenode_subloop":"number of subloop-datasets to be displayed"}
 Any HTML-Code plus "basenode_subloop"-datafields wrapped in "{}". If JSON-data is HTML add "html" flag like "{fieldname:html}"
 {/subloop:"basenode_subloop"}
-
 [/jsoncontentimporter]'
 
 * templates like "{subloop-array:AAAA:10}{text}{subloop:AAAA.image:10}{id}{/subloop:AAAA.image}{/subloop-array:AAAA}" are possible:
@@ -70,9 +69,10 @@ the other is "{subloop:AAAA.image:10}" where "AAAA.image" is the path to an obje
 = JSON Content Importer PRO =
 This free version of "JSON Content Importer" can put together many JSON-Feeds and is flexible with it's template-engine. But sometimes you might need more:
 
-* using as Widget
-* create custom post types
 * application building by creating a searchform and connect it to a JSON-API in the background: pass GET-Variables to use a dynamic JSON-Feed-URL ("talk to API / webservice")
+* much better and more flexible templateengine: twig
+* use it as Widget
+* create Custom Post Types
 * usage on multisite installations
 * store Templates independent of pages
 * more Shortcode-Parameters
@@ -137,6 +137,9 @@ Famous for Oktoberfest, FC Bayern Munich, AllianzArena, DLD, TUM, BMW, Siemens, 
 4. Add a Gutenberg-Block: Right the settings, left the output
 
 == Changelog ==
+
+= 1.3.5 =
+* New: Added a Quicktag to the Wordpress-Text-Editor to insert the JSONContentImporter-Shortcode incl. an example 
 
 = 1.3.4 =
 * New Plugin-Option: Switch off Gutenberg features (maybe a site builder needs that)

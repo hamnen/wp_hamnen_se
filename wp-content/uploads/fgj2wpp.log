@@ -276,3 +276,317 @@ IMPORT COMPLETED
 375 internal links modified
 === END modify_links 2019-09-16 14:07:38 ===
 
+=== START import 2019-09-18 20:12:54 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 142,206,760 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:12:56 ===
+
+=== START save 2019-09-18 20:13:25 ===
+Settings saved
+=== END save 2019-09-18 20:13:25 ===
+
+=== START test_database 2019-09-18 20:14:09 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+=== END test_database 2019-09-18 20:14:09 ===
+
+=== START test_ftp 2019-09-18 20:14:15 ===
+[ERROR] FTP connection failed: (SFTP requires the <a href="https://www.fredericgilles.net/wp-filesystem-ssh2/" target="_blank">WP Filesystem SSH2</a> plugin)
+=== END test_ftp 2019-09-18 20:14:15 ===
+
+=== START test_ftp 2019-09-18 20:15:10 ===
+FTP connection successful
+=== END test_ftp 2019-09-18 20:15:10 ===
+
+=== START save 2019-09-18 20:15:26 ===
+Settings saved
+=== END save 2019-09-18 20:15:26 ===
+
+=== START import 2019-09-18 20:15:32 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,462,736 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:15:33 ===
+
+=== START modify_links 2019-09-18 20:18:10 ===
+3 internal links modified
+=== END modify_links 2019-09-18 20:18:39 ===
+
+=== START import 2019-09-18 20:18:50 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,476,920 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:18:51 ===
+
+=== START import 2019-09-18 20:19:04 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,476,776 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:19:04 ===
+
+=== START import 2019-09-18 20:23:18 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,486,688 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:23:19 ===
+
+=== START import 2019-09-18 20:25:28 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,486,976 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:25:29 ===
+
+=== START import 2019-09-18 20:25:33 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,478,456 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:25:34 ===
+
+=== START stop_import 2019-09-18 20:25:35 ===
+=== END stop_import 2019-09-18 20:25:35 ===
+
+=== START import 2019-09-18 20:25:37 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,486,976 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 20:25:38 ===
+
+=== START save 2019-09-18 21:03:36 ===
+Settings saved
+=== END save 2019-09-18 21:03:36 ===
+
+=== START import 2019-09-18 21:03:45 ===
+Connected with success to the Joomla database
+Joomla data found:
+317 categories
+234 articles
+0 web links
+19 users
+
+[WARNING] Your Joomla database contains some sh404sef redirections. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/sh404sef/" target="_blank">sh404sef add-on</a> to import them.
+[WARNING] Your Joomla database contains some contacts. You need the <a href="https://www.fredericgilles.net/fg-joomla-to-wordpress/contact-manager/" target="_blank">Contact Manager add-on</a> to import them.
+Importing categories...
+0 categories imported
+Importing posts...
+0 posts imported
+0 medias imported
+0 tags imported
+0 links categories imported
+Importing web links...
+0 web links imported
+Importing users...
+0 users imported
+0 tags imported
+Memory used: 143,636,312 bytes<br />
+
+Duration: 0 sec<br />
+
+Don't forget to modify internal links.
+IMPORT COMPLETED
+=== END import 2019-09-18 21:03:48 ===
+
+=== START modify_links 2019-09-18 21:04:13 ===
+0 internal links modified
+=== END modify_links 2019-09-18 21:04:26 ===
+

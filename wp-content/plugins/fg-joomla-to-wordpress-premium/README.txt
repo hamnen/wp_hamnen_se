@@ -3,8 +3,8 @@ Contributors: Kerfred
 Plugin Uri: https://www.fredericgilles.net/fg-joomla-to-wordpress/
 Tags: joomla, mambo, elxis, wordpress, import, importer, migration, migrator, k2, virtuemart, easyblog, sh404sef, jcomments, kunena, zoo, community builder, hikashop
 Requires at least: 4.5
-Tested up to: 5.0.2
-Stable tag: 3.51.0
+Tested up to: 5.1.1
+Stable tag: 3.54.0
 Requires PHP: 5.3
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,7 +16,7 @@ A plugin to migrate categories, posts, tags, images, medias, menus and users fro
 This plugin migrates sections, categories, posts, images, medias, tags, menus and users from Joomla to Wordpress.
 
 This is the Premium version of the plugin FG Joomla to WordPress.
-It has been tested with **Joomla versions 1.0 through 3.9**, **Mambo 4.0, 4.5 and 4.6**, **Elxis** and **Wordpress 5.0** on huge databases (72 000+ posts). It is compatible with multisite installations.
+It has been tested with **Joomla versions 1.0 through 3.9**, **Mambo 4.0, 4.5 and 4.6**, **Elxis** and **Wordpress 5.1** on huge databases (72 000+ posts). It is compatible with multisite installations.
 
 Major features include:
 
@@ -127,6 +127,27 @@ You can let a comment or report a bug on the Support Center: https://www.frederi
 * other can be translated
 
 == Changelog ==
+
+= 3.54.0 =
+* New: Add the hook "fgj2wp_post_add_menu_item"
+
+= 3.53.0 =
+* New: Add the hooks "fgj2wp_post_import_all_menus" and "fgj2wpp_post_add_user"
+
+= 3.52.2 =
+* Fixed: Missing content when the content contains <a> without an href attribute
+
+= 3.52.1 =
+* Fixed: Joomla 1.0 menus not imported
+* Fixed: Menu hierarchy not imported if the parent menus have a higher ID than their children
+* Tested with WordPress 5.1.1
+
+= 3.52.0 =
+* New: Redirect custom post types based on their menu slug
+
+= 3.51.1 =
+* Fixed: When running the import in cron, the categories were not assigned to the posts
+* Tested with WordPress 5.0.3
 
 = 3.51.0 =
 * New: Allow to download media from sites with a non valid SSL certificate

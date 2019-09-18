@@ -88,6 +88,13 @@ if ( !class_exists('FG_Joomla_to_WordPress_Menus', false) ) {
 				$offset += $this->plugin->chunks_size;
 			} while ( $offset < $all_menus_count );
 			
+			$this->set_parent_menus();
+			
+			if ( !$this->plugin->import_stopped() ) {
+				// Hook for doing other actions after importing the menus
+				do_action('fgj2wp_post_import_all_menus');
+			}
+
 			$this->plugin->display_admin_notice(sprintf(_n('%d menu item imported', '%d menu items imported', $this->menus_count, $this->plugin->get_plugin_name()), $this->menus_count));
 		}
 		
@@ -435,6 +442,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Menus', false) ) {
 					do_action('fgj2wp_post_create_nav_menu_item', $menu_item_id, $menu);
 				}
 			}
+			$menu_item_id = apply_filters('fgj2wp_post_add_menu_item', $menu_item_id, $menu_item, $menu_id, $menu_parent_id, $menu);
 			return $menu_item_id;
 		}
 		
@@ -555,10 +563,9 @@ if ( !class_exists('FG_Joomla_to_WordPress_Menus', false) ) {
 		 * Add a redirect for the menu item
 		 */
 		public function add_menu_item_redirect($menu_item, $menu) {
-			$type = $menu_item['object'];
-			if ( in_array($type, array('post', 'category')) ) {
+			if ( in_array($menu_item['type'], array('post_type', 'taxonomy')) ) {
 				$url = $this->get_menu_item_path($menu['id']) . '.html';
-				FG_Joomla_to_WordPress_Redirect::add_redirect($url, $menu_item['object_id'], $type);
+				FG_Joomla_to_WordPress_Redirect::add_redirect($url, $menu_item['object_id'], $menu_item['object']);
 			}
 		}
 		
@@ -593,6 +600,26 @@ if ( !class_exists('FG_Joomla_to_WordPress_Menus', false) ) {
 		public function reset_last_menu_id() {
 			update_option('fgj2wp_last_menu_id', 0);
 		}
-
+		
+		/**
+		 * Set the menu hierarchy
+		 * 
+		 * @since 3.52.1
+		 */
+		private function set_parent_menus() {
+			$menus = $this->plugin->get_imported_joomla_posts('_fgj2wp_old_menu_item_id');
+			foreach ( $menus as $joomla_menu_id => $wp_menu_id ) {
+				if ( isset($this->all_menus[$joomla_menu_id]) ) {
+					$joomla_parent_menu_id = $this->all_menus[$joomla_menu_id]['parent'];
+					if ( isset($menus[$joomla_parent_menu_id]) ) {
+						$wp_parent_menu_id = $menus[$joomla_parent_menu_id];
+						if ( $wp_parent_menu_id != 0 ) {
+							update_post_meta($wp_menu_id, '_menu_item_menu_item_parent', $wp_parent_menu_id);
+						}
+					}
+				}
+			}
+		}
+		
 	}
 }

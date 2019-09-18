@@ -44,7 +44,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_categories_sql($sql, $prefix) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				if ( !$this->plugin->table_exists('sections') ) {
 					// Mambo 4.0
 					$sql = str_replace('c.id,', 'c.categoryid AS id,', $sql);
@@ -67,7 +67,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_categories_count_sql($sql, $prefix) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				if ( !$this->plugin->table_exists('sections') ) {
 					$sql = "
 						SELECT COUNT(*) AS nb
@@ -90,7 +90,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_posts_sql($sql, $prefix, $extra_cols, $extra_joins, $last_joomla_id, $limit) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				
 				// Mambo 4.0
 				if ( !$this->plugin->table_exists('content') && $this->plugin->table_exists('articles') ) {
@@ -126,7 +126,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_posts_count_sql($sql, $prefix) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->table_exists('content') && $this->plugin->table_exists('articles') ) {
 					$archived_post_criteria = '';
@@ -152,7 +152,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_authors_sql($sql) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->table_exists('content') && $this->plugin->table_exists('articles') ) {
 					$sql = str_replace('content c ON c.created_by = u.id', 'articles c ON c.userID = u.id', $sql);
@@ -169,7 +169,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_users_sql($sql) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->table_exists('content') && $this->plugin->table_exists('articles') ) {
 					$sql = str_replace('content c ON c.created_by = u.id', 'articles c ON c.userID = u.id', $sql);
@@ -187,7 +187,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_last_joomla_article_id_sql($sql, $prefix) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->table_exists('content') && $this->plugin->table_exists('articles') ) {
 					$sql = "
@@ -206,7 +206,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_all_menus_sql($sql) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->column_exists('type', 'menu') ) {
 					// To develop
@@ -223,7 +223,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_menus_sql($sql) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->column_exists('type', 'menu') ) {
 					// To develop
@@ -240,7 +240,7 @@ if ( !class_exists('FG_Joomla_to_WordPress_Mambo', false) ) {
 		 * @return string SQL
 		 */
 		public function get_menus_count_sql($sql) {
-			if ( version_compare($this->plugin->joomla_version, '1.0', '<=') ) {
+			if ( version_compare($this->plugin->joomla_version, '1.0', '<') ) {
 				// Mambo 4.0
 				if ( !$this->plugin->column_exists('type', 'menu') ) {
 					// To develop

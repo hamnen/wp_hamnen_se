@@ -1504,6 +1504,41 @@ div.tag-tester .tester {
 }
 
 
+	/*= Footer ==================== */
+
+	/** Footer >> Puff title link _2 **/
+	.fl-callout-title a {
+	font-size: 18px !important;
+	line-height: 22px !important;
+	padding-top: 8px !important;
+	position: relative !important;
+}
+
+	/** Footer >> Fl callout photo **/
+	.fl-callout-photo {
+	width: 90% !important;
+	height: 130px !important;
+	border-top-left-radius: 4px !important;
+	border-bottom-left-radius: 4px !important;
+	position: relative !important;
+	display: block !important;
+	overflow: hidden !important;
+}
+
+	/** Footer >> Fl callout photo image **/
+	.fl-callout-photo img {
+	width: 100% !important;
+	min-width: 235px !important;
+	margin-top: -6px !important;
+	position: absolute !important;
+	top: 0% !important;
+	left: 50% !important;
+	-webkit-transform: translate(-50%,0%) !important;
+	-ms-transform: translate(-50%,0%) !important;
+	transform: translate(-50%,0%) !important;
+}
+
+
 }
 
 
@@ -1659,7 +1694,7 @@ div.tag-tester .tester {
 	/** Content >> Fl post feed image **/
 	.inlagg-enrad .fl-post-feed-image {
 	width: 40% !important;
-	height: 125px !important;
+	height: 135px !important;
 }
 
 	/** Content >> Fl post feed image img **/

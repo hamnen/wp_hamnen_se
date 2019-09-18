@@ -5,7 +5,7 @@
  * Plugin Uri:  https://www.fredericgilles.net/fg-joomla-to-wordpress/
  * Description: A plugin to migrate Simple Image Gallery galleries as WordPress galleries
  * 				Needs the plugin «FG Joomla to WordPress Premium» to work
- * Version:     2.7.0
+ * Version:     2.8.0
  * Author:      Frédéric GILLES
  */
 
@@ -116,10 +116,18 @@ if ( !class_exists('fgj2wp_simpleimagegallery', false) ) {
 				// Simple Images Gallery
 				$this->galleries_directory = $params['galleries_rootfolder'];
 			} else {
-				// Simple Images Gallery Plus
-				$params = $this->plugin->get_params('sigplus');
-				if ( isset($params['base_folder']) ) {
-					$this->galleries_directory = $params['base_folder'];
+				
+				// Simple Images Gallery Pro
+				$params = $this->plugin->get_params('com_sigpro');
+				if ( isset($params['galleries_rootfolder']) ) {
+					$this->galleries_directory = $params['galleries_rootfolder'];
+				} else {
+					
+					// Simple Images Gallery Plus
+					$params = $this->plugin->get_params('sigplus');
+					if ( isset($params['base_folder']) ) {
+						$this->galleries_directory = $params['base_folder'];
+					}
 				}
 			}
 		}

@@ -3,7 +3,7 @@
 Plugin Name: JSON Content Importer
 Plugin URI: https://json-content-importer.com/
 Description: Plugin to import, cache and display a JSON-Feed. Display is done with wordpress-shortcode or gutenberg-block.
-Version: 1.3.4
+Version: 1.3.5
 Author: Bernhard Kux
 Author URI: https://json-content-importer.com/
 License: GPLv3
@@ -94,7 +94,23 @@ if ( $jciGB->getGutenbergIsActive() ) {
 		define( 'JCI_FREE_BLOCK_URL', WP_PLUGIN_URL . '/' . JCI_FREE_BLOCK_NAME );
 	}
 	require_once( JCI_FREE_BLOCK_DIR . '/block/index.php' );
+ 
 }
+
+
+// add Quicktag to Text Editor
+function jcifree_add_quicktags() {
+	if ( wp_script_is( 'quicktags' ) ) { 
+		$jsonexample = plugin_dir_url( __FILE__ )."json/gutenbergblockexample1.json";
+		$template = "{start}<br>{subloop-array:level2:-1}{level2.key}<br>{subloop:level2.data:-1}id: {level2.data.id}<br>{/subloop:level2.data}{/subloop-array:level2}";
+		?>
+		<script type="text/javascript">
+			QTags.addButton( 'jcifreequicktag', 'JSON Content Importer', '[jsoncontentimporter url=<?php echo $jsonexample; ?> debugmode=10 basenode=level1]<?php echo $template; ?>[/jsoncontentimporter]', '', '', '', 1 );
+		</script>
+	<?php }
+
+}
+add_action( 'admin_print_footer_scripts', 'jcifree_add_quicktags' );
 
 if (!function_exists('jci_addlinks')) {
 	function jci_addlinks($links, $file) {

@@ -266,6 +266,7 @@ SQL;
 				// Check if the user is administrator or not
 				$role = $this->is_admin($user)? 'administrator': 'author';
 				$user_id = $this->plugin->add_user($user['name'], $user['username'], $user['email'], $user['password'], $user['registerDate'], $role);
+				do_action('fgj2wpp_post_add_user', $user_id, $user);
 				if ( !is_wp_error($user_id) ) {
 					$newpost['post_author'] = $user_id;
 					add_user_meta($user_id, '_fgj2wp_old_user_id', $joomla_user_id, true);
